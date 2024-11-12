@@ -1,0 +1,6 @@
+16:30:44 **** Incremental Build of configuration Default for project servo ****
+make all 
+make: Nothing to be done for 'all'.
+
+16:30:45 Build Finished. 0 errors, 0 warnings. (took 469ms)
+

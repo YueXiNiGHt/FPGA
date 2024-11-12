@@ -1,0 +1,733 @@
+!SESSION 2024-11-09 21:44:56.429 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=18.0.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.ui 4 4 2024-11-09 21:45:09.099
+!MESSAGE MenuAdditionCacheEntry.mergeIntoModel: Invalid menu URI: com.ashling.riscfree.efinix.newproject.wizard.CreateNewEfinixProject
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-11-09 21:45:34.998
+!MESSAGE Indexed 'gpioDemo' (1 sources, 46 headers) in 0.426 sec: 1,512 declarations; 2,117 references; 0 unresolved inclusions; 5 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-11-09 21:45:35.164
+!MESSAGE Indexed 'bootloader' (1 sources, 49 headers) in 0.164 sec: 1,635 declarations; 2,593 references; 0 unresolved inclusions; 5 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 1 2024-11-09 21:46:36.729
+!MESSAGE C:\Efinity\efinity-riscv-ide-2023.2\Efinity-RISCV-IDE\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 -c set bsp_loc {E:\infinix\T120F324_devkit\embedded_sw\generateIP} -f E:\infinix\T120F324_devkit\embedded_sw\generateIP/bsp/efinix/EfxSapphireSoc/openocd/ftdi.cfg -f E:\infinix\T120F324_devkit\embedded_sw\generateIP/bsp/efinix/EfxSapphireSoc/openocd/debug.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 0 2024-11-09 21:46:37.587
+!MESSAGE OpenOCD failed with code (1).
+
+For more details, see the openocd.exe console.
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 1 2024-11-09 21:56:16.112
+!MESSAGE C:\Efinity\efinity-riscv-ide-2023.2\Efinity-RISCV-IDE\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 -c set bsp_loc {E:\infinix\T120F324_devkit\embedded_sw\generateIP} -f E:\infinix\T120F324_devkit\embedded_sw\generateIP/bsp/efinix/EfxSapphireSoc/openocd/ftdi.cfg -f E:\infinix\T120F324_devkit\embedded_sw\generateIP/bsp/efinix/EfxSapphireSoc/openocd/debug.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 0 2024-11-09 21:56:16.537
+!MESSAGE OpenOCD failed with code (1).
+
+For more details, see the openocd.exe console.
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 1 2024-11-09 22:00:28.054
+!MESSAGE C:\Efinity\efinity-riscv-ide-2023.2\Efinity-RISCV-IDE\/../toolchain/bin/riscv-none-embed-gdb.exe --interpreter=mi2 --nx
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.openocd.core 4 5012 2024-11-09 22:00:33.563
+!MESSAGE Error in final launch sequence
+!STACK 1
+org.eclipse.core.runtime.CoreException: Failed to execute MI command:
+-target-select remote localhost:3333
+Error message from debugger back end:
+localhost:3333: ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£\r
+.
+	at org.eclipse.cdt.dsf.concurrent.Query.get(Query.java:112)
+	at org.eclipse.embedcdt.debug.gdbjtag.openocd.core.dsf.LaunchConfigurationDelegate.launchDebugSession(LaunchConfigurationDelegate.java:453)
+	at org.eclipse.embedcdt.debug.gdbjtag.openocd.core.dsf.LaunchConfigurationDelegate.launchDebugger(LaunchConfigurationDelegate.java:178)
+	at org.eclipse.embedcdt.debug.gdbjtag.openocd.core.dsf.LaunchConfigurationDelegate.launch(LaunchConfigurationDelegate.java:154)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:803)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1021)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$2.run(DebugUIPlugin.java:1224)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Failed to execute MI command:
+-target-select remote localhost:3333
+Error message from debugger back end:
+localhost:3333: ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£\r
+.
+java.lang.Exception: localhost:3333: ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£\r\n.
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:1024)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:853)
+!SUBENTRY 1 org.eclipse.cdt.dsf 4 10004 2024-11-09 22:00:33.563
+!MESSAGE Failed to execute MI command:
+-target-select remote localhost:3333
+Error message from debugger back end:
+localhost:3333: ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£\r
+.
+!SUBENTRY 2 org.eclipse.cdt.dsf.gdb 4 10004 2024-11-09 22:00:33.563
+!MESSAGE Failed to execute MI command:
+-target-select remote localhost:3333
+Error message from debugger back end:
+localhost:3333: ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£\r
+.
+!STACK 0
+java.lang.Exception: localhost:3333: ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£\r\n.
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:1024)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:853)
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 1 2024-11-09 22:01:43.025
+!MESSAGE C:\Efinity\efinity-riscv-ide-2023.2\Efinity-RISCV-IDE\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 -c set bsp_loc {E:\infinix\T120F324_devkit\embedded_sw\generateIP} -f E:\infinix\T120F324_devkit\embedded_sw\generateIP/bsp/efinix/EfxSapphireSoc/openocd/ftdi.cfg -f E:\infinix\T120F324_devkit\embedded_sw\generateIP/bsp/efinix/EfxSapphireSoc/openocd/debug.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.openocd.core 4 0 2024-11-09 22:02:20.174
+!MESSAGE Missing mandatory configuration. Fill-in the 'Config options:' field in the Debugger tab.
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 1 2024-11-09 22:02:42.058
+!MESSAGE C:\Efinity\efinity-riscv-ide-2023.2\Efinity-RISCV-IDE\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 -c set bsp_loc {E:\infinix\T120F324_devkit\embedded_sw\generateIP} -f E:\infinix\T120F324_devkit\embedded_sw\generateIP/bsp/efinix/EfxSapphireSoc/openocd/ftdi_ti.cfg -f E:\infinix\T120F324_devkit\embedded_sw\generateIP/bsp/efinix/EfxSapphireSoc/openocd/debug_ti.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 0 2024-11-09 22:02:42.471
+!MESSAGE OpenOCD failed with code (1).
+
+For more details, see the openocd.exe console.
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 1 2024-11-09 22:02:59.890
+!MESSAGE C:\Efinity\efinity-riscv-ide-2023.2\Efinity-RISCV-IDE\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 -c set bsp_loc {E:\infinix\T120F324_devkit\embedded_sw\generateIP} -f E:\infinix\T120F324_devkit\embedded_sw\generateIP/bsp/efinix/EfxSapphireSoc/openocd/external.cfg -f E:\infinix\T120F324_devkit\embedded_sw\generateIP/bsp/efinix/EfxSapphireSoc/openocd/debug_softTap.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 0 2024-11-09 22:03:00.285
+!MESSAGE OpenOCD failed with code (1).
+
+For more details, see the openocd.exe console.
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 1 2024-11-09 22:13:59.828
+!MESSAGE C:\Efinity\efinity-riscv-ide-2023.2\Efinity-RISCV-IDE\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 -c set bsp_loc {E:\infinix\T120F324_devkit\embedded_sw\generateIP} -f E:\infinix\T120F324_devkit\embedded_sw\generateIP/bsp/efinix/EfxSapphireSoc/openocd/external.cfg -f E:\infinix\T120F324_devkit\embedded_sw\generateIP/bsp/efinix/EfxSapphireSoc/openocd/debug_softTap.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 0 2024-11-09 22:14:06.538
+!MESSAGE OpenOCD failed with code (1).
+
+For more details, see the openocd.exe console.
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 1 2024-11-09 22:14:23.062
+!MESSAGE C:\Efinity\efinity-riscv-ide-2023.2\Efinity-RISCV-IDE\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 -c set bsp_loc {E:\infinix\T120F324_devkit\embedded_sw\generateIP} -f E:\infinix\T120F324_devkit\embedded_sw\generateIP/bsp/efinix/EfxSapphireSoc/openocd/ftdi.cfg -f E:\infinix\T120F324_devkit\embedded_sw\generateIP/bsp/efinix/EfxSapphireSoc/openocd/debug.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 0 2024-11-09 22:14:23.483
+!MESSAGE OpenOCD failed with code (1).
+
+For more details, see the openocd.exe console.
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 1 2024-11-09 22:15:28.041
+!MESSAGE C:\Efinity\efinity-riscv-ide-2023.2\Efinity-RISCV-IDE\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 -c set bsp_loc {E:\infinix\T120F324_devkit\embedded_sw\generateIP} -f E:\infinix\T120F324_devkit\embedded_sw\generateIP/bsp/efinix/EfxSapphireSoc/openocd/ftdi.cfg -f E:\infinix\T120F324_devkit\embedded_sw\generateIP/bsp/efinix/EfxSapphireSoc/openocd/debug.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 0 2024-11-09 22:15:28.457
+!MESSAGE OpenOCD failed with code (1).
+
+For more details, see the openocd.exe console.
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 1 2024-11-09 22:15:43.635
+!MESSAGE C:\Efinity\efinity-riscv-ide-2023.2\Efinity-RISCV-IDE\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 -c set bsp_loc {E:\infinix\T120F324_devkit\embedded_sw\generateIP} -f E:\infinix\T120F324_devkit\embedded_sw\generateIP/bsp/efinix/EfxSapphireSoc/openocd/external.cfg -f E:\infinix\T120F324_devkit\embedded_sw\generateIP/bsp/efinix/EfxSapphireSoc/openocd/debug_softTap.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 0 2024-11-09 22:15:49.848
+!MESSAGE OpenOCD failed with code (1).
+
+For more details, see the openocd.exe console.
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 1 2024-11-09 22:25:06.037
+!MESSAGE C:\Efinity\efinity-riscv-ide-2023.2\Efinity-RISCV-IDE\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 -c set bsp_loc {E:\infinix\T120F324_devkit\embedded_sw\generateIP} -f E:\infinix\T120F324_devkit\embedded_sw\generateIP/bsp/efinix/EfxSapphireSoc/openocd/external.cfg -f E:\infinix\T120F324_devkit\embedded_sw\generateIP/bsp/efinix/EfxSapphireSoc/openocd/debug_softTap.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 0 2024-11-09 22:25:08.271
+!MESSAGE OpenOCD failed with code (1).
+
+For more details, see the openocd.exe console.
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 1 2024-11-09 22:29:45.621
+!MESSAGE C:\Efinity\efinity-riscv-ide-2023.2\Efinity-RISCV-IDE\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 -c set bsp_loc {E:\infinix\T120F324_devkit\embedded_sw\generateIP} -f E:\infinix\T120F324_devkit\embedded_sw\generateIP/bsp/efinix/EfxSapphireSoc/openocd/external.cfg -f E:\infinix\T120F324_devkit\embedded_sw\generateIP/bsp/efinix/EfxSapphireSoc/openocd/debug_softTap.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 0 2024-11-09 22:29:47.346
+!MESSAGE OpenOCD failed with code (1).
+
+For more details, see the openocd.exe console.
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 1 2024-11-09 22:31:15.933
+!MESSAGE C:\Efinity\efinity-riscv-ide-2023.2\Efinity-RISCV-IDE\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 -c set bsp_loc {E:\infinix\T120F324_devkit\embedded_sw\generateIP} -f E:\infinix\T120F324_devkit\embedded_sw\generateIP/bsp/efinix/EfxSapphireSoc/openocd/external.cfg -f E:\infinix\T120F324_devkit\embedded_sw\generateIP/bsp/efinix/EfxSapphireSoc/openocd/debug_softTap.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 0 2024-11-09 22:31:17.665
+!MESSAGE OpenOCD failed with code (1).
+
+For more details, see the openocd.exe console.
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 1 2024-11-09 22:36:28.526
+!MESSAGE C:\Efinity\efinity-riscv-ide-2023.2\Efinity-RISCV-IDE\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 -c set bsp_loc {E:\infinix\T120F324_devkit\embedded_sw\generateIP} -f E:\infinix\T120F324_devkit\embedded_sw\generateIP/bsp/efinix/EfxSapphireSoc/openocd/external.cfg -f E:\infinix\T120F324_devkit\embedded_sw\generateIP/bsp/efinix/EfxSapphireSoc/openocd/debug_softTap.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 0 2024-11-09 22:36:35.259
+!MESSAGE OpenOCD failed with code (1).
+
+For more details, see the openocd.exe console.
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 1 2024-11-09 23:01:11.215
+!MESSAGE C:\Efinity\efinity-riscv-ide-2023.2\Efinity-RISCV-IDE\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 -c set bsp_loc {E:\infinix\T120F324_devkit\embedded_sw\generateIP} -f E:\infinix\T120F324_devkit\embedded_sw\generateIP/bsp/efinix/EfxSapphireSoc/openocd/external.cfg -f E:\infinix\T120F324_devkit\embedded_sw\generateIP/bsp/efinix/EfxSapphireSoc/openocd/debug_softTap.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 0 2024-11-09 23:01:12.109
+!MESSAGE OpenOCD failed with code (1).
+
+For more details, see the openocd.exe console.
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 104 2024-11-09 23:01:25.684
+!MESSAGE Program file does not exist
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 104 2024-11-09 23:01:25.684
+!MESSAGE 
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 1 2024-11-09 23:01:42.192
+!MESSAGE C:\Efinity\efinity-riscv-ide-2023.2\Efinity-RISCV-IDE\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 -c set bsp_loc {E:\infinix\T120F324_devkit\embedded_sw\generateIP} -f E:\infinix\T120F324_devkit\embedded_sw\generateIP/bsp/efinix/EfxSapphireSoc/openocd/ftdi.cfg -f E:\infinix\T120F324_devkit\embedded_sw\generateIP/bsp/efinix/EfxSapphireSoc/openocd/debug.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 0 2024-11-09 23:01:42.647
+!MESSAGE OpenOCD failed with code (1).
+
+For more details, see the openocd.exe console.
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 1 2024-11-09 23:02:24.851
+!MESSAGE C:\Efinity\efinity-riscv-ide-2023.2\Efinity-RISCV-IDE\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 -c set bsp_loc {E:\infinix\T120F324_devkit\embedded_sw\generateIP} -f E:\infinix\T120F324_devkit\embedded_sw\generateIP/bsp/efinix/EfxSapphireSoc/openocd/external.cfg -f E:\infinix\T120F324_devkit\embedded_sw\generateIP/bsp/efinix/EfxSapphireSoc/openocd/debug_softTap.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 0 2024-11-09 23:02:25.298
+!MESSAGE OpenOCD failed with code (1).
+
+For more details, see the openocd.exe console.
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 1 2024-11-09 23:05:43.384
+!MESSAGE C:\Efinity\efinity-riscv-ide-2023.2\Efinity-RISCV-IDE\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 -c set bsp_loc {E:\infinix\T120F324_devkit\embedded_sw\generateIP} -f E:\infinix\T120F324_devkit\embedded_sw\generateIP/bsp/efinix/EfxSapphireSoc/openocd/external.cfg -f E:\infinix\T120F324_devkit\embedded_sw\generateIP/bsp/efinix/EfxSapphireSoc/openocd/debug_softTap.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 0 2024-11-09 23:05:49.617
+!MESSAGE OpenOCD failed with code (1).
+
+For more details, see the openocd.exe console.
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 1 2024-11-09 23:06:21.057
+!MESSAGE C:\Efinity\efinity-riscv-ide-2023.2\Efinity-RISCV-IDE\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 -c set bsp_loc {E:\infinix\T120F324_devkit\embedded_sw\generateIP} -f E:\infinix\T120F324_devkit\embedded_sw\generateIP/bsp/efinix/EfxSapphireSoc/openocd/ftdi.cfg -f E:\infinix\T120F324_devkit\embedded_sw\generateIP/bsp/efinix/EfxSapphireSoc/openocd/debug.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 0 2024-11-09 23:06:27.288
+!MESSAGE OpenOCD failed with code (1).
+
+For more details, see the openocd.exe console.
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 1 2024-11-09 23:07:00.299
+!MESSAGE C:\Efinity\efinity-riscv-ide-2023.2\Efinity-RISCV-IDE\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 -c set bsp_loc {E:\infinix\T120F324_devkit\embedded_sw\generateIP} -f E:\infinix\T120F324_devkit\embedded_sw\generateIP/bsp/efinix/EfxSapphireSoc/openocd/ftdi.cfg -f E:\infinix\T120F324_devkit\embedded_sw\generateIP/bsp/efinix/EfxSapphireSoc/openocd/debug.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 0 2024-11-09 23:07:06.541
+!MESSAGE OpenOCD failed with code (1).
+
+For more details, see the openocd.exe console.
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 1 2024-11-09 23:09:08.641
+!MESSAGE C:\Efinity\efinity-riscv-ide-2023.2\Efinity-RISCV-IDE\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 -c set bsp_loc {E:\infinix\T120F324_devkit\embedded_sw\generateIP} -f E:\infinix\T120F324_devkit\embedded_sw\generateIP/bsp/efinix/EfxSapphireSoc/openocd/ftdi.cfg -f E:\infinix\T120F324_devkit\embedded_sw\generateIP/bsp/efinix/EfxSapphireSoc/openocd/debug.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 0 2024-11-09 23:09:14.894
+!MESSAGE OpenOCD failed with code (1).
+
+For more details, see the openocd.exe console.
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 1 2024-11-09 23:09:34.782
+!MESSAGE C:\Efinity\efinity-riscv-ide-2023.2\Efinity-RISCV-IDE\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 -c set bsp_loc {E:\infinix\T120F324_devkit\embedded_sw\generateIP} -f E:\infinix\T120F324_devkit\embedded_sw\generateIP/bsp/efinix/EfxSapphireSoc/openocd/ftdi.cfg -f E:\infinix\T120F324_devkit\embedded_sw\generateIP/bsp/efinix/EfxSapphireSoc/openocd/debug.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 0 2024-11-09 23:09:41.006
+!MESSAGE OpenOCD failed with code (1).
+
+For more details, see the openocd.exe console.
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 1 2024-11-09 23:35:54.973
+!MESSAGE C:\Efinity\efinity-riscv-ide-2023.2\Efinity-RISCV-IDE\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 -c set bsp_loc {E:\infinix\T120F324_devkit\embedded_sw\generateIP} -f E:\infinix\T120F324_devkit\embedded_sw\generateIP/bsp/efinix/EfxSapphireSoc/openocd/ftdi.cfg -f E:\infinix\T120F324_devkit\embedded_sw\generateIP/bsp/efinix/EfxSapphireSoc/openocd/debug.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 0 2024-11-09 23:35:55.920
+!MESSAGE OpenOCD failed with code (1).
+
+For more details, see the openocd.exe console.
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 1 2024-11-09 23:37:53.814
+!MESSAGE C:\Efinity\efinity-riscv-ide-2023.2\Efinity-RISCV-IDE\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 -c set bsp_loc {E:\infinix\T120F324_devkit\embedded_sw\generateIP} -f E:\infinix\T120F324_devkit\embedded_sw\generateIP/bsp/efinix/EfxSapphireSoc/openocd/ftdi.cfg -f E:\infinix\T120F324_devkit\embedded_sw\generateIP/bsp/efinix/EfxSapphireSoc/openocd/debug.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 0 2024-11-09 23:37:55.053
+!MESSAGE OpenOCD failed with code (1).
+
+For more details, see the openocd.exe console.
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 1 2024-11-09 23:38:18.141
+!MESSAGE C:\Efinity\efinity-riscv-ide-2023.2\Efinity-RISCV-IDE\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 -c set bsp_loc {E:\infinix\T120F324_devkit\embedded_sw\generateIP} -f E:\infinix\T120F324_devkit\embedded_sw\generateIP/bsp/efinix/EfxSapphireSoc/openocd/ftdi.cfg -f E:\infinix\T120F324_devkit\embedded_sw\generateIP/bsp/efinix/EfxSapphireSoc/openocd/debug.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 0 2024-11-09 23:38:18.607
+!MESSAGE OpenOCD failed with code (1).
+
+For more details, see the openocd.exe console.
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 1 2024-11-09 23:38:38.411
+!MESSAGE C:\Efinity\efinity-riscv-ide-2023.2\Efinity-RISCV-IDE\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 -c set bsp_loc {E:\infinix\T120F324_devkit\embedded_sw\generateIP} -f E:\infinix\T120F324_devkit\embedded_sw\generateIP/bsp/efinix/EfxSapphireSoc/openocd/ftdi.cfg -f E:\infinix\T120F324_devkit\embedded_sw\generateIP/bsp/efinix/EfxSapphireSoc/openocd/debug.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 0 2024-11-09 23:38:38.842
+!MESSAGE OpenOCD failed with code (1).
+
+For more details, see the openocd.exe console.
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 1 2024-11-09 23:38:59.432
+!MESSAGE C:\Efinity\efinity-riscv-ide-2023.2\Efinity-RISCV-IDE\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 -c set bsp_loc {E:\infinix\T120F324_devkit\embedded_sw\generateIP} -f E:\infinix\T120F324_devkit\embedded_sw\generateIP/bsp/efinix/EfxSapphireSoc/openocd/ftdi.cfg -f E:\infinix\T120F324_devkit\embedded_sw\generateIP/bsp/efinix/EfxSapphireSoc/openocd/debug.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 0 2024-11-09 23:39:00.684
+!MESSAGE OpenOCD failed with code (1).
+
+For more details, see the openocd.exe console.
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 1 2024-11-09 23:39:36.184
+!MESSAGE C:\Efinity\efinity-riscv-ide-2023.2\Efinity-RISCV-IDE\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 -c set bsp_loc {E:\infinix\T120F324_devkit\embedded_sw\generateIP} -f E:\infinix\T120F324_devkit\embedded_sw\generateIP/bsp/efinix/EfxSapphireSoc/openocd/external.cfg -f E:\infinix\T120F324_devkit\embedded_sw\generateIP/bsp/efinix/EfxSapphireSoc/openocd/debug_softTap.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 0 2024-11-09 23:39:37.420
+!MESSAGE OpenOCD failed with code (1).
+
+For more details, see the openocd.exe console.
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 1 2024-11-09 23:39:56.045
+!MESSAGE C:\Efinity\efinity-riscv-ide-2023.2\Efinity-RISCV-IDE\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 -c set bsp_loc {E:\infinix\T120F324_devkit\embedded_sw\generateIP} -f E:\infinix\T120F324_devkit\embedded_sw\generateIP/bsp/efinix/EfxSapphireSoc/openocd/external.cfg -f E:\infinix\T120F324_devkit\embedded_sw\generateIP/bsp/efinix/EfxSapphireSoc/openocd/debug_softTap.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 0 2024-11-09 23:39:57.282
+!MESSAGE OpenOCD failed with code (1).
+
+For more details, see the openocd.exe console.
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 1 2024-11-09 23:40:19.997
+!MESSAGE C:\Efinity\efinity-riscv-ide-2023.2\Efinity-RISCV-IDE\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 -c set bsp_loc {E:\infinix\T120F324_devkit\embedded_sw\generateIP} -f E:\infinix\T120F324_devkit\embedded_sw\generateIP/bsp/efinix/EfxSapphireSoc/openocd/external.cfg -f E:\infinix\T120F324_devkit\embedded_sw\generateIP/bsp/efinix/EfxSapphireSoc/openocd/debug_softTap.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 0 2024-11-09 23:40:21.230
+!MESSAGE OpenOCD failed with code (1).
+
+For more details, see the openocd.exe console.
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 1 2024-11-09 23:40:37.992
+!MESSAGE C:\Efinity\efinity-riscv-ide-2023.2\Efinity-RISCV-IDE\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 -c set bsp_loc {E:\infinix\T120F324_devkit\embedded_sw\generateIP} -f E:\infinix\T120F324_devkit\embedded_sw\generateIP/bsp/efinix/EfxSapphireSoc/openocd/external.cfg -f E:\infinix\T120F324_devkit\embedded_sw\generateIP/bsp/efinix/EfxSapphireSoc/openocd/debug_softTap.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 0 2024-11-09 23:40:39.212
+!MESSAGE OpenOCD failed with code (1).
+
+For more details, see the openocd.exe console.
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 1 2024-11-09 23:40:54.946
+!MESSAGE C:\Efinity\efinity-riscv-ide-2023.2\Efinity-RISCV-IDE\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 -c set bsp_loc {E:\infinix\T120F324_devkit\embedded_sw\generateIP} -f E:\infinix\T120F324_devkit\embedded_sw\generateIP/bsp/efinix/EfxSapphireSoc/openocd/external.cfg -f E:\infinix\T120F324_devkit\embedded_sw\generateIP/bsp/efinix/EfxSapphireSoc/openocd/debug_softTap.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 0 2024-11-09 23:40:56.178
+!MESSAGE OpenOCD failed with code (1).
+
+For more details, see the openocd.exe console.
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 1 2024-11-09 23:41:08.367
+!MESSAGE C:\Efinity\efinity-riscv-ide-2023.2\Efinity-RISCV-IDE\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 -c set bsp_loc {E:\infinix\T120F324_devkit\embedded_sw\generateIP} -f E:\infinix\T120F324_devkit\embedded_sw\generateIP/bsp/efinix/EfxSapphireSoc/openocd/ftdi.cfg -f E:\infinix\T120F324_devkit\embedded_sw\generateIP/bsp/efinix/EfxSapphireSoc/openocd/debug.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 0 2024-11-09 23:41:08.807
+!MESSAGE OpenOCD failed with code (1).
+
+For more details, see the openocd.exe console.
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 1 2024-11-10 11:16:51.482
+!MESSAGE C:\Efinity\efinity-riscv-ide-2023.2\Efinity-RISCV-IDE\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 -c set bsp_loc {E:\infinix\T120F324_devkit\embedded_sw\generateIP} -f E:\infinix\T120F324_devkit\embedded_sw\generateIP/bsp/efinix/EfxSapphireSoc/openocd/ftdi.cfg -f E:\infinix\T120F324_devkit\embedded_sw\generateIP/bsp/efinix/EfxSapphireSoc/openocd/debug.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 0 2024-11-10 11:16:58.277
+!MESSAGE OpenOCD failed with code (1).
+
+For more details, see the openocd.exe console.
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 1 2024-11-10 11:17:18.189
+!MESSAGE C:\Efinity\efinity-riscv-ide-2023.2\Efinity-RISCV-IDE\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 -c set bsp_loc {E:\infinix\T120F324_devkit\embedded_sw\generateIP} -f E:\infinix\T120F324_devkit\embedded_sw\generateIP/bsp/efinix/EfxSapphireSoc/openocd/external.cfg -f E:\infinix\T120F324_devkit\embedded_sw\generateIP/bsp/efinix/EfxSapphireSoc/openocd/debug_softTap.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 0 2024-11-10 11:17:24.441
+!MESSAGE OpenOCD failed with code (1).
+
+For more details, see the openocd.exe console.
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 1 2024-11-10 11:44:27.103
+!MESSAGE C:\Efinity\efinity-riscv-ide-2023.2\Efinity-RISCV-IDE\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 -c set bsp_loc {E:\infinix\T120F324_devkit\embedded_sw\generateIP} -f E:\infinix\T120F324_devkit\embedded_sw\generateIP/bsp/efinix/EfxSapphireSoc/openocd/ftdi.cfg -f E:\infinix\T120F324_devkit\embedded_sw\generateIP/bsp/efinix/EfxSapphireSoc/openocd/debug.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 0 2024-11-10 11:44:28.051
+!MESSAGE OpenOCD failed with code (1).
+
+For more details, see the openocd.exe console.
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 1 2024-11-10 11:44:55.414
+!MESSAGE C:\Efinity\efinity-riscv-ide-2023.2\Efinity-RISCV-IDE\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 -c set bsp_loc {E:\infinix\T120F324_devkit\embedded_sw\generateIP} -f E:\infinix\T120F324_devkit\embedded_sw\generateIP/bsp/efinix/EfxSapphireSoc/openocd/ftdi.cfg -f E:\infinix\T120F324_devkit\embedded_sw\generateIP/bsp/efinix/EfxSapphireSoc/openocd/debug.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 0 2024-11-10 11:44:55.837
+!MESSAGE OpenOCD failed with code (1).
+
+For more details, see the openocd.exe console.
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 1 2024-11-10 11:50:58.177
+!MESSAGE C:\Efinity\efinity-riscv-ide-2023.2\Efinity-RISCV-IDE\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 -c set bsp_loc {E:\infinix\T120F324_devkit\embedded_sw\generateIP} -f E:\infinix\T120F324_devkit\embedded_sw\generateIP/bsp/efinix/EfxSapphireSoc/openocd/ftdi.cfg -f E:\infinix\T120F324_devkit\embedded_sw\generateIP/bsp/efinix/EfxSapphireSoc/openocd/debug.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 0 2024-11-10 11:50:58.588
+!MESSAGE OpenOCD failed with code (1).
+
+For more details, see the openocd.exe console.
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-11-10 12:01:06.909
+!MESSAGE Indexed 'servo' (1 sources, 0 headers) in 0.002 sec: 3 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+!SESSION 2024-11-10 12:19:28.016 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=18.0.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.ui 4 4 2024-11-10 12:19:31.907
+!MESSAGE MenuAdditionCacheEntry.mergeIntoModel: Invalid menu URI: com.ashling.riscfree.efinix.newproject.wizard.CreateNewEfinixProject
+!SESSION 2024-11-10 18:02:16.462 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=18.0.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.ui 4 4 2024-11-10 18:02:21.072
+!MESSAGE MenuAdditionCacheEntry.mergeIntoModel: Invalid menu URI: com.ashling.riscfree.efinix.newproject.wizard.CreateNewEfinixProject
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 1 2024-11-10 18:03:32.804
+!MESSAGE C:\Efinity\efinity-riscv-ide-2023.2\Efinity-RISCV-IDE\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 -c set bsp_loc {E:\infinix\T120F324_devkit\embedded_sw\generateIP} -f E:\infinix\T120F324_devkit\embedded_sw\generateIP/bsp/efinix/EfxSapphireSoc/openocd/ftdi.cfg -f E:\infinix\T120F324_devkit\embedded_sw\generateIP/bsp/efinix/EfxSapphireSoc/openocd/debug.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 0 2024-11-10 18:03:33.774
+!MESSAGE OpenOCD failed with code (1).
+
+For more details, see the openocd.exe console.
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 1 2024-11-10 18:05:23.645
+!MESSAGE C:\Efinity\efinity-riscv-ide-2023.2\Efinity-RISCV-IDE\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 -c set bsp_loc {E:\infinix\T120F324_devkit\embedded_sw\generateIP} -f E:\infinix\T120F324_devkit\embedded_sw\generateIP/bsp/efinix/EfxSapphireSoc/openocd/ftdi.cfg -f E:\infinix\T120F324_devkit\embedded_sw\generateIP/bsp/efinix/EfxSapphireSoc/openocd/debug.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 0 2024-11-10 18:05:24.026
+!MESSAGE OpenOCD failed with code (1).
+
+For more details, see the openocd.exe console.
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 1 2024-11-10 18:05:37.749
+!MESSAGE C:\Efinity\efinity-riscv-ide-2023.2\Efinity-RISCV-IDE\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 -c set bsp_loc {E:\infinix\T120F324_devkit\embedded_sw\generateIP} -f E:\infinix\T120F324_devkit\embedded_sw\generateIP/bsp/efinix/EfxSapphireSoc/openocd/ftdi.cfg -f E:\infinix\T120F324_devkit\embedded_sw\generateIP/bsp/efinix/EfxSapphireSoc/openocd/debug.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 0 2024-11-10 18:05:38.159
+!MESSAGE OpenOCD failed with code (1).
+
+For more details, see the openocd.exe console.
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 1 2024-11-10 18:05:49.950
+!MESSAGE C:\Efinity\efinity-riscv-ide-2023.2\Efinity-RISCV-IDE\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 -c set bsp_loc {E:\infinix\T120F324_devkit\embedded_sw\generateIP} -f E:\infinix\T120F324_devkit\embedded_sw\generateIP/bsp/efinix/EfxSapphireSoc/openocd/external.cfg -f E:\infinix\T120F324_devkit\embedded_sw\generateIP/bsp/efinix/EfxSapphireSoc/openocd/debug_softTap.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 0 2024-11-10 18:05:56.150
+!MESSAGE OpenOCD failed with code (1).
+
+For more details, see the openocd.exe console.
+!SESSION 2024-11-12 10:10:20.828 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=18.0.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.core.resources 4 567 2024-11-12 10:10:38.177
+!MESSAGE Workspace restored, but some problems occurred.
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2024-11-12 10:10:38.177
+!MESSAGE Could not read metadata for 'bootloader'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/bootloader)[567]: java.lang.Exception: The project description file (.project) for 'bootloader' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:908)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:888)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:868)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:724)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1555)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2482)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2233)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:475)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:813)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:805)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:762)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1032)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:371)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:605)
+	at org.eclipse.osgi.container.Module.start(Module.java:468)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:513)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:117)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:570)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:335)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:397)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:41)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass0(BundleLoader.java:484)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:416)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:153)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+!SUBENTRY 2 org.eclipse.core.resources 4 567 2024-11-12 10:10:38.178
+!MESSAGE The project description file (.project) for 'bootloader' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+!STACK 0
+java.lang.Exception: The project description file (.project) for 'bootloader' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:908)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:888)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:868)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:724)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1555)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2482)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2233)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:475)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:813)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:805)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:762)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1032)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:371)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:605)
+	at org.eclipse.osgi.container.Module.start(Module.java:468)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:513)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:117)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:570)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:335)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:397)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:41)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass0(BundleLoader.java:484)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:416)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:153)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2024-11-12 10:10:38.178
+!MESSAGE Could not read metadata for 'gpioDemo'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/gpioDemo)[567]: java.lang.Exception: The project description file (.project) for 'gpioDemo' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:908)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:888)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:868)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:724)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1555)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2482)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2233)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:475)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:813)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:805)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:762)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1032)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:371)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:605)
+	at org.eclipse.osgi.container.Module.start(Module.java:468)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:513)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:117)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:570)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:335)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:397)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:41)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass0(BundleLoader.java:484)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:416)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:153)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+!SUBENTRY 2 org.eclipse.core.resources 4 567 2024-11-12 10:10:38.179
+!MESSAGE The project description file (.project) for 'gpioDemo' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+!STACK 0
+java.lang.Exception: The project description file (.project) for 'gpioDemo' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:908)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:888)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:868)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:724)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1555)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2482)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2233)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:475)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:813)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:805)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:762)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1032)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:371)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:605)
+	at org.eclipse.osgi.container.Module.start(Module.java:468)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:513)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:117)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:570)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:335)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:397)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:41)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass0(BundleLoader.java:484)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:416)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:153)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2024-11-12 10:10:38.179
+!MESSAGE Could not read metadata for 'servo'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/servo)[567]: java.lang.Exception: The project description file (.project) for 'servo' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:908)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:888)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:868)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:724)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1555)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2482)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2233)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:475)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:813)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:805)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:762)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1032)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:371)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:605)
+	at org.eclipse.osgi.container.Module.start(Module.java:468)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:513)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:117)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:570)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:335)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:397)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:41)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass0(BundleLoader.java:484)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:416)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:153)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+!SUBENTRY 2 org.eclipse.core.resources 4 567 2024-11-12 10:10:38.179
+!MESSAGE The project description file (.project) for 'servo' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+!STACK 0
+java.lang.Exception: The project description file (.project) for 'servo' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:908)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:888)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:868)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:724)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1555)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2482)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2233)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:475)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:813)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:805)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:762)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1032)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:371)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:605)
+	at org.eclipse.osgi.container.Module.start(Module.java:468)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:513)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:117)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:570)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:335)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:397)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:41)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass0(BundleLoader.java:484)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:416)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:153)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.ui 4 4 2024-11-12 10:10:39.396
+!MESSAGE MenuAdditionCacheEntry.mergeIntoModel: Invalid menu URI: com.ashling.riscfree.efinix.newproject.wizard.CreateNewEfinixProject
+
+!ENTRY org.eclipse.core.resources 4 567 2024-11-12 10:10:51.239
+!MESSAGE The project description file (.project) for 'servo' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+!STACK 0
+java.lang.Exception: The project description file (.project) for 'servo' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:908)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:888)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:763)
+	at org.eclipse.core.internal.resources.Project.open(Project.java:1061)
+	at org.eclipse.ui.actions.OpenResourceAction$1.doOpenWithReferences(OpenResourceAction.java:233)
+	at org.eclipse.ui.actions.OpenResourceAction$1.runInWorkspace(OpenResourceAction.java:279)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 4 567 2024-11-12 10:11:00.861
+!MESSAGE The project description file (.project) for 'servo' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+!STACK 0
+java.lang.Exception: The project description file (.project) for 'servo' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:908)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:888)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:763)
+	at org.eclipse.core.internal.resources.Project.open(Project.java:1061)
+	at org.eclipse.ui.actions.OpenResourceAction$1.doOpenWithReferences(OpenResourceAction.java:233)
+	at org.eclipse.ui.actions.OpenResourceAction$1.runInWorkspace(OpenResourceAction.java:279)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 4 567 2024-11-12 10:11:03.981
+!MESSAGE The project description file (.project) for 'gpioDemo' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+!STACK 0
+java.lang.Exception: The project description file (.project) for 'gpioDemo' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:908)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:888)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:763)
+	at org.eclipse.core.internal.resources.Project.open(Project.java:1061)
+	at org.eclipse.ui.actions.OpenResourceAction$1.doOpenWithReferences(OpenResourceAction.java:233)
+	at org.eclipse.ui.actions.OpenResourceAction$1.runInWorkspace(OpenResourceAction.java:279)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)

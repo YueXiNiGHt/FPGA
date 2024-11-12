@@ -1,0 +1,1062 @@
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 09, 2024 21:21:41
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] expression size 64 truncated to fit in target size 20 (VERI-1209) (E:\infinix\T120F324_devkit\ddr_reset_sequencer.v:94)
+[EFX-0011 VERI-WARNING] expression size 10 truncated to fit in target size 8 (VERI-1209) (E:\infinix\T120F324_devkit\design_modules.v:645)
+[EFX-0011 VERI-WARNING] expression size 32 truncated to fit in target size 10 (VERI-1209) (E:\infinix\T120F324_devkit\design_modules.v:1324)
+[EFX-0011 VERI-WARNING] expression size 10 truncated to fit in target size 8 (VERI-1209) (E:\infinix\T120F324_devkit\design_modules.v:645)
+[EFX-0011 VERI-WARNING] expression size 10 truncated to fit in target size 8 (VERI-1209) (E:\infinix\T120F324_devkit\design_modules.v:645)
+[EFX-0011 VERI-WARNING] expression size 10 truncated to fit in target size 8 (VERI-1209) (E:\infinix\T120F324_devkit\design_modules.v:645)
+[EFX-0011 VERI-WARNING] system function call 'urandom' is not supported (VERI-1141) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:3994)
+[EFX-0011 VERI-WARNING] system task 'display' is ignored for synthesis (VERI-1142) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:25643)
+[EFX-0011 VERI-WARNING] net 'IBusCachedPlugin_cache_io_cpu_fetch_isRemoved' does not have a driver (VDB-1002) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15526)
+[EFX-0011 VERI-WARNING] net 'dataCache_1_io_cpu_writeBack_fence_SW' does not have a driver (VDB-1002) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15539)
+[EFX-0011 VERI-WARNING] net 'dataCache_1_io_cpu_writeBack_fence_SR' does not have a driver (VDB-1002) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15540)
+[EFX-0011 VERI-WARNING] net 'dataCache_1_io_cpu_writeBack_fence_SO' does not have a driver (VDB-1002) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15541)
+[EFX-0011 VERI-WARNING] net 'dataCache_1_io_cpu_writeBack_fence_SI' does not have a driver (VDB-1002) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15542)
+[EFX-0011 VERI-WARNING] net 'dataCache_1_io_cpu_writeBack_fence_PW' does not have a driver (VDB-1002) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15543)
+[EFX-0011 VERI-WARNING] net 'dataCache_1_io_cpu_writeBack_fence_PR' does not have a driver (VDB-1002) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15544)
+[EFX-0011 VERI-WARNING] net 'dataCache_1_io_cpu_writeBack_fence_PO' does not have a driver (VDB-1002) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15545)
+[EFX-0011 VERI-WARNING] net 'dataCache_1_io_cpu_writeBack_fence_PI' does not have a driver (VDB-1002) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15546)
+[EFX-0011 VERI-WARNING] net 'dataCache_1_io_cpu_writeBack_fence_FM[3]' does not have a driver (VDB-1002) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15547)
+[EFX-0011 VERI-WARNING] net 'IBusCachedPlugin_mmuBus_rsp_bypassTranslation' does not have a driver (VDB-1002) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:16042)
+[EFX-0011 VERI-WARNING] net 'DBusCachedPlugin_mmuBus_rsp_bypassTranslation' does not have a driver (VDB-1002) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:16057)
+[EFX-0011 VERI-WARNING] net 'IBusCachedPlugin_iBusRsp_output_payload_rsp_error' does not have a driver (VDB-1002) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:16165)
+[EFX-0011 VERI-WARNING] net 'IBusCachedPlugin_iBusRsp_output_payload_isRvc' does not have a driver (VDB-1002) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:16167)
+[EFX-0011 VERI-WARNING] net 'CsrPlugin_mtvec_mode[1]' does not have a driver (VDB-1002) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:16331)
+[EFX-0011 VERI-WARNING] system function call 'urandom' is not supported (VERI-1141) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:24778)
+[EFX-0011 VERI-WARNING] system function call 'urandom' is not supported (VERI-1141) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:24779)
+[EFX-0011 VERI-WARNING] system function call 'urandom' is not supported (VERI-1141) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:27005)
+[EFX-0011 VERI-WARNING] system function call 'urandom' is not supported (VERI-1141) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:27006)
+[EFX-0011 VERI-WARNING] system function call 'urandom' is not supported (VERI-1141) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:8220)
+[EFX-0011 VERI-WARNING] system function call 'urandom' is not supported (VERI-1141) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:8221)
+[EFX-0011 VERI-WARNING] net 'm_bid_0[7]' does not have a driver (VDB-1002) (E:\infinix\T120F324_devkit\top_soc.v:164)
+[EFX-0011 VERI-WARNING] input port 'system_spi_0_io_data_2_read' remains unconnected for this instance (VDB-1053) (E:\infinix\T120F324_devkit\top_soc.v:326)
+[EFX-0256 WARNING] The primary output port 'io_ddrA_arw_payload_lock[1]' wire 'io_ddrA_arw_payload_lock[1]' is not driven.
+[EFX-0200 WARNING] Removing redundant signal : PADDR[15]. (E:\infinix\T120F324_devkit\design_modules.v:37)
+[EFX-0200 WARNING] Removing redundant signal : PADDR[14]. (E:\infinix\T120F324_devkit\design_modules.v:37)
+[EFX-0200 WARNING] Removing redundant signal : PADDR[13]. (E:\infinix\T120F324_devkit\design_modules.v:37)
+[EFX-0200 WARNING] Removing redundant signal : PADDR[12]. (E:\infinix\T120F324_devkit\design_modules.v:37)
+[EFX-0200 WARNING] Removing redundant signal : PADDR[11]. (E:\infinix\T120F324_devkit\design_modules.v:37)
+[EFX-0200 WARNING] Removing redundant signal : PADDR[10]. (E:\infinix\T120F324_devkit\design_modules.v:37)
+[EFX-0200 WARNING] Removing redundant signal : PADDR[9]. (E:\infinix\T120F324_devkit\design_modules.v:37)
+[EFX-0200 WARNING] Removing redundant signal : PADDR[8]. (E:\infinix\T120F324_devkit\design_modules.v:37)
+[EFX-0200 WARNING] Removing redundant signal : PADDR[7]. (E:\infinix\T120F324_devkit\design_modules.v:37)
+[EFX-0200 WARNING] Removing redundant signal : PADDR[6]. (E:\infinix\T120F324_devkit\design_modules.v:37)
+[EFX-0200 WARNING] Removing redundant signal : byteIndex[31]. (E:\infinix\T120F324_devkit\design_modules.v:55)
+[EFX-0200 WARNING] Removing redundant signal : byteIndex[30]. (E:\infinix\T120F324_devkit\design_modules.v:55)
+[EFX-0200 WARNING] Removing redundant signal : byteIndex[29]. (E:\infinix\T120F324_devkit\design_modules.v:55)
+[EFX-0200 WARNING] Removing redundant signal : byteIndex[28]. (E:\infinix\T120F324_devkit\design_modules.v:55)
+[EFX-0200 WARNING] Removing redundant signal : byteIndex[27]. (E:\infinix\T120F324_devkit\design_modules.v:55)
+[EFX-0200 WARNING] Removing redundant signal : byteIndex[26]. (E:\infinix\T120F324_devkit\design_modules.v:55)
+[EFX-0200 WARNING] Removing redundant signal : byteIndex[25]. (E:\infinix\T120F324_devkit\design_modules.v:55)
+[EFX-0200 WARNING] Removing redundant signal : byteIndex[24]. (E:\infinix\T120F324_devkit\design_modules.v:55)
+[EFX-0200 WARNING] Removing redundant signal : byteIndex[23]. (E:\infinix\T120F324_devkit\design_modules.v:55)
+[EFX-0200 WARNING] Removing redundant signal : byteIndex[22]. (E:\infinix\T120F324_devkit\design_modules.v:55)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'IBusCachedPlugin_cache_io_cpu_fetch_isRemoved'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15526)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'dataCache_1_io_cpu_writeBack_fence_SW'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15539)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'dataCache_1_io_cpu_writeBack_fence_SR'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15540)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'dataCache_1_io_cpu_writeBack_fence_SO'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15541)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'dataCache_1_io_cpu_writeBack_fence_SI'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15542)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'dataCache_1_io_cpu_writeBack_fence_PW'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15543)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'dataCache_1_io_cpu_writeBack_fence_PR'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15544)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'dataCache_1_io_cpu_writeBack_fence_PO'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15545)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'dataCache_1_io_cpu_writeBack_fence_PI'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15546)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'dataCache_1_io_cpu_writeBack_fence_FM[3]'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15547)
+[EFX-0266 WARNING] Module Instance 'memory_arbiter' input pin tied to constant (io_inputs_0_payload_fragment_source[0]=0).
+[EFX-0266 WARNING] Module Instance 'memory_arbiter' input pin tied to constant (io_inputs_1_payload_fragment_source[0]=0).
+[EFX-0266 WARNING] Module Instance 'memory_arbiter' input pin tied to constant (io_inputs_1_payload_fragment_context[0]=0).
+[EFX-0266 WARNING] Module Instance 'writeCmdInfo_fifo' input pin tied to constant (io_flush=0).
+[EFX-0266 WARNING] Module Instance 'readCmdInfo_fifo' input pin tied to constant (io_flush=0).
+[EFX-0266 WARNING] Module Instance 'cmdRouteFork_thrown_translated_fifo' input pin tied to constant (io_flush=0).
+[EFX-0266 WARNING] Module Instance 'dataLogic_cmdPush_fifo' input pin tied to constant (io_flush=0).
+[EFX-0266 WARNING] Module Instance 'writeCmdInfo_fifo' input pin tied to constant (io_flush=0).
+[EFX-0266 WARNING] Module Instance 'readCmdInfo_fifo' input pin tied to constant (io_flush=0).
+[EFX-0266 WARNING] Module Instance 'tx' input pin tied to constant (io_cts=0).
+[EFX-0266 WARNING] Module Instance 'bridge_write_streamUnbuffered_queueWithOccupancy' input pin tied to constant (io_flush=0).
+[EFX-0266 WARNING] Module Instance 'system_uart_0_io_logic_uartCtrl_1_io_read_queueWithOccupancy' input pin tied to constant (io_flush=0).
+[EFX-0266 WARNING] Module Instance 'mapping_cmdLogic_streamUnbuffered_queueWithAvailability' input pin tied to constant (io_flush=0).
+[EFX-0266 WARNING] Module Instance 'system_spi_0_io_logic_ctrl_io_rsp_queueWithOccupancy' input pin tied to constant (io_flush=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[0]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[1]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[2]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[3]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[4]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[5]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[6]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[7]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[8]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[9]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[10]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[11]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[12]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[13]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[14]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[15]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[16]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[17]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[18]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[19]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[20]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[21]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[22]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[23]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[24]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[25]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[26]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[27]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[28]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[29]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[30]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[31]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_mask[0]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_mask[1]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_mask[2]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_mask[3]=0).
+[EFX-0266 WARNING] Module Instance 'system_ddr_ddrLogic_arbiterAxi3Shared' input pin tied to constant (io_sharedInputs_0_arw_payload_id[0]=0).
+[EFX-0266 WARNING] Module Instance 'system_ddr_ddrLogic_arbiterAxi3Shared' input pin tied to constant (io_sharedInputs_0_arw_payload_id[1]=0).
+[EFX-0266 WARNING] Module Instance 'system_ddr_ddrLogic_arbiterAxi3Shared' input pin tied to constant (io_sharedInputs_0_arw_payload_id[2]=0).
+[EFX-0266 WARNING] Module Instance 'system_ddr_ddrLogic_arbiterAxi3Shared' input pin tied to constant (io_sharedInputs_0_arw_payload_id[3]=0).
+[EFX-0266 WARNING] Module Instance 'system_ddr_ddrLogic_arbiterAxi3Shared' input pin tied to constant (io_sharedInputs_0_arw_payload_id[4]=0).
+[EFX-0266 WARNING] Module Instance 'system_ddr_ddrLogic_arbiterAxi3Shared' input pin tied to constant (io_sharedInputs_0_arw_payload_id[5]=0).
+[EFX-0266 WARNING] Module Instance 'system_ddr_ddrLogic_arbiterAxi3Shared' input pin tied to constant (io_sharedInputs_0_arw_payload_id[6]=0).
+[EFX-0266 WARNING] Module Instance 'system_ddr_ddrLogic_arbiterAxi3Shared' input pin tied to constant (io_sharedInputs_0_arw_payload_burst[0]=1).
+[EFX-0266 WARNING] Module Instance 'system_ddr_ddrLogic_arbiterAxi3Shared' input pin tied to constant (io_sharedInputs_0_arw_payload_burst[1]=0).
+[EFX-0266 WARNING] Module Instance 'system_ddr_ddrLogic_arbiterAxi3Shared' input pin tied to constant (io_sharedInputs_0_arw_payload_lock[0]=0).
+[EFX-0266 WARNING] Module Instance 'system_ddr_ddrLogic_arbiterAxi3Shared' input pin tied to constant (io_sharedInputs_0_arw_payload_qos[0]=0).
+[EFX-0266 WARNING] Module Instance 'system_ddr_ddrLogic_arbiterAxi3Shared' input pin tied to constant (io_sharedInputs_0_arw_payload_qos[1]=0).
+[EFX-0266 WARNING] Module Instance 'system_ddr_ddrLogic_arbiterAxi3Shared' input pin tied to constant (io_sharedInputs_0_arw_payload_qos[2]=0).
+[EFX-0266 WARNING] Module Instance 'system_ddr_ddrLogic_arbiterAxi3Shared' input pin tied to constant (io_sharedInputs_0_arw_payload_qos[3]=0).
+[EFX-0266 WARNING] Module Instance 'system_ddr_ddrLogic_ddrAToAxi3_patchArw_translated_thrown_fifo' input pin tied to constant (io_flush=0).
+[EFX-0266 WARNING] Module Instance 'system_clint_logic' input pin tied to constant (io_stop=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_aw_payload_region[0]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_aw_payload_region[1]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_aw_payload_region[2]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_aw_payload_region[3]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_aw_payload_cache[0]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_aw_payload_cache[1]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_aw_payload_cache[2]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_aw_payload_cache[3]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_aw_payload_qos[0]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_aw_payload_qos[1]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_aw_payload_qos[2]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_aw_payload_qos[3]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_aw_payload_prot[0]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_aw_payload_prot[1]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_aw_payload_prot[2]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_ar_payload_region[0]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_ar_payload_region[1]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_ar_payload_region[2]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_ar_payload_region[3]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_ar_payload_cache[0]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_ar_payload_cache[1]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_ar_payload_cache[2]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_ar_payload_cache[3]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_ar_payload_qos[0]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_ar_payload_qos[1]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_ar_payload_qos[2]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_ar_payload_qos[3]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_ar_payload_prot[0]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_ar_payload_prot[1]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_ar_payload_prot[2]=0).
+[EFX-0657 WARNING] Mapping into logic memory block 'soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_arbiterAxi3Shared/cmdRouteFork_thrown_translated_fifo/ram' (4 bits) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:23888) because size is too small (<=64)
+[EFX-0657 WARNING] Mapping into logic memory block 'soc_inst/u_EfxSapphireSoc/system_axiA_logic_bmbToAxiBridge/writeCmdInfo_fifo/logic_ram' (16 bits) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:22243) because size is too small (<=64)
+[EFX-0657 WARNING] Mapping into logic memory block 'soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_ddrAToAxi3_patchArw_translated_thrown_fifo/ram' (64 bits) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:12758) because size is too small (<=64)
+[EFX-0657 WARNING] Mapping into logic memory block 'soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_userAdapters_0_upsizer_logic/readOnly/dataLogic_cmdPush_fifo/logic_ram' (60 bits) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:26581) because size is too small (<=64)
+[EFX-0657 WARNING] Mapping into logic memory block 'soc_inst/u_EfxSapphireSoc/system_axiA_logic_bmbToAxiBridge/readCmdInfo_fifo/logic_ram' (16 bits) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:22243) because size is too small (<=64)
+[EFX-0011 VERI-WARNING] Input/Inout Port io_ddrA_b_payload_id[6] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port io_ddrA_b_payload_id[5] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port io_ddrA_b_payload_id[4] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port io_ddrA_b_payload_id[3] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port io_ddrA_b_payload_id[2] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port io_ddrA_b_payload_id[1] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port io_ddrA_b_payload_id[0] is unconnected and will be removed 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 09, 2024 21:23:55
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] expression size 64 truncated to fit in target size 20 (VERI-1209) (E:\infinix\T120F324_devkit\ddr_reset_sequencer.v:94)
+[EFX-0011 VERI-WARNING] expression size 10 truncated to fit in target size 8 (VERI-1209) (E:\infinix\T120F324_devkit\design_modules.v:645)
+[EFX-0011 VERI-WARNING] expression size 32 truncated to fit in target size 10 (VERI-1209) (E:\infinix\T120F324_devkit\design_modules.v:1324)
+[EFX-0011 VERI-WARNING] expression size 10 truncated to fit in target size 8 (VERI-1209) (E:\infinix\T120F324_devkit\design_modules.v:645)
+[EFX-0011 VERI-WARNING] expression size 10 truncated to fit in target size 8 (VERI-1209) (E:\infinix\T120F324_devkit\design_modules.v:645)
+[EFX-0011 VERI-WARNING] expression size 10 truncated to fit in target size 8 (VERI-1209) (E:\infinix\T120F324_devkit\design_modules.v:645)
+[EFX-0011 VERI-WARNING] system function call 'urandom' is not supported (VERI-1141) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:3994)
+[EFX-0011 VERI-WARNING] system task 'display' is ignored for synthesis (VERI-1142) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:25643)
+[EFX-0011 VERI-WARNING] net 'IBusCachedPlugin_cache_io_cpu_fetch_isRemoved' does not have a driver (VDB-1002) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15526)
+[EFX-0011 VERI-WARNING] net 'dataCache_1_io_cpu_writeBack_fence_SW' does not have a driver (VDB-1002) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15539)
+[EFX-0011 VERI-WARNING] net 'dataCache_1_io_cpu_writeBack_fence_SR' does not have a driver (VDB-1002) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15540)
+[EFX-0011 VERI-WARNING] net 'dataCache_1_io_cpu_writeBack_fence_SO' does not have a driver (VDB-1002) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15541)
+[EFX-0011 VERI-WARNING] net 'dataCache_1_io_cpu_writeBack_fence_SI' does not have a driver (VDB-1002) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15542)
+[EFX-0011 VERI-WARNING] net 'dataCache_1_io_cpu_writeBack_fence_PW' does not have a driver (VDB-1002) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15543)
+[EFX-0011 VERI-WARNING] net 'dataCache_1_io_cpu_writeBack_fence_PR' does not have a driver (VDB-1002) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15544)
+[EFX-0011 VERI-WARNING] net 'dataCache_1_io_cpu_writeBack_fence_PO' does not have a driver (VDB-1002) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15545)
+[EFX-0011 VERI-WARNING] net 'dataCache_1_io_cpu_writeBack_fence_PI' does not have a driver (VDB-1002) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15546)
+[EFX-0011 VERI-WARNING] net 'dataCache_1_io_cpu_writeBack_fence_FM[3]' does not have a driver (VDB-1002) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15547)
+[EFX-0011 VERI-WARNING] net 'IBusCachedPlugin_mmuBus_rsp_bypassTranslation' does not have a driver (VDB-1002) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:16042)
+[EFX-0011 VERI-WARNING] net 'DBusCachedPlugin_mmuBus_rsp_bypassTranslation' does not have a driver (VDB-1002) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:16057)
+[EFX-0011 VERI-WARNING] net 'IBusCachedPlugin_iBusRsp_output_payload_rsp_error' does not have a driver (VDB-1002) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:16165)
+[EFX-0011 VERI-WARNING] net 'IBusCachedPlugin_iBusRsp_output_payload_isRvc' does not have a driver (VDB-1002) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:16167)
+[EFX-0011 VERI-WARNING] net 'CsrPlugin_mtvec_mode[1]' does not have a driver (VDB-1002) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:16331)
+[EFX-0011 VERI-WARNING] system function call 'urandom' is not supported (VERI-1141) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:24778)
+[EFX-0011 VERI-WARNING] system function call 'urandom' is not supported (VERI-1141) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:24779)
+[EFX-0011 VERI-WARNING] system function call 'urandom' is not supported (VERI-1141) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:27005)
+[EFX-0011 VERI-WARNING] system function call 'urandom' is not supported (VERI-1141) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:27006)
+[EFX-0011 VERI-WARNING] system function call 'urandom' is not supported (VERI-1141) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:8220)
+[EFX-0011 VERI-WARNING] system function call 'urandom' is not supported (VERI-1141) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:8221)
+[EFX-0011 VERI-WARNING] net 'm_bid_0[7]' does not have a driver (VDB-1002) (E:\infinix\T120F324_devkit\top_soc.v:164)
+[EFX-0011 VERI-WARNING] input port 'system_spi_0_io_data_2_read' remains unconnected for this instance (VDB-1053) (E:\infinix\T120F324_devkit\top_soc.v:326)
+[EFX-0256 WARNING] The primary output port 'io_ddrA_arw_payload_lock[1]' wire 'io_ddrA_arw_payload_lock[1]' is not driven.
+[EFX-0200 WARNING] Removing redundant signal : PADDR[15]. (E:\infinix\T120F324_devkit\design_modules.v:37)
+[EFX-0200 WARNING] Removing redundant signal : PADDR[14]. (E:\infinix\T120F324_devkit\design_modules.v:37)
+[EFX-0200 WARNING] Removing redundant signal : PADDR[13]. (E:\infinix\T120F324_devkit\design_modules.v:37)
+[EFX-0200 WARNING] Removing redundant signal : PADDR[12]. (E:\infinix\T120F324_devkit\design_modules.v:37)
+[EFX-0200 WARNING] Removing redundant signal : PADDR[11]. (E:\infinix\T120F324_devkit\design_modules.v:37)
+[EFX-0200 WARNING] Removing redundant signal : PADDR[10]. (E:\infinix\T120F324_devkit\design_modules.v:37)
+[EFX-0200 WARNING] Removing redundant signal : PADDR[9]. (E:\infinix\T120F324_devkit\design_modules.v:37)
+[EFX-0200 WARNING] Removing redundant signal : PADDR[8]. (E:\infinix\T120F324_devkit\design_modules.v:37)
+[EFX-0200 WARNING] Removing redundant signal : PADDR[7]. (E:\infinix\T120F324_devkit\design_modules.v:37)
+[EFX-0200 WARNING] Removing redundant signal : PADDR[6]. (E:\infinix\T120F324_devkit\design_modules.v:37)
+[EFX-0200 WARNING] Removing redundant signal : byteIndex[31]. (E:\infinix\T120F324_devkit\design_modules.v:55)
+[EFX-0200 WARNING] Removing redundant signal : byteIndex[30]. (E:\infinix\T120F324_devkit\design_modules.v:55)
+[EFX-0200 WARNING] Removing redundant signal : byteIndex[29]. (E:\infinix\T120F324_devkit\design_modules.v:55)
+[EFX-0200 WARNING] Removing redundant signal : byteIndex[28]. (E:\infinix\T120F324_devkit\design_modules.v:55)
+[EFX-0200 WARNING] Removing redundant signal : byteIndex[27]. (E:\infinix\T120F324_devkit\design_modules.v:55)
+[EFX-0200 WARNING] Removing redundant signal : byteIndex[26]. (E:\infinix\T120F324_devkit\design_modules.v:55)
+[EFX-0200 WARNING] Removing redundant signal : byteIndex[25]. (E:\infinix\T120F324_devkit\design_modules.v:55)
+[EFX-0200 WARNING] Removing redundant signal : byteIndex[24]. (E:\infinix\T120F324_devkit\design_modules.v:55)
+[EFX-0200 WARNING] Removing redundant signal : byteIndex[23]. (E:\infinix\T120F324_devkit\design_modules.v:55)
+[EFX-0200 WARNING] Removing redundant signal : byteIndex[22]. (E:\infinix\T120F324_devkit\design_modules.v:55)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'IBusCachedPlugin_cache_io_cpu_fetch_isRemoved'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15526)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'dataCache_1_io_cpu_writeBack_fence_SW'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15539)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'dataCache_1_io_cpu_writeBack_fence_SR'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15540)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'dataCache_1_io_cpu_writeBack_fence_SO'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15541)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'dataCache_1_io_cpu_writeBack_fence_SI'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15542)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'dataCache_1_io_cpu_writeBack_fence_PW'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15543)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'dataCache_1_io_cpu_writeBack_fence_PR'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15544)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'dataCache_1_io_cpu_writeBack_fence_PO'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15545)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'dataCache_1_io_cpu_writeBack_fence_PI'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15546)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'dataCache_1_io_cpu_writeBack_fence_FM[3]'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15547)
+[EFX-0266 WARNING] Module Instance 'memory_arbiter' input pin tied to constant (io_inputs_0_payload_fragment_source[0]=0).
+[EFX-0266 WARNING] Module Instance 'memory_arbiter' input pin tied to constant (io_inputs_1_payload_fragment_source[0]=0).
+[EFX-0266 WARNING] Module Instance 'memory_arbiter' input pin tied to constant (io_inputs_1_payload_fragment_context[0]=0).
+[EFX-0266 WARNING] Module Instance 'writeCmdInfo_fifo' input pin tied to constant (io_flush=0).
+[EFX-0266 WARNING] Module Instance 'readCmdInfo_fifo' input pin tied to constant (io_flush=0).
+[EFX-0266 WARNING] Module Instance 'cmdRouteFork_thrown_translated_fifo' input pin tied to constant (io_flush=0).
+[EFX-0266 WARNING] Module Instance 'dataLogic_cmdPush_fifo' input pin tied to constant (io_flush=0).
+[EFX-0266 WARNING] Module Instance 'writeCmdInfo_fifo' input pin tied to constant (io_flush=0).
+[EFX-0266 WARNING] Module Instance 'readCmdInfo_fifo' input pin tied to constant (io_flush=0).
+[EFX-0266 WARNING] Module Instance 'tx' input pin tied to constant (io_cts=0).
+[EFX-0266 WARNING] Module Instance 'bridge_write_streamUnbuffered_queueWithOccupancy' input pin tied to constant (io_flush=0).
+[EFX-0266 WARNING] Module Instance 'system_uart_0_io_logic_uartCtrl_1_io_read_queueWithOccupancy' input pin tied to constant (io_flush=0).
+[EFX-0266 WARNING] Module Instance 'mapping_cmdLogic_streamUnbuffered_queueWithAvailability' input pin tied to constant (io_flush=0).
+[EFX-0266 WARNING] Module Instance 'system_spi_0_io_logic_ctrl_io_rsp_queueWithOccupancy' input pin tied to constant (io_flush=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[0]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[1]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[2]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[3]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[4]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[5]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[6]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[7]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[8]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[9]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[10]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[11]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[12]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[13]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[14]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[15]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[16]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[17]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[18]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[19]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[20]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[21]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[22]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[23]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[24]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[25]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[26]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[27]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[28]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[29]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[30]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[31]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_mask[0]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_mask[1]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_mask[2]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_mask[3]=0).
+[EFX-0266 WARNING] Module Instance 'system_ddr_ddrLogic_arbiterAxi3Shared' input pin tied to constant (io_sharedInputs_0_arw_payload_id[0]=0).
+[EFX-0266 WARNING] Module Instance 'system_ddr_ddrLogic_arbiterAxi3Shared' input pin tied to constant (io_sharedInputs_0_arw_payload_id[1]=0).
+[EFX-0266 WARNING] Module Instance 'system_ddr_ddrLogic_arbiterAxi3Shared' input pin tied to constant (io_sharedInputs_0_arw_payload_id[2]=0).
+[EFX-0266 WARNING] Module Instance 'system_ddr_ddrLogic_arbiterAxi3Shared' input pin tied to constant (io_sharedInputs_0_arw_payload_id[3]=0).
+[EFX-0266 WARNING] Module Instance 'system_ddr_ddrLogic_arbiterAxi3Shared' input pin tied to constant (io_sharedInputs_0_arw_payload_id[4]=0).
+[EFX-0266 WARNING] Module Instance 'system_ddr_ddrLogic_arbiterAxi3Shared' input pin tied to constant (io_sharedInputs_0_arw_payload_id[5]=0).
+[EFX-0266 WARNING] Module Instance 'system_ddr_ddrLogic_arbiterAxi3Shared' input pin tied to constant (io_sharedInputs_0_arw_payload_id[6]=0).
+[EFX-0266 WARNING] Module Instance 'system_ddr_ddrLogic_arbiterAxi3Shared' input pin tied to constant (io_sharedInputs_0_arw_payload_burst[0]=1).
+[EFX-0266 WARNING] Module Instance 'system_ddr_ddrLogic_arbiterAxi3Shared' input pin tied to constant (io_sharedInputs_0_arw_payload_burst[1]=0).
+[EFX-0266 WARNING] Module Instance 'system_ddr_ddrLogic_arbiterAxi3Shared' input pin tied to constant (io_sharedInputs_0_arw_payload_lock[0]=0).
+[EFX-0266 WARNING] Module Instance 'system_ddr_ddrLogic_arbiterAxi3Shared' input pin tied to constant (io_sharedInputs_0_arw_payload_qos[0]=0).
+[EFX-0266 WARNING] Module Instance 'system_ddr_ddrLogic_arbiterAxi3Shared' input pin tied to constant (io_sharedInputs_0_arw_payload_qos[1]=0).
+[EFX-0266 WARNING] Module Instance 'system_ddr_ddrLogic_arbiterAxi3Shared' input pin tied to constant (io_sharedInputs_0_arw_payload_qos[2]=0).
+[EFX-0266 WARNING] Module Instance 'system_ddr_ddrLogic_arbiterAxi3Shared' input pin tied to constant (io_sharedInputs_0_arw_payload_qos[3]=0).
+[EFX-0266 WARNING] Module Instance 'system_ddr_ddrLogic_ddrAToAxi3_patchArw_translated_thrown_fifo' input pin tied to constant (io_flush=0).
+[EFX-0266 WARNING] Module Instance 'system_clint_logic' input pin tied to constant (io_stop=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_aw_payload_region[0]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_aw_payload_region[1]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_aw_payload_region[2]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_aw_payload_region[3]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_aw_payload_cache[0]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_aw_payload_cache[1]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_aw_payload_cache[2]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_aw_payload_cache[3]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_aw_payload_qos[0]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_aw_payload_qos[1]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_aw_payload_qos[2]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_aw_payload_qos[3]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_aw_payload_prot[0]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_aw_payload_prot[1]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_aw_payload_prot[2]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_ar_payload_region[0]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_ar_payload_region[1]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_ar_payload_region[2]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_ar_payload_region[3]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_ar_payload_cache[0]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_ar_payload_cache[1]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_ar_payload_cache[2]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_ar_payload_cache[3]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_ar_payload_qos[0]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_ar_payload_qos[1]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_ar_payload_qos[2]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_ar_payload_qos[3]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_ar_payload_prot[0]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_ar_payload_prot[1]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_ar_payload_prot[2]=0).
+[EFX-0657 WARNING] Mapping into logic memory block 'soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_arbiterAxi3Shared/cmdRouteFork_thrown_translated_fifo/ram' (4 bits) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:23888) because size is too small (<=64)
+[EFX-0657 WARNING] Mapping into logic memory block 'soc_inst/u_EfxSapphireSoc/system_axiA_logic_bmbToAxiBridge/writeCmdInfo_fifo/logic_ram' (16 bits) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:22243) because size is too small (<=64)
+[EFX-0657 WARNING] Mapping into logic memory block 'soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_ddrAToAxi3_patchArw_translated_thrown_fifo/ram' (64 bits) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:12758) because size is too small (<=64)
+[EFX-0657 WARNING] Mapping into logic memory block 'soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_userAdapters_0_upsizer_logic/readOnly/dataLogic_cmdPush_fifo/logic_ram' (60 bits) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:26581) because size is too small (<=64)
+[EFX-0657 WARNING] Mapping into logic memory block 'soc_inst/u_EfxSapphireSoc/system_axiA_logic_bmbToAxiBridge/readCmdInfo_fifo/logic_ram' (16 bits) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:22243) because size is too small (<=64)
+[EFX-0011 VERI-WARNING] Input/Inout Port io_ddrA_b_payload_id[6] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port io_ddrA_b_payload_id[5] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port io_ddrA_b_payload_id[4] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port io_ddrA_b_payload_id[3] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port io_ddrA_b_payload_id[2] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port io_ddrA_b_payload_id[1] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port io_ddrA_b_payload_id[0] is unconnected and will be removed 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 09, 2024 21:25:20
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 09, 2024 21:26:02
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] expression size 64 truncated to fit in target size 20 (VERI-1209) (E:\infinix\T120F324_devkit\ddr_reset_sequencer.v:94)
+[EFX-0011 VERI-WARNING] expression size 10 truncated to fit in target size 8 (VERI-1209) (E:\infinix\T120F324_devkit\design_modules.v:645)
+[EFX-0011 VERI-WARNING] expression size 32 truncated to fit in target size 10 (VERI-1209) (E:\infinix\T120F324_devkit\design_modules.v:1324)
+[EFX-0011 VERI-WARNING] expression size 10 truncated to fit in target size 8 (VERI-1209) (E:\infinix\T120F324_devkit\design_modules.v:645)
+[EFX-0011 VERI-WARNING] expression size 10 truncated to fit in target size 8 (VERI-1209) (E:\infinix\T120F324_devkit\design_modules.v:645)
+[EFX-0011 VERI-WARNING] expression size 10 truncated to fit in target size 8 (VERI-1209) (E:\infinix\T120F324_devkit\design_modules.v:645)
+[EFX-0011 VERI-WARNING] system function call 'urandom' is not supported (VERI-1141) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:3994)
+[EFX-0011 VERI-WARNING] system task 'display' is ignored for synthesis (VERI-1142) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:25643)
+[EFX-0011 VERI-WARNING] net 'IBusCachedPlugin_cache_io_cpu_fetch_isRemoved' does not have a driver (VDB-1002) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15526)
+[EFX-0011 VERI-WARNING] net 'dataCache_1_io_cpu_writeBack_fence_SW' does not have a driver (VDB-1002) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15539)
+[EFX-0011 VERI-WARNING] net 'dataCache_1_io_cpu_writeBack_fence_SR' does not have a driver (VDB-1002) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15540)
+[EFX-0011 VERI-WARNING] net 'dataCache_1_io_cpu_writeBack_fence_SO' does not have a driver (VDB-1002) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15541)
+[EFX-0011 VERI-WARNING] net 'dataCache_1_io_cpu_writeBack_fence_SI' does not have a driver (VDB-1002) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15542)
+[EFX-0011 VERI-WARNING] net 'dataCache_1_io_cpu_writeBack_fence_PW' does not have a driver (VDB-1002) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15543)
+[EFX-0011 VERI-WARNING] net 'dataCache_1_io_cpu_writeBack_fence_PR' does not have a driver (VDB-1002) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15544)
+[EFX-0011 VERI-WARNING] net 'dataCache_1_io_cpu_writeBack_fence_PO' does not have a driver (VDB-1002) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15545)
+[EFX-0011 VERI-WARNING] net 'dataCache_1_io_cpu_writeBack_fence_PI' does not have a driver (VDB-1002) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15546)
+[EFX-0011 VERI-WARNING] net 'dataCache_1_io_cpu_writeBack_fence_FM[3]' does not have a driver (VDB-1002) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15547)
+[EFX-0011 VERI-WARNING] net 'IBusCachedPlugin_mmuBus_rsp_bypassTranslation' does not have a driver (VDB-1002) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:16042)
+[EFX-0011 VERI-WARNING] net 'DBusCachedPlugin_mmuBus_rsp_bypassTranslation' does not have a driver (VDB-1002) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:16057)
+[EFX-0011 VERI-WARNING] net 'IBusCachedPlugin_iBusRsp_output_payload_rsp_error' does not have a driver (VDB-1002) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:16165)
+[EFX-0011 VERI-WARNING] net 'IBusCachedPlugin_iBusRsp_output_payload_isRvc' does not have a driver (VDB-1002) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:16167)
+[EFX-0011 VERI-WARNING] net 'CsrPlugin_mtvec_mode[1]' does not have a driver (VDB-1002) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:16331)
+[EFX-0011 VERI-WARNING] system function call 'urandom' is not supported (VERI-1141) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:24778)
+[EFX-0011 VERI-WARNING] system function call 'urandom' is not supported (VERI-1141) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:24779)
+[EFX-0011 VERI-WARNING] system function call 'urandom' is not supported (VERI-1141) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:27005)
+[EFX-0011 VERI-WARNING] system function call 'urandom' is not supported (VERI-1141) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:27006)
+[EFX-0011 VERI-WARNING] system function call 'urandom' is not supported (VERI-1141) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:8220)
+[EFX-0011 VERI-WARNING] system function call 'urandom' is not supported (VERI-1141) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:8221)
+[EFX-0011 VERI-WARNING] net 'm_bid_0[7]' does not have a driver (VDB-1002) (E:\infinix\T120F324_devkit\top_soc.v:164)
+[EFX-0011 VERI-WARNING] input port 'system_spi_0_io_data_2_read' remains unconnected for this instance (VDB-1053) (E:\infinix\T120F324_devkit\top_soc.v:326)
+[EFX-0256 WARNING] The primary output port 'io_ddrA_arw_payload_lock[1]' wire 'io_ddrA_arw_payload_lock[1]' is not driven.
+[EFX-0200 WARNING] Removing redundant signal : PADDR[15]. (E:\infinix\T120F324_devkit\design_modules.v:37)
+[EFX-0200 WARNING] Removing redundant signal : PADDR[14]. (E:\infinix\T120F324_devkit\design_modules.v:37)
+[EFX-0200 WARNING] Removing redundant signal : PADDR[13]. (E:\infinix\T120F324_devkit\design_modules.v:37)
+[EFX-0200 WARNING] Removing redundant signal : PADDR[12]. (E:\infinix\T120F324_devkit\design_modules.v:37)
+[EFX-0200 WARNING] Removing redundant signal : PADDR[11]. (E:\infinix\T120F324_devkit\design_modules.v:37)
+[EFX-0200 WARNING] Removing redundant signal : PADDR[10]. (E:\infinix\T120F324_devkit\design_modules.v:37)
+[EFX-0200 WARNING] Removing redundant signal : PADDR[9]. (E:\infinix\T120F324_devkit\design_modules.v:37)
+[EFX-0200 WARNING] Removing redundant signal : PADDR[8]. (E:\infinix\T120F324_devkit\design_modules.v:37)
+[EFX-0200 WARNING] Removing redundant signal : PADDR[7]. (E:\infinix\T120F324_devkit\design_modules.v:37)
+[EFX-0200 WARNING] Removing redundant signal : PADDR[6]. (E:\infinix\T120F324_devkit\design_modules.v:37)
+[EFX-0200 WARNING] Removing redundant signal : byteIndex[31]. (E:\infinix\T120F324_devkit\design_modules.v:55)
+[EFX-0200 WARNING] Removing redundant signal : byteIndex[30]. (E:\infinix\T120F324_devkit\design_modules.v:55)
+[EFX-0200 WARNING] Removing redundant signal : byteIndex[29]. (E:\infinix\T120F324_devkit\design_modules.v:55)
+[EFX-0200 WARNING] Removing redundant signal : byteIndex[28]. (E:\infinix\T120F324_devkit\design_modules.v:55)
+[EFX-0200 WARNING] Removing redundant signal : byteIndex[27]. (E:\infinix\T120F324_devkit\design_modules.v:55)
+[EFX-0200 WARNING] Removing redundant signal : byteIndex[26]. (E:\infinix\T120F324_devkit\design_modules.v:55)
+[EFX-0200 WARNING] Removing redundant signal : byteIndex[25]. (E:\infinix\T120F324_devkit\design_modules.v:55)
+[EFX-0200 WARNING] Removing redundant signal : byteIndex[24]. (E:\infinix\T120F324_devkit\design_modules.v:55)
+[EFX-0200 WARNING] Removing redundant signal : byteIndex[23]. (E:\infinix\T120F324_devkit\design_modules.v:55)
+[EFX-0200 WARNING] Removing redundant signal : byteIndex[22]. (E:\infinix\T120F324_devkit\design_modules.v:55)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'IBusCachedPlugin_cache_io_cpu_fetch_isRemoved'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15526)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'dataCache_1_io_cpu_writeBack_fence_SW'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15539)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'dataCache_1_io_cpu_writeBack_fence_SR'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15540)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'dataCache_1_io_cpu_writeBack_fence_SO'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15541)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'dataCache_1_io_cpu_writeBack_fence_SI'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15542)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'dataCache_1_io_cpu_writeBack_fence_PW'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15543)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'dataCache_1_io_cpu_writeBack_fence_PR'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15544)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'dataCache_1_io_cpu_writeBack_fence_PO'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15545)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'dataCache_1_io_cpu_writeBack_fence_PI'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15546)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'dataCache_1_io_cpu_writeBack_fence_FM[3]'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15547)
+[EFX-0266 WARNING] Module Instance 'memory_arbiter' input pin tied to constant (io_inputs_0_payload_fragment_source[0]=0).
+[EFX-0266 WARNING] Module Instance 'memory_arbiter' input pin tied to constant (io_inputs_1_payload_fragment_source[0]=0).
+[EFX-0266 WARNING] Module Instance 'memory_arbiter' input pin tied to constant (io_inputs_1_payload_fragment_context[0]=0).
+[EFX-0266 WARNING] Module Instance 'writeCmdInfo_fifo' input pin tied to constant (io_flush=0).
+[EFX-0266 WARNING] Module Instance 'readCmdInfo_fifo' input pin tied to constant (io_flush=0).
+[EFX-0266 WARNING] Module Instance 'cmdRouteFork_thrown_translated_fifo' input pin tied to constant (io_flush=0).
+[EFX-0266 WARNING] Module Instance 'dataLogic_cmdPush_fifo' input pin tied to constant (io_flush=0).
+[EFX-0266 WARNING] Module Instance 'writeCmdInfo_fifo' input pin tied to constant (io_flush=0).
+[EFX-0266 WARNING] Module Instance 'readCmdInfo_fifo' input pin tied to constant (io_flush=0).
+[EFX-0266 WARNING] Module Instance 'tx' input pin tied to constant (io_cts=0).
+[EFX-0266 WARNING] Module Instance 'bridge_write_streamUnbuffered_queueWithOccupancy' input pin tied to constant (io_flush=0).
+[EFX-0266 WARNING] Module Instance 'system_uart_0_io_logic_uartCtrl_1_io_read_queueWithOccupancy' input pin tied to constant (io_flush=0).
+[EFX-0266 WARNING] Module Instance 'mapping_cmdLogic_streamUnbuffered_queueWithAvailability' input pin tied to constant (io_flush=0).
+[EFX-0266 WARNING] Module Instance 'system_spi_0_io_logic_ctrl_io_rsp_queueWithOccupancy' input pin tied to constant (io_flush=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[0]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[1]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[2]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[3]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[4]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[5]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[6]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[7]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[8]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[9]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[10]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[11]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[12]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[13]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[14]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[15]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[16]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[17]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[18]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[19]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[20]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[21]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[22]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[23]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[24]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[25]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[26]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[27]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[28]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[29]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[30]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[31]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_mask[0]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_mask[1]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_mask[2]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_mask[3]=0).
+[EFX-0266 WARNING] Module Instance 'system_ddr_ddrLogic_arbiterAxi3Shared' input pin tied to constant (io_sharedInputs_0_arw_payload_id[0]=0).
+[EFX-0266 WARNING] Module Instance 'system_ddr_ddrLogic_arbiterAxi3Shared' input pin tied to constant (io_sharedInputs_0_arw_payload_id[1]=0).
+[EFX-0266 WARNING] Module Instance 'system_ddr_ddrLogic_arbiterAxi3Shared' input pin tied to constant (io_sharedInputs_0_arw_payload_id[2]=0).
+[EFX-0266 WARNING] Module Instance 'system_ddr_ddrLogic_arbiterAxi3Shared' input pin tied to constant (io_sharedInputs_0_arw_payload_id[3]=0).
+[EFX-0266 WARNING] Module Instance 'system_ddr_ddrLogic_arbiterAxi3Shared' input pin tied to constant (io_sharedInputs_0_arw_payload_id[4]=0).
+[EFX-0266 WARNING] Module Instance 'system_ddr_ddrLogic_arbiterAxi3Shared' input pin tied to constant (io_sharedInputs_0_arw_payload_id[5]=0).
+[EFX-0266 WARNING] Module Instance 'system_ddr_ddrLogic_arbiterAxi3Shared' input pin tied to constant (io_sharedInputs_0_arw_payload_id[6]=0).
+[EFX-0266 WARNING] Module Instance 'system_ddr_ddrLogic_arbiterAxi3Shared' input pin tied to constant (io_sharedInputs_0_arw_payload_burst[0]=1).
+[EFX-0266 WARNING] Module Instance 'system_ddr_ddrLogic_arbiterAxi3Shared' input pin tied to constant (io_sharedInputs_0_arw_payload_burst[1]=0).
+[EFX-0266 WARNING] Module Instance 'system_ddr_ddrLogic_arbiterAxi3Shared' input pin tied to constant (io_sharedInputs_0_arw_payload_lock[0]=0).
+[EFX-0266 WARNING] Module Instance 'system_ddr_ddrLogic_arbiterAxi3Shared' input pin tied to constant (io_sharedInputs_0_arw_payload_qos[0]=0).
+[EFX-0266 WARNING] Module Instance 'system_ddr_ddrLogic_arbiterAxi3Shared' input pin tied to constant (io_sharedInputs_0_arw_payload_qos[1]=0).
+[EFX-0266 WARNING] Module Instance 'system_ddr_ddrLogic_arbiterAxi3Shared' input pin tied to constant (io_sharedInputs_0_arw_payload_qos[2]=0).
+[EFX-0266 WARNING] Module Instance 'system_ddr_ddrLogic_arbiterAxi3Shared' input pin tied to constant (io_sharedInputs_0_arw_payload_qos[3]=0).
+[EFX-0266 WARNING] Module Instance 'system_ddr_ddrLogic_ddrAToAxi3_patchArw_translated_thrown_fifo' input pin tied to constant (io_flush=0).
+[EFX-0266 WARNING] Module Instance 'system_clint_logic' input pin tied to constant (io_stop=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_aw_payload_region[0]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_aw_payload_region[1]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_aw_payload_region[2]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_aw_payload_region[3]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_aw_payload_cache[0]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_aw_payload_cache[1]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_aw_payload_cache[2]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_aw_payload_cache[3]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_aw_payload_qos[0]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_aw_payload_qos[1]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_aw_payload_qos[2]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_aw_payload_qos[3]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_aw_payload_prot[0]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_aw_payload_prot[1]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_aw_payload_prot[2]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_ar_payload_region[0]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_ar_payload_region[1]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_ar_payload_region[2]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_ar_payload_region[3]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_ar_payload_cache[0]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_ar_payload_cache[1]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_ar_payload_cache[2]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_ar_payload_cache[3]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_ar_payload_qos[0]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_ar_payload_qos[1]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_ar_payload_qos[2]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_ar_payload_qos[3]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_ar_payload_prot[0]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_ar_payload_prot[1]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_ar_payload_prot[2]=0).
+[EFX-0657 WARNING] Mapping into logic memory block 'soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_arbiterAxi3Shared/cmdRouteFork_thrown_translated_fifo/ram' (4 bits) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:23888) because size is too small (<=64)
+[EFX-0657 WARNING] Mapping into logic memory block 'soc_inst/u_EfxSapphireSoc/system_axiA_logic_bmbToAxiBridge/writeCmdInfo_fifo/logic_ram' (16 bits) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:22243) because size is too small (<=64)
+[EFX-0657 WARNING] Mapping into logic memory block 'soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_ddrAToAxi3_patchArw_translated_thrown_fifo/ram' (64 bits) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:12758) because size is too small (<=64)
+[EFX-0657 WARNING] Mapping into logic memory block 'soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_userAdapters_0_upsizer_logic/readOnly/dataLogic_cmdPush_fifo/logic_ram' (60 bits) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:26581) because size is too small (<=64)
+[EFX-0657 WARNING] Mapping into logic memory block 'soc_inst/u_EfxSapphireSoc/system_axiA_logic_bmbToAxiBridge/readCmdInfo_fifo/logic_ram' (16 bits) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:22243) because size is too small (<=64)
+[EFX-0011 VERI-WARNING] Input/Inout Port io_ddrA_b_payload_id[6] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port io_ddrA_b_payload_id[5] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port io_ddrA_b_payload_id[4] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port io_ddrA_b_payload_id[3] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port io_ddrA_b_payload_id[2] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port io_ddrA_b_payload_id[1] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port io_ddrA_b_payload_id[0] is unconnected and will be removed 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 09, 2024 21:31:04
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] expression size 64 truncated to fit in target size 20 (VERI-1209) (E:/infinix/T120F324_devkit/ddr_reset_sequencer.v:94)
+[EFX-0011 VERI-WARNING] expression size 10 truncated to fit in target size 8 (VERI-1209) (E:\infinix\T120F324_devkit\design_modules.v:645)
+[EFX-0011 VERI-WARNING] expression size 32 truncated to fit in target size 10 (VERI-1209) (E:\infinix\T120F324_devkit\design_modules.v:1324)
+[EFX-0011 VERI-WARNING] expression size 10 truncated to fit in target size 8 (VERI-1209) (E:\infinix\T120F324_devkit\design_modules.v:645)
+[EFX-0011 VERI-WARNING] expression size 10 truncated to fit in target size 8 (VERI-1209) (E:\infinix\T120F324_devkit\design_modules.v:645)
+[EFX-0011 VERI-WARNING] expression size 10 truncated to fit in target size 8 (VERI-1209) (E:\infinix\T120F324_devkit\design_modules.v:645)
+[EFX-0011 VERI-WARNING] system function call 'urandom' is not supported (VERI-1141) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:3994)
+[EFX-0011 VERI-WARNING] system task 'display' is ignored for synthesis (VERI-1142) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:25643)
+[EFX-0011 VERI-WARNING] net 'IBusCachedPlugin_cache_io_cpu_fetch_isRemoved' does not have a driver (VDB-1002) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15526)
+[EFX-0011 VERI-WARNING] net 'dataCache_1_io_cpu_writeBack_fence_SW' does not have a driver (VDB-1002) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15539)
+[EFX-0011 VERI-WARNING] net 'dataCache_1_io_cpu_writeBack_fence_SR' does not have a driver (VDB-1002) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15540)
+[EFX-0011 VERI-WARNING] net 'dataCache_1_io_cpu_writeBack_fence_SO' does not have a driver (VDB-1002) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15541)
+[EFX-0011 VERI-WARNING] net 'dataCache_1_io_cpu_writeBack_fence_SI' does not have a driver (VDB-1002) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15542)
+[EFX-0011 VERI-WARNING] net 'dataCache_1_io_cpu_writeBack_fence_PW' does not have a driver (VDB-1002) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15543)
+[EFX-0011 VERI-WARNING] net 'dataCache_1_io_cpu_writeBack_fence_PR' does not have a driver (VDB-1002) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15544)
+[EFX-0011 VERI-WARNING] net 'dataCache_1_io_cpu_writeBack_fence_PO' does not have a driver (VDB-1002) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15545)
+[EFX-0011 VERI-WARNING] net 'dataCache_1_io_cpu_writeBack_fence_PI' does not have a driver (VDB-1002) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15546)
+[EFX-0011 VERI-WARNING] net 'dataCache_1_io_cpu_writeBack_fence_FM[3]' does not have a driver (VDB-1002) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15547)
+[EFX-0011 VERI-WARNING] net 'IBusCachedPlugin_mmuBus_rsp_bypassTranslation' does not have a driver (VDB-1002) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:16042)
+[EFX-0011 VERI-WARNING] net 'DBusCachedPlugin_mmuBus_rsp_bypassTranslation' does not have a driver (VDB-1002) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:16057)
+[EFX-0011 VERI-WARNING] net 'IBusCachedPlugin_iBusRsp_output_payload_rsp_error' does not have a driver (VDB-1002) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:16165)
+[EFX-0011 VERI-WARNING] net 'IBusCachedPlugin_iBusRsp_output_payload_isRvc' does not have a driver (VDB-1002) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:16167)
+[EFX-0011 VERI-WARNING] net 'CsrPlugin_mtvec_mode[1]' does not have a driver (VDB-1002) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:16331)
+[EFX-0011 VERI-WARNING] system function call 'urandom' is not supported (VERI-1141) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:24778)
+[EFX-0011 VERI-WARNING] system function call 'urandom' is not supported (VERI-1141) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:24779)
+[EFX-0011 VERI-WARNING] system function call 'urandom' is not supported (VERI-1141) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:27005)
+[EFX-0011 VERI-WARNING] system function call 'urandom' is not supported (VERI-1141) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:27006)
+[EFX-0011 VERI-WARNING] system function call 'urandom' is not supported (VERI-1141) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:8220)
+[EFX-0011 VERI-WARNING] system function call 'urandom' is not supported (VERI-1141) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:8221)
+[EFX-0011 VERI-WARNING] net 'm_bid_0[7]' does not have a driver (VDB-1002) (E:\infinix\T120F324_devkit\top_soc.v:164)
+[EFX-0011 VERI-WARNING] input port 'system_spi_0_io_data_2_read' remains unconnected for this instance (VDB-1053) (E:\infinix\T120F324_devkit\top_soc.v:326)
+[EFX-0256 WARNING] The primary output port 'io_ddrA_arw_payload_lock[1]' wire 'io_ddrA_arw_payload_lock[1]' is not driven.
+[EFX-0200 WARNING] Removing redundant signal : PADDR[15]. (E:\infinix\T120F324_devkit\design_modules.v:37)
+[EFX-0200 WARNING] Removing redundant signal : PADDR[14]. (E:\infinix\T120F324_devkit\design_modules.v:37)
+[EFX-0200 WARNING] Removing redundant signal : PADDR[13]. (E:\infinix\T120F324_devkit\design_modules.v:37)
+[EFX-0200 WARNING] Removing redundant signal : PADDR[12]. (E:\infinix\T120F324_devkit\design_modules.v:37)
+[EFX-0200 WARNING] Removing redundant signal : PADDR[11]. (E:\infinix\T120F324_devkit\design_modules.v:37)
+[EFX-0200 WARNING] Removing redundant signal : PADDR[10]. (E:\infinix\T120F324_devkit\design_modules.v:37)
+[EFX-0200 WARNING] Removing redundant signal : PADDR[9]. (E:\infinix\T120F324_devkit\design_modules.v:37)
+[EFX-0200 WARNING] Removing redundant signal : PADDR[8]. (E:\infinix\T120F324_devkit\design_modules.v:37)
+[EFX-0200 WARNING] Removing redundant signal : PADDR[7]. (E:\infinix\T120F324_devkit\design_modules.v:37)
+[EFX-0200 WARNING] Removing redundant signal : PADDR[6]. (E:\infinix\T120F324_devkit\design_modules.v:37)
+[EFX-0200 WARNING] Removing redundant signal : byteIndex[31]. (E:\infinix\T120F324_devkit\design_modules.v:55)
+[EFX-0200 WARNING] Removing redundant signal : byteIndex[30]. (E:\infinix\T120F324_devkit\design_modules.v:55)
+[EFX-0200 WARNING] Removing redundant signal : byteIndex[29]. (E:\infinix\T120F324_devkit\design_modules.v:55)
+[EFX-0200 WARNING] Removing redundant signal : byteIndex[28]. (E:\infinix\T120F324_devkit\design_modules.v:55)
+[EFX-0200 WARNING] Removing redundant signal : byteIndex[27]. (E:\infinix\T120F324_devkit\design_modules.v:55)
+[EFX-0200 WARNING] Removing redundant signal : byteIndex[26]. (E:\infinix\T120F324_devkit\design_modules.v:55)
+[EFX-0200 WARNING] Removing redundant signal : byteIndex[25]. (E:\infinix\T120F324_devkit\design_modules.v:55)
+[EFX-0200 WARNING] Removing redundant signal : byteIndex[24]. (E:\infinix\T120F324_devkit\design_modules.v:55)
+[EFX-0200 WARNING] Removing redundant signal : byteIndex[23]. (E:\infinix\T120F324_devkit\design_modules.v:55)
+[EFX-0200 WARNING] Removing redundant signal : byteIndex[22]. (E:\infinix\T120F324_devkit\design_modules.v:55)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'IBusCachedPlugin_cache_io_cpu_fetch_isRemoved'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15526)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'dataCache_1_io_cpu_writeBack_fence_SW'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15539)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'dataCache_1_io_cpu_writeBack_fence_SR'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15540)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'dataCache_1_io_cpu_writeBack_fence_SO'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15541)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'dataCache_1_io_cpu_writeBack_fence_SI'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15542)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'dataCache_1_io_cpu_writeBack_fence_PW'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15543)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'dataCache_1_io_cpu_writeBack_fence_PR'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15544)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'dataCache_1_io_cpu_writeBack_fence_PO'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15545)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'dataCache_1_io_cpu_writeBack_fence_PI'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15546)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'dataCache_1_io_cpu_writeBack_fence_FM[3]'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15547)
+[EFX-0266 WARNING] Module Instance 'memory_arbiter' input pin tied to constant (io_inputs_0_payload_fragment_source[0]=0).
+[EFX-0266 WARNING] Module Instance 'memory_arbiter' input pin tied to constant (io_inputs_1_payload_fragment_source[0]=0).
+[EFX-0266 WARNING] Module Instance 'memory_arbiter' input pin tied to constant (io_inputs_1_payload_fragment_context[0]=0).
+[EFX-0266 WARNING] Module Instance 'writeCmdInfo_fifo' input pin tied to constant (io_flush=0).
+[EFX-0266 WARNING] Module Instance 'readCmdInfo_fifo' input pin tied to constant (io_flush=0).
+[EFX-0266 WARNING] Module Instance 'cmdRouteFork_thrown_translated_fifo' input pin tied to constant (io_flush=0).
+[EFX-0266 WARNING] Module Instance 'dataLogic_cmdPush_fifo' input pin tied to constant (io_flush=0).
+[EFX-0266 WARNING] Module Instance 'writeCmdInfo_fifo' input pin tied to constant (io_flush=0).
+[EFX-0266 WARNING] Module Instance 'readCmdInfo_fifo' input pin tied to constant (io_flush=0).
+[EFX-0266 WARNING] Module Instance 'tx' input pin tied to constant (io_cts=0).
+[EFX-0266 WARNING] Module Instance 'bridge_write_streamUnbuffered_queueWithOccupancy' input pin tied to constant (io_flush=0).
+[EFX-0266 WARNING] Module Instance 'system_uart_0_io_logic_uartCtrl_1_io_read_queueWithOccupancy' input pin tied to constant (io_flush=0).
+[EFX-0266 WARNING] Module Instance 'mapping_cmdLogic_streamUnbuffered_queueWithAvailability' input pin tied to constant (io_flush=0).
+[EFX-0266 WARNING] Module Instance 'system_spi_0_io_logic_ctrl_io_rsp_queueWithOccupancy' input pin tied to constant (io_flush=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[0]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[1]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[2]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[3]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[4]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[5]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[6]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[7]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[8]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[9]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[10]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[11]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[12]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[13]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[14]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[15]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[16]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[17]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[18]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[19]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[20]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[21]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[22]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[23]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[24]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[25]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[26]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[27]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[28]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[29]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[30]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[31]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_mask[0]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_mask[1]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_mask[2]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_mask[3]=0).
+[EFX-0266 WARNING] Module Instance 'system_ddr_ddrLogic_arbiterAxi3Shared' input pin tied to constant (io_sharedInputs_0_arw_payload_id[0]=0).
+[EFX-0266 WARNING] Module Instance 'system_ddr_ddrLogic_arbiterAxi3Shared' input pin tied to constant (io_sharedInputs_0_arw_payload_id[1]=0).
+[EFX-0266 WARNING] Module Instance 'system_ddr_ddrLogic_arbiterAxi3Shared' input pin tied to constant (io_sharedInputs_0_arw_payload_id[2]=0).
+[EFX-0266 WARNING] Module Instance 'system_ddr_ddrLogic_arbiterAxi3Shared' input pin tied to constant (io_sharedInputs_0_arw_payload_id[3]=0).
+[EFX-0266 WARNING] Module Instance 'system_ddr_ddrLogic_arbiterAxi3Shared' input pin tied to constant (io_sharedInputs_0_arw_payload_id[4]=0).
+[EFX-0266 WARNING] Module Instance 'system_ddr_ddrLogic_arbiterAxi3Shared' input pin tied to constant (io_sharedInputs_0_arw_payload_id[5]=0).
+[EFX-0266 WARNING] Module Instance 'system_ddr_ddrLogic_arbiterAxi3Shared' input pin tied to constant (io_sharedInputs_0_arw_payload_id[6]=0).
+[EFX-0266 WARNING] Module Instance 'system_ddr_ddrLogic_arbiterAxi3Shared' input pin tied to constant (io_sharedInputs_0_arw_payload_burst[0]=1).
+[EFX-0266 WARNING] Module Instance 'system_ddr_ddrLogic_arbiterAxi3Shared' input pin tied to constant (io_sharedInputs_0_arw_payload_burst[1]=0).
+[EFX-0266 WARNING] Module Instance 'system_ddr_ddrLogic_arbiterAxi3Shared' input pin tied to constant (io_sharedInputs_0_arw_payload_lock[0]=0).
+[EFX-0266 WARNING] Module Instance 'system_ddr_ddrLogic_arbiterAxi3Shared' input pin tied to constant (io_sharedInputs_0_arw_payload_qos[0]=0).
+[EFX-0266 WARNING] Module Instance 'system_ddr_ddrLogic_arbiterAxi3Shared' input pin tied to constant (io_sharedInputs_0_arw_payload_qos[1]=0).
+[EFX-0266 WARNING] Module Instance 'system_ddr_ddrLogic_arbiterAxi3Shared' input pin tied to constant (io_sharedInputs_0_arw_payload_qos[2]=0).
+[EFX-0266 WARNING] Module Instance 'system_ddr_ddrLogic_arbiterAxi3Shared' input pin tied to constant (io_sharedInputs_0_arw_payload_qos[3]=0).
+[EFX-0266 WARNING] Module Instance 'system_ddr_ddrLogic_ddrAToAxi3_patchArw_translated_thrown_fifo' input pin tied to constant (io_flush=0).
+[EFX-0266 WARNING] Module Instance 'system_clint_logic' input pin tied to constant (io_stop=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_aw_payload_region[0]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_aw_payload_region[1]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_aw_payload_region[2]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_aw_payload_region[3]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_aw_payload_cache[0]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_aw_payload_cache[1]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_aw_payload_cache[2]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_aw_payload_cache[3]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_aw_payload_qos[0]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_aw_payload_qos[1]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_aw_payload_qos[2]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_aw_payload_qos[3]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_aw_payload_prot[0]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_aw_payload_prot[1]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_aw_payload_prot[2]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_ar_payload_region[0]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_ar_payload_region[1]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_ar_payload_region[2]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_ar_payload_region[3]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_ar_payload_cache[0]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_ar_payload_cache[1]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_ar_payload_cache[2]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_ar_payload_cache[3]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_ar_payload_qos[0]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_ar_payload_qos[1]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_ar_payload_qos[2]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_ar_payload_qos[3]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_ar_payload_prot[0]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_ar_payload_prot[1]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_ar_payload_prot[2]=0).
+[EFX-0657 WARNING] Mapping into logic memory block 'soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_arbiterAxi3Shared/cmdRouteFork_thrown_translated_fifo/ram' (4 bits) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:23888) because size is too small (<=64)
+[EFX-0657 WARNING] Mapping into logic memory block 'soc_inst/u_EfxSapphireSoc/system_axiA_logic_bmbToAxiBridge/writeCmdInfo_fifo/logic_ram' (16 bits) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:22243) because size is too small (<=64)
+[EFX-0657 WARNING] Mapping into logic memory block 'soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_ddrAToAxi3_patchArw_translated_thrown_fifo/ram' (64 bits) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:12758) because size is too small (<=64)
+[EFX-0657 WARNING] Mapping into logic memory block 'soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_userAdapters_0_upsizer_logic/readOnly/dataLogic_cmdPush_fifo/logic_ram' (60 bits) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:26581) because size is too small (<=64)
+[EFX-0657 WARNING] Mapping into logic memory block 'soc_inst/u_EfxSapphireSoc/system_axiA_logic_bmbToAxiBridge/readCmdInfo_fifo/logic_ram' (16 bits) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:22243) because size is too small (<=64)
+[EFX-0011 VERI-WARNING] Input/Inout Port io_ddrA_b_payload_id[6] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port io_ddrA_b_payload_id[5] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port io_ddrA_b_payload_id[4] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port io_ddrA_b_payload_id[3] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port io_ddrA_b_payload_id[2] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port io_ddrA_b_payload_id[1] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port io_ddrA_b_payload_id[0] is unconnected and will be removed 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 09, 2024 21:36:59
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] expression size 64 truncated to fit in target size 20 (VERI-1209) (E:/infinix/T120F324_devkit/ddr_reset_sequencer.v:94)
+[EFX-0011 VERI-WARNING] expression size 10 truncated to fit in target size 8 (VERI-1209) (E:\infinix\T120F324_devkit\design_modules.v:645)
+[EFX-0011 VERI-WARNING] expression size 32 truncated to fit in target size 10 (VERI-1209) (E:\infinix\T120F324_devkit\design_modules.v:1324)
+[EFX-0011 VERI-WARNING] expression size 10 truncated to fit in target size 8 (VERI-1209) (E:\infinix\T120F324_devkit\design_modules.v:645)
+[EFX-0011 VERI-WARNING] expression size 10 truncated to fit in target size 8 (VERI-1209) (E:\infinix\T120F324_devkit\design_modules.v:645)
+[EFX-0011 VERI-WARNING] expression size 10 truncated to fit in target size 8 (VERI-1209) (E:\infinix\T120F324_devkit\design_modules.v:645)
+[EFX-0011 VERI-WARNING] system function call 'urandom' is not supported (VERI-1141) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:3994)
+[EFX-0011 VERI-WARNING] system task 'display' is ignored for synthesis (VERI-1142) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:25643)
+[EFX-0011 VERI-WARNING] net 'IBusCachedPlugin_cache_io_cpu_fetch_isRemoved' does not have a driver (VDB-1002) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15526)
+[EFX-0011 VERI-WARNING] net 'dataCache_1_io_cpu_writeBack_fence_SW' does not have a driver (VDB-1002) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15539)
+[EFX-0011 VERI-WARNING] net 'dataCache_1_io_cpu_writeBack_fence_SR' does not have a driver (VDB-1002) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15540)
+[EFX-0011 VERI-WARNING] net 'dataCache_1_io_cpu_writeBack_fence_SO' does not have a driver (VDB-1002) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15541)
+[EFX-0011 VERI-WARNING] net 'dataCache_1_io_cpu_writeBack_fence_SI' does not have a driver (VDB-1002) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15542)
+[EFX-0011 VERI-WARNING] net 'dataCache_1_io_cpu_writeBack_fence_PW' does not have a driver (VDB-1002) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15543)
+[EFX-0011 VERI-WARNING] net 'dataCache_1_io_cpu_writeBack_fence_PR' does not have a driver (VDB-1002) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15544)
+[EFX-0011 VERI-WARNING] net 'dataCache_1_io_cpu_writeBack_fence_PO' does not have a driver (VDB-1002) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15545)
+[EFX-0011 VERI-WARNING] net 'dataCache_1_io_cpu_writeBack_fence_PI' does not have a driver (VDB-1002) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15546)
+[EFX-0011 VERI-WARNING] net 'dataCache_1_io_cpu_writeBack_fence_FM[3]' does not have a driver (VDB-1002) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15547)
+[EFX-0011 VERI-WARNING] net 'IBusCachedPlugin_mmuBus_rsp_bypassTranslation' does not have a driver (VDB-1002) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:16042)
+[EFX-0011 VERI-WARNING] net 'DBusCachedPlugin_mmuBus_rsp_bypassTranslation' does not have a driver (VDB-1002) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:16057)
+[EFX-0011 VERI-WARNING] net 'IBusCachedPlugin_iBusRsp_output_payload_rsp_error' does not have a driver (VDB-1002) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:16165)
+[EFX-0011 VERI-WARNING] net 'IBusCachedPlugin_iBusRsp_output_payload_isRvc' does not have a driver (VDB-1002) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:16167)
+[EFX-0011 VERI-WARNING] net 'CsrPlugin_mtvec_mode[1]' does not have a driver (VDB-1002) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:16331)
+[EFX-0011 VERI-WARNING] system function call 'urandom' is not supported (VERI-1141) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:24778)
+[EFX-0011 VERI-WARNING] system function call 'urandom' is not supported (VERI-1141) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:24779)
+[EFX-0011 VERI-WARNING] system function call 'urandom' is not supported (VERI-1141) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:27005)
+[EFX-0011 VERI-WARNING] system function call 'urandom' is not supported (VERI-1141) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:27006)
+[EFX-0011 VERI-WARNING] system function call 'urandom' is not supported (VERI-1141) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:8220)
+[EFX-0011 VERI-WARNING] system function call 'urandom' is not supported (VERI-1141) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:8221)
+[EFX-0011 VERI-WARNING] net 'm_bid_0[7]' does not have a driver (VDB-1002) (E:\infinix\T120F324_devkit\top_soc.v:164)
+[EFX-0011 VERI-WARNING] input port 'system_spi_0_io_data_2_read' remains unconnected for this instance (VDB-1053) (E:\infinix\T120F324_devkit\top_soc.v:326)
+[EFX-0256 WARNING] The primary output port 'io_ddrA_arw_payload_lock[1]' wire 'io_ddrA_arw_payload_lock[1]' is not driven.
+[EFX-0200 WARNING] Removing redundant signal : PADDR[15]. (E:\infinix\T120F324_devkit\design_modules.v:37)
+[EFX-0200 WARNING] Removing redundant signal : PADDR[14]. (E:\infinix\T120F324_devkit\design_modules.v:37)
+[EFX-0200 WARNING] Removing redundant signal : PADDR[13]. (E:\infinix\T120F324_devkit\design_modules.v:37)
+[EFX-0200 WARNING] Removing redundant signal : PADDR[12]. (E:\infinix\T120F324_devkit\design_modules.v:37)
+[EFX-0200 WARNING] Removing redundant signal : PADDR[11]. (E:\infinix\T120F324_devkit\design_modules.v:37)
+[EFX-0200 WARNING] Removing redundant signal : PADDR[10]. (E:\infinix\T120F324_devkit\design_modules.v:37)
+[EFX-0200 WARNING] Removing redundant signal : PADDR[9]. (E:\infinix\T120F324_devkit\design_modules.v:37)
+[EFX-0200 WARNING] Removing redundant signal : PADDR[8]. (E:\infinix\T120F324_devkit\design_modules.v:37)
+[EFX-0200 WARNING] Removing redundant signal : PADDR[7]. (E:\infinix\T120F324_devkit\design_modules.v:37)
+[EFX-0200 WARNING] Removing redundant signal : PADDR[6]. (E:\infinix\T120F324_devkit\design_modules.v:37)
+[EFX-0200 WARNING] Removing redundant signal : byteIndex[31]. (E:\infinix\T120F324_devkit\design_modules.v:55)
+[EFX-0200 WARNING] Removing redundant signal : byteIndex[30]. (E:\infinix\T120F324_devkit\design_modules.v:55)
+[EFX-0200 WARNING] Removing redundant signal : byteIndex[29]. (E:\infinix\T120F324_devkit\design_modules.v:55)
+[EFX-0200 WARNING] Removing redundant signal : byteIndex[28]. (E:\infinix\T120F324_devkit\design_modules.v:55)
+[EFX-0200 WARNING] Removing redundant signal : byteIndex[27]. (E:\infinix\T120F324_devkit\design_modules.v:55)
+[EFX-0200 WARNING] Removing redundant signal : byteIndex[26]. (E:\infinix\T120F324_devkit\design_modules.v:55)
+[EFX-0200 WARNING] Removing redundant signal : byteIndex[25]. (E:\infinix\T120F324_devkit\design_modules.v:55)
+[EFX-0200 WARNING] Removing redundant signal : byteIndex[24]. (E:\infinix\T120F324_devkit\design_modules.v:55)
+[EFX-0200 WARNING] Removing redundant signal : byteIndex[23]. (E:\infinix\T120F324_devkit\design_modules.v:55)
+[EFX-0200 WARNING] Removing redundant signal : byteIndex[22]. (E:\infinix\T120F324_devkit\design_modules.v:55)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'IBusCachedPlugin_cache_io_cpu_fetch_isRemoved'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15526)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'dataCache_1_io_cpu_writeBack_fence_SW'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15539)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'dataCache_1_io_cpu_writeBack_fence_SR'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15540)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'dataCache_1_io_cpu_writeBack_fence_SO'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15541)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'dataCache_1_io_cpu_writeBack_fence_SI'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15542)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'dataCache_1_io_cpu_writeBack_fence_PW'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15543)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'dataCache_1_io_cpu_writeBack_fence_PR'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15544)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'dataCache_1_io_cpu_writeBack_fence_PO'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15545)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'dataCache_1_io_cpu_writeBack_fence_PI'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15546)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'dataCache_1_io_cpu_writeBack_fence_FM[3]'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15547)
+[EFX-0266 WARNING] Module Instance 'memory_arbiter' input pin tied to constant (io_inputs_0_payload_fragment_source[0]=0).
+[EFX-0266 WARNING] Module Instance 'memory_arbiter' input pin tied to constant (io_inputs_1_payload_fragment_source[0]=0).
+[EFX-0266 WARNING] Module Instance 'memory_arbiter' input pin tied to constant (io_inputs_1_payload_fragment_context[0]=0).
+[EFX-0266 WARNING] Module Instance 'writeCmdInfo_fifo' input pin tied to constant (io_flush=0).
+[EFX-0266 WARNING] Module Instance 'readCmdInfo_fifo' input pin tied to constant (io_flush=0).
+[EFX-0266 WARNING] Module Instance 'cmdRouteFork_thrown_translated_fifo' input pin tied to constant (io_flush=0).
+[EFX-0266 WARNING] Module Instance 'dataLogic_cmdPush_fifo' input pin tied to constant (io_flush=0).
+[EFX-0266 WARNING] Module Instance 'writeCmdInfo_fifo' input pin tied to constant (io_flush=0).
+[EFX-0266 WARNING] Module Instance 'readCmdInfo_fifo' input pin tied to constant (io_flush=0).
+[EFX-0266 WARNING] Module Instance 'tx' input pin tied to constant (io_cts=0).
+[EFX-0266 WARNING] Module Instance 'bridge_write_streamUnbuffered_queueWithOccupancy' input pin tied to constant (io_flush=0).
+[EFX-0266 WARNING] Module Instance 'system_uart_0_io_logic_uartCtrl_1_io_read_queueWithOccupancy' input pin tied to constant (io_flush=0).
+[EFX-0266 WARNING] Module Instance 'mapping_cmdLogic_streamUnbuffered_queueWithAvailability' input pin tied to constant (io_flush=0).
+[EFX-0266 WARNING] Module Instance 'system_spi_0_io_logic_ctrl_io_rsp_queueWithOccupancy' input pin tied to constant (io_flush=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[0]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[1]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[2]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[3]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[4]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[5]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[6]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[7]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[8]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[9]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[10]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[11]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[12]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[13]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[14]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[15]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[16]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[17]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[18]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[19]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[20]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[21]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[22]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[23]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[24]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[25]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[26]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[27]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[28]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[29]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[30]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[31]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_mask[0]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_mask[1]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_mask[2]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_mask[3]=0).
+[EFX-0266 WARNING] Module Instance 'system_ddr_ddrLogic_arbiterAxi3Shared' input pin tied to constant (io_sharedInputs_0_arw_payload_id[0]=0).
+[EFX-0266 WARNING] Module Instance 'system_ddr_ddrLogic_arbiterAxi3Shared' input pin tied to constant (io_sharedInputs_0_arw_payload_id[1]=0).
+[EFX-0266 WARNING] Module Instance 'system_ddr_ddrLogic_arbiterAxi3Shared' input pin tied to constant (io_sharedInputs_0_arw_payload_id[2]=0).
+[EFX-0266 WARNING] Module Instance 'system_ddr_ddrLogic_arbiterAxi3Shared' input pin tied to constant (io_sharedInputs_0_arw_payload_id[3]=0).
+[EFX-0266 WARNING] Module Instance 'system_ddr_ddrLogic_arbiterAxi3Shared' input pin tied to constant (io_sharedInputs_0_arw_payload_id[4]=0).
+[EFX-0266 WARNING] Module Instance 'system_ddr_ddrLogic_arbiterAxi3Shared' input pin tied to constant (io_sharedInputs_0_arw_payload_id[5]=0).
+[EFX-0266 WARNING] Module Instance 'system_ddr_ddrLogic_arbiterAxi3Shared' input pin tied to constant (io_sharedInputs_0_arw_payload_id[6]=0).
+[EFX-0266 WARNING] Module Instance 'system_ddr_ddrLogic_arbiterAxi3Shared' input pin tied to constant (io_sharedInputs_0_arw_payload_burst[0]=1).
+[EFX-0266 WARNING] Module Instance 'system_ddr_ddrLogic_arbiterAxi3Shared' input pin tied to constant (io_sharedInputs_0_arw_payload_burst[1]=0).
+[EFX-0266 WARNING] Module Instance 'system_ddr_ddrLogic_arbiterAxi3Shared' input pin tied to constant (io_sharedInputs_0_arw_payload_lock[0]=0).
+[EFX-0266 WARNING] Module Instance 'system_ddr_ddrLogic_arbiterAxi3Shared' input pin tied to constant (io_sharedInputs_0_arw_payload_qos[0]=0).
+[EFX-0266 WARNING] Module Instance 'system_ddr_ddrLogic_arbiterAxi3Shared' input pin tied to constant (io_sharedInputs_0_arw_payload_qos[1]=0).
+[EFX-0266 WARNING] Module Instance 'system_ddr_ddrLogic_arbiterAxi3Shared' input pin tied to constant (io_sharedInputs_0_arw_payload_qos[2]=0).
+[EFX-0266 WARNING] Module Instance 'system_ddr_ddrLogic_arbiterAxi3Shared' input pin tied to constant (io_sharedInputs_0_arw_payload_qos[3]=0).
+[EFX-0266 WARNING] Module Instance 'system_ddr_ddrLogic_ddrAToAxi3_patchArw_translated_thrown_fifo' input pin tied to constant (io_flush=0).
+[EFX-0266 WARNING] Module Instance 'system_clint_logic' input pin tied to constant (io_stop=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_aw_payload_region[0]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_aw_payload_region[1]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_aw_payload_region[2]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_aw_payload_region[3]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_aw_payload_cache[0]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_aw_payload_cache[1]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_aw_payload_cache[2]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_aw_payload_cache[3]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_aw_payload_qos[0]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_aw_payload_qos[1]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_aw_payload_qos[2]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_aw_payload_qos[3]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_aw_payload_prot[0]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_aw_payload_prot[1]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_aw_payload_prot[2]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_ar_payload_region[0]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_ar_payload_region[1]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_ar_payload_region[2]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_ar_payload_region[3]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_ar_payload_cache[0]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_ar_payload_cache[1]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_ar_payload_cache[2]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_ar_payload_cache[3]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_ar_payload_qos[0]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_ar_payload_qos[1]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_ar_payload_qos[2]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_ar_payload_qos[3]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_ar_payload_prot[0]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_ar_payload_prot[1]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_ar_payload_prot[2]=0).
+[EFX-0657 WARNING] Mapping into logic memory block 'soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_arbiterAxi3Shared/cmdRouteFork_thrown_translated_fifo/ram' (4 bits) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:23888) because size is too small (<=64)
+[EFX-0657 WARNING] Mapping into logic memory block 'soc_inst/u_EfxSapphireSoc/system_axiA_logic_bmbToAxiBridge/writeCmdInfo_fifo/logic_ram' (16 bits) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:22243) because size is too small (<=64)
+[EFX-0657 WARNING] Mapping into logic memory block 'soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_ddrAToAxi3_patchArw_translated_thrown_fifo/ram' (64 bits) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:12758) because size is too small (<=64)
+[EFX-0657 WARNING] Mapping into logic memory block 'soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_userAdapters_0_upsizer_logic/readOnly/dataLogic_cmdPush_fifo/logic_ram' (60 bits) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:26581) because size is too small (<=64)
+[EFX-0657 WARNING] Mapping into logic memory block 'soc_inst/u_EfxSapphireSoc/system_axiA_logic_bmbToAxiBridge/readCmdInfo_fifo/logic_ram' (16 bits) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:22243) because size is too small (<=64)
+[EFX-0011 VERI-WARNING] Input/Inout Port io_ddrA_b_payload_id[6] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port io_ddrA_b_payload_id[5] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port io_ddrA_b_payload_id[4] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port io_ddrA_b_payload_id[3] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port io_ddrA_b_payload_id[2] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port io_ddrA_b_payload_id[1] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port io_ddrA_b_payload_id[0] is unconnected and will be removed 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 09, 2024 22:07:09
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] expression size 64 truncated to fit in target size 20 (VERI-1209) (E:/infinix/T120F324_devkit/ddr_reset_sequencer.v:94)
+[EFX-0011 VERI-WARNING] expression size 10 truncated to fit in target size 8 (VERI-1209) (E:\infinix\T120F324_devkit\design_modules.v:645)
+[EFX-0011 VERI-WARNING] expression size 32 truncated to fit in target size 10 (VERI-1209) (E:\infinix\T120F324_devkit\design_modules.v:1324)
+[EFX-0011 VERI-WARNING] expression size 10 truncated to fit in target size 8 (VERI-1209) (E:\infinix\T120F324_devkit\design_modules.v:645)
+[EFX-0011 VERI-WARNING] expression size 10 truncated to fit in target size 8 (VERI-1209) (E:\infinix\T120F324_devkit\design_modules.v:645)
+[EFX-0011 VERI-WARNING] expression size 10 truncated to fit in target size 8 (VERI-1209) (E:\infinix\T120F324_devkit\design_modules.v:645)
+[EFX-0011 VERI-WARNING] system function call 'urandom' is not supported (VERI-1141) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:3994)
+[EFX-0011 VERI-WARNING] system task 'display' is ignored for synthesis (VERI-1142) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:25643)
+[EFX-0011 VERI-WARNING] net 'IBusCachedPlugin_cache_io_cpu_fetch_isRemoved' does not have a driver (VDB-1002) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15526)
+[EFX-0011 VERI-WARNING] net 'dataCache_1_io_cpu_writeBack_fence_SW' does not have a driver (VDB-1002) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15539)
+[EFX-0011 VERI-WARNING] net 'dataCache_1_io_cpu_writeBack_fence_SR' does not have a driver (VDB-1002) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15540)
+[EFX-0011 VERI-WARNING] net 'dataCache_1_io_cpu_writeBack_fence_SO' does not have a driver (VDB-1002) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15541)
+[EFX-0011 VERI-WARNING] net 'dataCache_1_io_cpu_writeBack_fence_SI' does not have a driver (VDB-1002) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15542)
+[EFX-0011 VERI-WARNING] net 'dataCache_1_io_cpu_writeBack_fence_PW' does not have a driver (VDB-1002) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15543)
+[EFX-0011 VERI-WARNING] net 'dataCache_1_io_cpu_writeBack_fence_PR' does not have a driver (VDB-1002) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15544)
+[EFX-0011 VERI-WARNING] net 'dataCache_1_io_cpu_writeBack_fence_PO' does not have a driver (VDB-1002) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15545)
+[EFX-0011 VERI-WARNING] net 'dataCache_1_io_cpu_writeBack_fence_PI' does not have a driver (VDB-1002) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15546)
+[EFX-0011 VERI-WARNING] net 'dataCache_1_io_cpu_writeBack_fence_FM[3]' does not have a driver (VDB-1002) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15547)
+[EFX-0011 VERI-WARNING] net 'IBusCachedPlugin_mmuBus_rsp_bypassTranslation' does not have a driver (VDB-1002) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:16042)
+[EFX-0011 VERI-WARNING] net 'DBusCachedPlugin_mmuBus_rsp_bypassTranslation' does not have a driver (VDB-1002) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:16057)
+[EFX-0011 VERI-WARNING] net 'IBusCachedPlugin_iBusRsp_output_payload_rsp_error' does not have a driver (VDB-1002) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:16165)
+[EFX-0011 VERI-WARNING] net 'IBusCachedPlugin_iBusRsp_output_payload_isRvc' does not have a driver (VDB-1002) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:16167)
+[EFX-0011 VERI-WARNING] net 'CsrPlugin_mtvec_mode[1]' does not have a driver (VDB-1002) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:16331)
+[EFX-0011 VERI-WARNING] system function call 'urandom' is not supported (VERI-1141) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:24778)
+[EFX-0011 VERI-WARNING] system function call 'urandom' is not supported (VERI-1141) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:24779)
+[EFX-0011 VERI-WARNING] system function call 'urandom' is not supported (VERI-1141) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:27005)
+[EFX-0011 VERI-WARNING] system function call 'urandom' is not supported (VERI-1141) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:27006)
+[EFX-0011 VERI-WARNING] system function call 'urandom' is not supported (VERI-1141) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:8220)
+[EFX-0011 VERI-WARNING] system function call 'urandom' is not supported (VERI-1141) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:8221)
+[EFX-0011 VERI-WARNING] net 'm_bid_0[7]' does not have a driver (VDB-1002) (E:\infinix\T120F324_devkit\top_soc.v:164)
+[EFX-0011 VERI-WARNING] input port 'system_spi_0_io_data_2_read' remains unconnected for this instance (VDB-1053) (E:\infinix\T120F324_devkit\top_soc.v:326)
+[EFX-0256 WARNING] The primary output port 'io_ddrA_arw_payload_lock[1]' wire 'io_ddrA_arw_payload_lock[1]' is not driven.
+[EFX-0200 WARNING] Removing redundant signal : PADDR[15]. (E:\infinix\T120F324_devkit\design_modules.v:37)
+[EFX-0200 WARNING] Removing redundant signal : PADDR[14]. (E:\infinix\T120F324_devkit\design_modules.v:37)
+[EFX-0200 WARNING] Removing redundant signal : PADDR[13]. (E:\infinix\T120F324_devkit\design_modules.v:37)
+[EFX-0200 WARNING] Removing redundant signal : PADDR[12]. (E:\infinix\T120F324_devkit\design_modules.v:37)
+[EFX-0200 WARNING] Removing redundant signal : PADDR[11]. (E:\infinix\T120F324_devkit\design_modules.v:37)
+[EFX-0200 WARNING] Removing redundant signal : PADDR[10]. (E:\infinix\T120F324_devkit\design_modules.v:37)
+[EFX-0200 WARNING] Removing redundant signal : PADDR[9]. (E:\infinix\T120F324_devkit\design_modules.v:37)
+[EFX-0200 WARNING] Removing redundant signal : PADDR[8]. (E:\infinix\T120F324_devkit\design_modules.v:37)
+[EFX-0200 WARNING] Removing redundant signal : PADDR[7]. (E:\infinix\T120F324_devkit\design_modules.v:37)
+[EFX-0200 WARNING] Removing redundant signal : PADDR[6]. (E:\infinix\T120F324_devkit\design_modules.v:37)
+[EFX-0200 WARNING] Removing redundant signal : byteIndex[31]. (E:\infinix\T120F324_devkit\design_modules.v:55)
+[EFX-0200 WARNING] Removing redundant signal : byteIndex[30]. (E:\infinix\T120F324_devkit\design_modules.v:55)
+[EFX-0200 WARNING] Removing redundant signal : byteIndex[29]. (E:\infinix\T120F324_devkit\design_modules.v:55)
+[EFX-0200 WARNING] Removing redundant signal : byteIndex[28]. (E:\infinix\T120F324_devkit\design_modules.v:55)
+[EFX-0200 WARNING] Removing redundant signal : byteIndex[27]. (E:\infinix\T120F324_devkit\design_modules.v:55)
+[EFX-0200 WARNING] Removing redundant signal : byteIndex[26]. (E:\infinix\T120F324_devkit\design_modules.v:55)
+[EFX-0200 WARNING] Removing redundant signal : byteIndex[25]. (E:\infinix\T120F324_devkit\design_modules.v:55)
+[EFX-0200 WARNING] Removing redundant signal : byteIndex[24]. (E:\infinix\T120F324_devkit\design_modules.v:55)
+[EFX-0200 WARNING] Removing redundant signal : byteIndex[23]. (E:\infinix\T120F324_devkit\design_modules.v:55)
+[EFX-0200 WARNING] Removing redundant signal : byteIndex[22]. (E:\infinix\T120F324_devkit\design_modules.v:55)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'IBusCachedPlugin_cache_io_cpu_fetch_isRemoved'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15526)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'dataCache_1_io_cpu_writeBack_fence_SW'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15539)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'dataCache_1_io_cpu_writeBack_fence_SR'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15540)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'dataCache_1_io_cpu_writeBack_fence_SO'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15541)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'dataCache_1_io_cpu_writeBack_fence_SI'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15542)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'dataCache_1_io_cpu_writeBack_fence_PW'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15543)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'dataCache_1_io_cpu_writeBack_fence_PR'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15544)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'dataCache_1_io_cpu_writeBack_fence_PO'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15545)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'dataCache_1_io_cpu_writeBack_fence_PI'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15546)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'dataCache_1_io_cpu_writeBack_fence_FM[3]'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15547)
+[EFX-0266 WARNING] Module Instance 'memory_arbiter' input pin tied to constant (io_inputs_0_payload_fragment_source[0]=0).
+[EFX-0266 WARNING] Module Instance 'memory_arbiter' input pin tied to constant (io_inputs_1_payload_fragment_source[0]=0).
+[EFX-0266 WARNING] Module Instance 'memory_arbiter' input pin tied to constant (io_inputs_1_payload_fragment_context[0]=0).
+[EFX-0266 WARNING] Module Instance 'writeCmdInfo_fifo' input pin tied to constant (io_flush=0).
+[EFX-0266 WARNING] Module Instance 'readCmdInfo_fifo' input pin tied to constant (io_flush=0).
+[EFX-0266 WARNING] Module Instance 'cmdRouteFork_thrown_translated_fifo' input pin tied to constant (io_flush=0).
+[EFX-0266 WARNING] Module Instance 'dataLogic_cmdPush_fifo' input pin tied to constant (io_flush=0).
+[EFX-0266 WARNING] Module Instance 'writeCmdInfo_fifo' input pin tied to constant (io_flush=0).
+[EFX-0266 WARNING] Module Instance 'readCmdInfo_fifo' input pin tied to constant (io_flush=0).
+[EFX-0266 WARNING] Module Instance 'tx' input pin tied to constant (io_cts=0).
+[EFX-0266 WARNING] Module Instance 'bridge_write_streamUnbuffered_queueWithOccupancy' input pin tied to constant (io_flush=0).
+[EFX-0266 WARNING] Module Instance 'system_uart_0_io_logic_uartCtrl_1_io_read_queueWithOccupancy' input pin tied to constant (io_flush=0).
+[EFX-0266 WARNING] Module Instance 'mapping_cmdLogic_streamUnbuffered_queueWithAvailability' input pin tied to constant (io_flush=0).
+[EFX-0266 WARNING] Module Instance 'system_spi_0_io_logic_ctrl_io_rsp_queueWithOccupancy' input pin tied to constant (io_flush=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[0]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[1]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[2]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[3]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[4]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[5]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[6]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[7]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[8]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[9]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[10]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[11]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[12]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[13]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[14]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[15]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[16]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[17]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[18]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[19]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[20]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[21]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[22]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[23]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[24]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[25]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[26]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[27]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[28]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[29]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[30]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[31]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_mask[0]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_mask[1]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_mask[2]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_mask[3]=0).
+[EFX-0266 WARNING] Module Instance 'system_ddr_ddrLogic_arbiterAxi3Shared' input pin tied to constant (io_sharedInputs_0_arw_payload_id[0]=0).
+[EFX-0266 WARNING] Module Instance 'system_ddr_ddrLogic_arbiterAxi3Shared' input pin tied to constant (io_sharedInputs_0_arw_payload_id[1]=0).
+[EFX-0266 WARNING] Module Instance 'system_ddr_ddrLogic_arbiterAxi3Shared' input pin tied to constant (io_sharedInputs_0_arw_payload_id[2]=0).
+[EFX-0266 WARNING] Module Instance 'system_ddr_ddrLogic_arbiterAxi3Shared' input pin tied to constant (io_sharedInputs_0_arw_payload_id[3]=0).
+[EFX-0266 WARNING] Module Instance 'system_ddr_ddrLogic_arbiterAxi3Shared' input pin tied to constant (io_sharedInputs_0_arw_payload_id[4]=0).
+[EFX-0266 WARNING] Module Instance 'system_ddr_ddrLogic_arbiterAxi3Shared' input pin tied to constant (io_sharedInputs_0_arw_payload_id[5]=0).
+[EFX-0266 WARNING] Module Instance 'system_ddr_ddrLogic_arbiterAxi3Shared' input pin tied to constant (io_sharedInputs_0_arw_payload_id[6]=0).
+[EFX-0266 WARNING] Module Instance 'system_ddr_ddrLogic_arbiterAxi3Shared' input pin tied to constant (io_sharedInputs_0_arw_payload_burst[0]=1).
+[EFX-0266 WARNING] Module Instance 'system_ddr_ddrLogic_arbiterAxi3Shared' input pin tied to constant (io_sharedInputs_0_arw_payload_burst[1]=0).
+[EFX-0266 WARNING] Module Instance 'system_ddr_ddrLogic_arbiterAxi3Shared' input pin tied to constant (io_sharedInputs_0_arw_payload_lock[0]=0).
+[EFX-0266 WARNING] Module Instance 'system_ddr_ddrLogic_arbiterAxi3Shared' input pin tied to constant (io_sharedInputs_0_arw_payload_qos[0]=0).
+[EFX-0266 WARNING] Module Instance 'system_ddr_ddrLogic_arbiterAxi3Shared' input pin tied to constant (io_sharedInputs_0_arw_payload_qos[1]=0).
+[EFX-0266 WARNING] Module Instance 'system_ddr_ddrLogic_arbiterAxi3Shared' input pin tied to constant (io_sharedInputs_0_arw_payload_qos[2]=0).
+[EFX-0266 WARNING] Module Instance 'system_ddr_ddrLogic_arbiterAxi3Shared' input pin tied to constant (io_sharedInputs_0_arw_payload_qos[3]=0).
+[EFX-0266 WARNING] Module Instance 'system_ddr_ddrLogic_ddrAToAxi3_patchArw_translated_thrown_fifo' input pin tied to constant (io_flush=0).
+[EFX-0266 WARNING] Module Instance 'system_clint_logic' input pin tied to constant (io_stop=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_aw_payload_region[0]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_aw_payload_region[1]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_aw_payload_region[2]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_aw_payload_region[3]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_aw_payload_cache[0]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_aw_payload_cache[1]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_aw_payload_cache[2]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_aw_payload_cache[3]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_aw_payload_qos[0]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_aw_payload_qos[1]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_aw_payload_qos[2]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_aw_payload_qos[3]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_aw_payload_prot[0]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_aw_payload_prot[1]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_aw_payload_prot[2]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_ar_payload_region[0]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_ar_payload_region[1]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_ar_payload_region[2]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_ar_payload_region[3]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_ar_payload_cache[0]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_ar_payload_cache[1]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_ar_payload_cache[2]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_ar_payload_cache[3]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_ar_payload_qos[0]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_ar_payload_qos[1]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_ar_payload_qos[2]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_ar_payload_qos[3]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_ar_payload_prot[0]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_ar_payload_prot[1]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_ar_payload_prot[2]=0).
+[EFX-0657 WARNING] Mapping into logic memory block 'soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_arbiterAxi3Shared/cmdRouteFork_thrown_translated_fifo/ram' (4 bits) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:23888) because size is too small (<=64)
+[EFX-0657 WARNING] Mapping into logic memory block 'soc_inst/u_EfxSapphireSoc/system_axiA_logic_bmbToAxiBridge/writeCmdInfo_fifo/logic_ram' (16 bits) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:22243) because size is too small (<=64)
+[EFX-0657 WARNING] Mapping into logic memory block 'soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_ddrAToAxi3_patchArw_translated_thrown_fifo/ram' (64 bits) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:12758) because size is too small (<=64)
+[EFX-0657 WARNING] Mapping into logic memory block 'soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_userAdapters_0_upsizer_logic/readOnly/dataLogic_cmdPush_fifo/logic_ram' (60 bits) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:26581) because size is too small (<=64)
+[EFX-0657 WARNING] Mapping into logic memory block 'soc_inst/u_EfxSapphireSoc/system_axiA_logic_bmbToAxiBridge/readCmdInfo_fifo/logic_ram' (16 bits) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:22243) because size is too small (<=64)
+[EFX-0011 VERI-WARNING] Input/Inout Port io_ddrA_b_payload_id[6] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port io_ddrA_b_payload_id[5] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port io_ddrA_b_payload_id[4] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port io_ddrA_b_payload_id[3] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port io_ddrA_b_payload_id[2] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port io_ddrA_b_payload_id[1] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port io_ddrA_b_payload_id[0] is unconnected and will be removed 

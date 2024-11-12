@@ -1,0 +1,1973 @@
+Efinity Synthesis report for project soc
+Version: 2023.2.307.5.10
+Generated at: Nov 09, 2024 22:07:10
+Copyright (C) 2013 - 2023  All rights reserved.
+
+### ### ### ### ### ### ### ### ### ### ### ### ### ### ###
+Top-level Entity Name : top_soc
+
+### ### File List (begin) ### ### ###
+E:\infinix\T120F324_devkit\top_soc.v
+E:\infinix\T120F324_devkit\design_modules.v
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v
+### ### File List (end) ### ### ###
+
+"MEM|SYN-0677" : ... Zero initialization of uninitialized memory block 'ram'. (E:\infinix\T120F324_devkit\design_modules.v:1307)
+"MEM|SYN-0677" : ... Zero initialization of uninitialized memory block 'banks_0'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:25777)
+"MEM|SYN-0677" : ... Zero initialization of uninitialized memory block 'ways_0_tags'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:25778)
+"MEM|SYN-0677" : ... Zero initialization of uninitialized memory block 'ways_0_tags'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:25031)
+"MEM|SYN-0677" : ... Zero initialization of uninitialized memory block 'ways_0_data_symbol0'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:25032)
+"MEM|SYN-0677" : ... Zero initialization of uninitialized memory block 'ways_0_data_symbol1'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:25033)
+"MEM|SYN-0677" : ... Zero initialization of uninitialized memory block 'ways_0_data_symbol2'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:25034)
+"MEM|SYN-0677" : ... Zero initialization of uninitialized memory block 'ways_0_data_symbol3'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:25035)
+"MEM|SYN-0677" : ... Zero initialization of uninitialized memory block 'RegFilePlugin_regFile'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:16764)
+"MEM|SYN-0677" : ... Zero initialization of uninitialized memory block 'logic_ram'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:24531)
+"MEM|SYN-0677" : ... Zero initialization of uninitialized memory block 'ram'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:24366)
+"MEM|SYN-0677" : ... Zero initialization of uninitialized memory block 'ram'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:24182)
+"MEM|SYN-0677" : ... Zero initialization of uninitialized memory block 'ram'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:23888)
+"MEM|SYN-0677" : ... Zero initialization of uninitialized memory block 'ram'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:23733)
+"MEM|SYN-0677" : ... Zero initialization of uninitialized memory block 'ram'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:23554)
+"MEM|SYN-0677" : ... Zero initialization of uninitialized memory block 'ram'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:23390)
+"MEM|SYN-0677" : ... Zero initialization of uninitialized memory block 'ram'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:23224)
+"MEM|SYN-0677" : ... Zero initialization of uninitialized memory block 'ram'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:23073)
+"MEM|SYN-0677" : ... Zero initialization of uninitialized memory block 'logic_ram'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:26581)
+"MEM|SYN-0677" : ... Zero initialization of uninitialized memory block 'ram'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:12758)
+"MEM|SYN-0677" : ... Zero initialization of uninitialized memory block 'logic_ram'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:22243)
+"MEM|SYN-0677" : ... Zero initialization of uninitialized memory block 'logic_ram'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:21957)
+"MEM|SYN-0677" : ... Zero initialization of uninitialized memory block 'logic_ram'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:21152)
+"MEM|SYN-0677" : ... Zero initialization of uninitialized memory block 'logic_ram'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:20993)
+"MEM|SYN-0657" : Mapping into logic memory block 'soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_arbiterAxi3Shared/cmdRouteFork_thrown_translated_fifo/ram' (4 bits) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:23888) because size is too small (<=64)
+"MEM|SYN-0657" : Mapping into logic memory block 'soc_inst/u_EfxSapphireSoc/system_axiA_logic_bmbToAxiBridge/writeCmdInfo_fifo/logic_ram' (16 bits) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:22243) because size is too small (<=64)
+"MEM|SYN-0657" : Mapping into logic memory block 'soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_ddrAToAxi3_patchArw_translated_thrown_fifo/ram' (64 bits) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:12758) because size is too small (<=64)
+"MEM|SYN-0657" : Mapping into logic memory block 'soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_userAdapters_0_upsizer_logic/readOnly/dataLogic_cmdPush_fifo/logic_ram' (60 bits) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:26581) because size is too small (<=64)
+"MEM|SYN-0657" : Mapping into logic memory block 'soc_inst/u_EfxSapphireSoc/system_axiA_logic_bmbToAxiBridge/readCmdInfo_fifo/logic_ram' (16 bits) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:22243) because size is too small (<=64)
+
+### ### EFX_FF CE enables (begin) ### ### ###
+Total number of enable signals: 465
+Total number of FFs with enable signals: 7583
+CE signal <i41/n24>, number of controlling flip flops: 13
+CE signal <reset_sequencer/equal_21/n3>, number of controlling flip flops: 1
+CE signal <apb_slave_0/n1755>, number of controlling flip flops: 32
+CE signal <apb_slave_0/actRead>, number of controlling flip flops: 32
+CE signal <apb_slave_0/slaveReg[1][0]>, number of controlling flip flops: 32
+CE signal <apb_slave_0/n1413>, number of controlling flip flops: 32
+CE signal <apb_slave_0/n1445>, number of controlling flip flops: 32
+CE signal <apb_slave_0/n1477>, number of controlling flip flops: 32
+CE signal <ceg_net27>, number of controlling flip flops: 32
+CE signal <apb_slave_0/n1509>, number of controlling flip flops: 32
+CE signal <ceg_net91>, number of controlling flip flops: 32
+CE signal <memcheck_s0/equal_12/n71>, number of controlling flip flops: 5
+CE signal <memcheck_0/start_w2>, number of controlling flip flops: 72
+CE signal <memcheck_0/start_w1>, number of controlling flip flops: 1
+CE signal <ceg_net147>, number of controlling flip flops: 1
+CE signal <ceg_net156>, number of controlling flip flops: 1
+CE signal <ceg_net163>, number of controlling flip flops: 9
+CE signal <ceg_net174>, number of controlling flip flops: 9
+CE signal <ceg_net183>, number of controlling flip flops: 1
+CE signal <ceg_net569>, number of controlling flip flops: 32
+CE signal <ceg_net195>, number of controlling flip flops: 1
+CE signal <ceg_net708>, number of controlling flip flops: 9
+CE signal <ceg_net216>, number of controlling flip flops: 1
+CE signal <ceg_net221>, number of controlling flip flops: 1
+CE signal <ceg_net224>, number of controlling flip flops: 1
+CE signal <ceg_net229>, number of controlling flip flops: 1
+CE signal <ceg_net236>, number of controlling flip flops: 1
+CE signal <ceg_net241>, number of controlling flip flops: 1
+CE signal <ceg_net246>, number of controlling flip flops: 1
+CE signal <memcheck_0/n2189>, number of controlling flip flops: 32
+CE signal <memcheck_0/n2183>, number of controlling flip flops: 1
+CE signal <ceg_net2413>, number of controlling flip flops: 2
+CE signal <intr_s0/equal_12/n71>, number of controlling flip flops: 5
+CE signal <i41/n21>, number of controlling flip flops: 13
+CE signal <axi_awvalid>, number of controlling flip flops: 1
+CE signal <ceg_net826>, number of controlling flip flops: 11
+CE signal <i41/n23>, number of controlling flip flops: 13
+CE signal <axi_arvalid>, number of controlling flip flops: 6
+CE signal <ceg_net754>, number of controlling flip flops: 2
+CE signal <i41/n22>, number of controlling flip flops: 13
+CE signal <axi_slave_0/equal_20/n5>, number of controlling flip flops: 40
+CE signal <i40/n7>, number of controlling flip flops: 2
+CE signal <i40/n8>, number of controlling flip flops: 2
+CE signal <i40/n9>, number of controlling flip flops: 2
+CE signal <i40/n10>, number of controlling flip flops: 2
+CE signal <i40/n11>, number of controlling flip flops: 2
+CE signal <i40/n12>, number of controlling flip flops: 2
+CE signal <i40/n13>, number of controlling flip flops: 2
+CE signal <i40/n14>, number of controlling flip flops: 2
+CE signal <i39/n6>, number of controlling flip flops: 1
+CE signal <i39/n7>, number of controlling flip flops: 1
+CE signal <i39/n8>, number of controlling flip flops: 1
+CE signal <i39/n9>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/when_ClockDomainGenerator_l222_1>, number of controlling flip flops: 6
+CE signal <soc_inst/u_EfxSapphireSoc/when_ClockDomainGenerator_l222_2>, number of controlling flip flops: 6
+CE signal <soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_cc_fifo_io_output_cmd_ready>, number of controlling flip flops: 187
+CE signal <soc_inst/u_EfxSapphireSoc/_zz_io_input_rsp_ready>, number of controlling flip flops: 137
+CE signal <soc_inst/u_EfxSapphireSoc/toplevel_system_ddr_ddrLogic_bmbToAxiBridge_io_output_arw_rValid>, number of controlling flip flops: 36
+CE signal <soc_inst/u_EfxSapphireSoc/toplevel_system_ddr_ddrLogic_bmbToAxiBridge_io_output_arw_s2mPipe_ready>, number of controlling flip flops: 37
+CE signal <soc_inst/u_EfxSapphireSoc/toplevel_system_ddr_ddrLogic_bmbToAxiBridge_io_output_arw_s2mPipe_m2sPipe_ready>, number of controlling flip flops: 37
+CE signal <soc_inst/u_EfxSapphireSoc/toplevel_system_ddr_ddrLogic_bmbToAxiBridge_io_output_w_rValid>, number of controlling flip flops: 145
+CE signal <soc_inst/u_EfxSapphireSoc/toplevel_system_ddr_ddrLogic_bmbToAxiBridge_io_output_w_s2mPipe_ready>, number of controlling flip flops: 146
+CE signal <soc_inst/u_EfxSapphireSoc/toplevel_system_ddr_ddrLogic_bmbToAxiBridge_io_output_w_s2mPipe_m2sPipe_ready>, number of controlling flip flops: 146
+CE signal <soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_cpuAccess_r_rValid>, number of controlling flip flops: 131
+CE signal <soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_cpuAccess_r_s2mPipe_ready>, number of controlling flip flops: 132
+CE signal <soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_userAdapters_0_userAxi3Shared_arw_rValid>, number of controlling flip flops: 66
+CE signal <soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_userAdapters_0_userAxi3Shared_w_rValid>, number of controlling flip flops: 145
+CE signal <soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_userAdapters_0_userAxi3Shared_w_s2mPipe_ready>, number of controlling flip flops: 146
+CE signal <soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_userAdapters_0_pipelineAxi3_r_rValid>, number of controlling flip flops: 131
+CE signal <soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_userAdapters_0_pipelineAxi3_r_s2mPipe_ready>, number of controlling flip flops: 132
+CE signal <soc_inst/u_EfxSapphireSoc/toplevel_system_ddr_ddrLogic_arbiterAxi3Shared_io_output_arw_rValid>, number of controlling flip flops: 67
+CE signal <soc_inst/u_EfxSapphireSoc/toplevel_system_ddr_ddrLogic_arbiterAxi3Shared_io_output_arw_s2mPipe_ready>, number of controlling flip flops: 68
+CE signal <soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_arbiterAxi3Shared_io_output_w_ready>, number of controlling flip flops: 146
+CE signal <soc_inst/u_EfxSapphireSoc/toplevel_system_cores_0_logic_cpu_dBus_Bridge_bus_cmd_ready>, number of controlling flip flops: 77
+CE signal <axi_rready>, number of controlling flip flops: 34
+CE signal <soc_inst/u_EfxSapphireSoc/system_bridge_bmb_cmd_rValid>, number of controlling flip flops: 77
+CE signal <soc_inst/u_EfxSapphireSoc/system_bridge_bmb_cmd_s2mPipe_ready>, number of controlling flip flops: 78
+CE signal <soc_inst/u_EfxSapphireSoc/system_ddr_bmb_slaveModel_arbiterGen_oneToOne_arbiter_cmd_rValid>, number of controlling flip flops: 187
+CE signal <soc_inst/u_EfxSapphireSoc/system_ddr_bmb_slaveModel_arbiterGen_oneToOne_arbiter_cmd_s2mPipe_ready>, number of controlling flip flops: 188
+CE signal <soc_inst/u_EfxSapphireSoc/_zz_io_input_rsp_ready_1>, number of controlling flip flops: 137
+CE signal <soc_inst/u_EfxSapphireSoc/system_axiA_bmb_slaveModel_arbiterGen_oneToOne_arbiter_cmd_rValid>, number of controlling flip flops: 54
+CE signal <soc_inst/u_EfxSapphireSoc/system_axiA_bmb_slaveModel_arbiterGen_oneToOne_arbiter_cmd_s2mPipe_ready>, number of controlling flip flops: 55
+CE signal <soc_inst/u_EfxSapphireSoc/_zz_system_bmbPeripheral_bmb_rsp_valid_1>, number of controlling flip flops: 37
+CE signal <soc_inst/u_EfxSapphireSoc/system_uart_0_io_ctrl_slaveModel_arbiterGen_oneToOne_arbiter_cmd_rValid>, number of controlling flip flops: 29
+CE signal <soc_inst/u_EfxSapphireSoc/_zz_system_uart_0_io_ctrl_slaveModel_arbiterGen_oneToOne_arbiter_rsp_valid_1>, number of controlling flip flops: 31
+CE signal <soc_inst/u_EfxSapphireSoc/system_spi_0_io_ctrl_slaveModel_arbiterGen_oneToOne_arbiter_cmd_rValid>, number of controlling flip flops: 27
+CE signal <soc_inst/u_EfxSapphireSoc/system_i2c_0_io_ctrl_slaveModel_arbiterGen_oneToOne_arbiter_cmd_rValid>, number of controlling flip flops: 31
+CE signal <soc_inst/u_EfxSapphireSoc/_zz_system_plic_logic_bus_rsp_ready_1>, number of controlling flip flops: 15
+CE signal <soc_inst/u_EfxSapphireSoc/n34548>, number of controlling flip flops: 2
+CE signal <soc_inst/u_EfxSapphireSoc/userInterruptA_interrupt_plic_gateway_waitCompletion>, number of controlling flip flops: 2
+CE signal <soc_inst/u_EfxSapphireSoc/system_fabric_iBus_bmb_cmd_ready>, number of controlling flip flops: 28
+CE signal <soc_inst/u_EfxSapphireSoc/system_bridge_bmb_arbiter_io_output_cmd_valid>, number of controlling flip flops: 4
+CE signal <soc_inst/u_EfxSapphireSoc/system_bridge_bmb_upSizer_io_output_cmd_valid>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_bridge_bmb_decoder_io_outputs_3_cmd_valid>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_axiA_interrupt_plic_gateway_waitCompletion>, number of controlling flip flops: 2
+CE signal <soc_inst/u_EfxSapphireSoc/system_bmbPeripheral_bmb_decoder_io_input_rsp_valid>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_bmbPeripheral_bmb_decoder_io_outputs_2_cmd_valid>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_uart_0_io_logic_io_bus_rsp_valid>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_uart_0_io_interrupt_plic_gateway_waitCompletion>, number of controlling flip flops: 2
+CE signal <soc_inst/u_EfxSapphireSoc/system_spi_0_io_interrupt_plic_gateway_waitCompletion>, number of controlling flip flops: 2
+CE signal <soc_inst/u_EfxSapphireSoc/system_bmbPeripheral_bmb_decoder_io_outputs_3_cmd_valid>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_bmbPeripheral_bmb_decoder_io_outputs_4_cmd_valid>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_i2c_0_io_interrupt_plic_gateway_waitCompletion>, number of controlling flip flops: 2
+CE signal <soc_inst/u_EfxSapphireSoc/system_gpio_0_io_interrupts_0_plic_gateway_waitCompletion>, number of controlling flip flops: 2
+CE signal <soc_inst/u_EfxSapphireSoc/system_gpio_0_io_interrupts_1_plic_gateway_waitCompletion>, number of controlling flip flops: 2
+CE signal <soc_inst/u_EfxSapphireSoc/n34549>, number of controlling flip flops: 2
+CE signal <soc_inst/u_EfxSapphireSoc/n34550>, number of controlling flip flops: 2
+CE signal <soc_inst/u_EfxSapphireSoc/n34551>, number of controlling flip flops: 2
+CE signal <soc_inst/u_EfxSapphireSoc/n34552>, number of controlling flip flops: 2
+CE signal <soc_inst/u_EfxSapphireSoc/n34553>, number of controlling flip flops: 2
+CE signal <soc_inst/u_EfxSapphireSoc/n34554>, number of controlling flip flops: 2
+CE signal <soc_inst/u_EfxSapphireSoc/n34555>, number of controlling flip flops: 2
+CE signal <soc_inst/u_EfxSapphireSoc/n33978>, number of controlling flip flops: 7
+CE signal <soc_inst/u_EfxSapphireSoc/equal_2311/n7>, number of controlling flip flops: 4
+CE signal <soc_inst/u_EfxSapphireSoc/n34009>, number of controlling flip flops: 32
+CE signal <soc_inst/u_EfxSapphireSoc/io_ddrMasters_0_aw_rValid>, number of controlling flip flops: 41
+CE signal <soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_bmbToAxiBridge_io_output_arw_valid>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_bmbToAxiBridge_io_output_w_valid>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_arbiterAxi3Shared_io_sharedInputs_0_b_valid>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_cpuAccess_b_s2mPipe_ready>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_arbiterAxi3Shared_io_sharedInputs_0_r_valid>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/streamArbiter_3_io_output_valid>, number of controlling flip flops: 4
+CE signal <soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_userAdapters_0_upsizer_logic_io_output_w_valid>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_arbiterAxi3Shared_io_sharedInputs_1_r_valid>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_arbiterAxi3Shared_io_sharedInputs_1_b_valid>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_arbiterAxi3Shared_io_output_arw_valid>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/io_ddrA_b_s2mPipe_rValid>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_ddrAAxi3_b_s2mPipe_ready>, number of controlling flip flops: 2
+CE signal <m_awvalid_0>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/io_ddrMasters_0_aw_s2mPipe_ready>, number of controlling flip flops: 42
+CE signal <m_arvalid_0>, number of controlling flip flops: 1
+CE signal <m_wvalid_0>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/io_ddrMasters_0_w_s2mPipe_ready>, number of controlling flip flops: 35
+CE signal <soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_userAdapters_0_bridge_io_input_r_ready>, number of controlling flip flops: 33
+CE signal <soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_userAdapters_0_bridge_io_input_b_valid>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/toplevel_system_ddr_ddrLogic_userAdapters_0_bridge_io_input_b_s2mPipe_ready>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/io_ddrMasters_0_ar_rValid>, number of controlling flip flops: 41
+CE signal <soc_inst/u_EfxSapphireSoc/io_ddrMasters_0_w_rValid>, number of controlling flip flops: 34
+CE signal <soc_inst/u_EfxSapphireSoc/n34024>, number of controlling flip flops: 5
+CE signal <ceg_net1075>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_ddrAAxi3_w_fire>, number of controlling flip flops: 8
+CE signal <soc_inst/u_EfxSapphireSoc/toplevel_system_ddr_ddrLogic_ddrAToAxi3_patchArw_translated_thrown_fifo_io_pop_s2mPipe_ready>, number of controlling flip flops: 14
+CE signal <soc_inst/u_EfxSapphireSoc/toplevel_system_ddr_ddrLogic_ddrAToAxi3_patchArw_translated_thrown_fifo_io_pop_rValid>, number of controlling flip flops: 13
+CE signal <soc_inst/u_EfxSapphireSoc/_zz_system_ddr_ddrLogic_ddrAAxi3_w_translated_ready_1>, number of controlling flip flops: 151
+CE signal <ceg_net1078>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/_zz_1>, number of controlling flip flops: 151
+CE signal <ceg_net1081>, number of controlling flip flops: 1
+CE signal <ceg_net1084>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/io_ddrA_b_s2mPipe_ready>, number of controlling flip flops: 2
+CE signal <soc_inst/u_EfxSapphireSoc/_zz_system_ddr_ddrLogic_ddrAToAxi3_ddrA_wStreamPipelied_valid>, number of controlling flip flops: 150
+CE signal <soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_ddrAToAxi3_ioArw_rValid>, number of controlling flip flops: 67
+CE signal <soc_inst/u_EfxSapphireSoc/when_ClockDomainGenerator_l222>, number of controlling flip flops: 12
+CE signal <ceg_net1089>, number of controlling flip flops: 3
+CE signal <ceg_net1099>, number of controlling flip flops: 2
+CE signal <ceg_net1104>, number of controlling flip flops: 1
+CE signal <ceg_net1119>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/dataCache_1_io_mem_cmd_valid>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/system_cores_0_logic_cpu_dataCache_1_io_mem_cmd_s2mPipe_ready>, number of controlling flip flops: 74
+CE signal <ceg_net1143>, number of controlling flip flops: 2
+CE signal <soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/n24406>, number of controlling flip flops: 3
+CE signal <soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/n24389>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/n24391>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/n24393>, number of controlling flip flops: 1
+CE signal <ceg_net2444>, number of controlling flip flops: 3
+CE signal <ceg_net1164>, number of controlling flip flops: 1
+CE signal <ceg_net1169>, number of controlling flip flops: 1
+CE signal <ceg_net1174>, number of controlling flip flops: 1
+CE signal <ceg_net1371>, number of controlling flip flops: 32
+CE signal <soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/system_cores_0_logic_cpu_dataCache_1_io_mem_cmd_rValid>, number of controlling flip flops: 73
+CE signal <ceg_net1616>, number of controlling flip flops: 36
+CE signal <soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/n31890>, number of controlling flip flops: 5
+CE signal <ceg_net1647>, number of controlling flip flops: 32
+CE signal <soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_hadException>, number of controlling flip flops: 32
+CE signal <ceg_net1812>, number of controlling flip flops: 32
+CE signal <soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/equal_1318/n11>, number of controlling flip flops: 1
+CE signal <n14364>, number of controlling flip flops: 32
+CE signal <soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/n24437>, number of controlling flip flops: 32
+CE signal <soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/memory_arbitration_isStuck>, number of controlling flip flops: 348
+CE signal <soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/execute_arbitration_isStuck>, number of controlling flip flops: 227
+CE signal <soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/when_DBusCachedPlugin_l544>, number of controlling flip flops: 204
+CE signal <soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/n24439>, number of controlling flip flops: 30
+CE signal <soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/n24441>, number of controlling flip flops: 32
+CE signal <ceg_net1905>, number of controlling flip flops: 32
+CE signal <ceg_net1206>, number of controlling flip flops: 1
+CE signal <ceg_net1211>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/n24450>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/when_DebugPlugin_l238>, number of controlling flip flops: 1
+CE signal <ceg_net1216>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/bmbDecoder_4_io_outputs_0_cmd_valid>, number of controlling flip flops: 1
+CE signal <ceg_net1222>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/when_Fetcher_l160>, number of controlling flip flops: 30
+CE signal <ceg_net1227>, number of controlling flip flops: 1
+CE signal <ceg_net1232>, number of controlling flip flops: 1
+CE signal <ceg_net1237>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_cache/io_mem_cmd_fire>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_cache/lineLoader_flushCounter[6]>, number of controlling flip flops: 7
+CE signal <soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_iBusRsp_stages_2_input_ready>, number of controlling flip flops: 65
+CE signal <soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/dataCache_1/when_DataCache_l829>, number of controlling flip flops: 34
+CE signal <soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/dataCache_1/io_mem_cmd_fire>, number of controlling flip flops: 1
+CE signal <ceg_net1241>, number of controlling flip flops: 6
+CE signal <ceg_net1250>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/dataCache_1/stageB_loaderValid>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/systemCd_logic_outputReset>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/dataCache_1/n933>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/dataCache_1/stageB_flusher_counter[6]>, number of controlling flip flops: 1
+CE signal <ceg_net1271>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/decode_arbitration_isStuck>, number of controlling flip flops: 30
+CE signal <ceg_net1621>, number of controlling flip flops: 3
+CE signal <soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/when_Pipeline_l124_2>, number of controlling flip flops: 30
+CE signal <soc_inst/u_EfxSapphireSoc/system_softJtag_debug_logic_jtagBridge/jtag_writeArea_valid>, number of controlling flip flops: 3
+CE signal <soc_inst/u_EfxSapphireSoc/system_softJtag_debug_logic_jtagBridge/flowCCByToggle_1/outputArea_flow_valid>, number of controlling flip flops: 2
+CE signal <n17525>, number of controlling flip flops: 33
+CE signal <ceg_net1909>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_softJtag_debug_logic_jtagBridge/n391>, number of controlling flip flops: 2
+CE signal <ceg_net1913>, number of controlling flip flops: 1
+CE signal <ceg_net1916>, number of controlling flip flops: 34
+CE signal <soc_inst/u_EfxSapphireSoc/system_softJtag_debug_logic_jtagBridge_io_remote_cmd_valid>, number of controlling flip flops: 1
+CE signal <ceg_net2033>, number of controlling flip flops: 3
+CE signal <soc_inst/u_EfxSapphireSoc/system_softJtag_debug_logic_debugger/n551>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_softJtag_debug_logic_debugger/n555>, number of controlling flip flops: 8
+CE signal <soc_inst/u_EfxSapphireSoc/system_softJtag_debug_logic_debugger/n552>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_softJtag_debug_logic_debugger/n557>, number of controlling flip flops: 65
+CE signal <ceg_net2038>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/bmbDecoder_4/when_BmbDecoder_l56>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_bmbToAxiBridge/writeCmdInfo_fifo/when_Stream_l1123>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_bmbToAxiBridge/cmdFork_fire>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_bmbToAxiBridge/dataFork_fire>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_bmbToAxiBridge/io_input_cmd_fire>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_bmbToAxiBridge/writeCmdInfo_fifo_io_pop_valid>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_bmbToAxiBridge/system_ddr_ddrLogic_bmbToAxiBridge_writeCmdInfo_fifo_io_pop_s2mPipe_ready>, number of controlling flip flops: 7
+CE signal <soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_bmbToAxiBridge/readCmdInfo_fifo_io_pop_valid>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_bmbToAxiBridge/when_BmbToAxi4Bridge_l83>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_bmbToAxiBridge/when_BmbToAxi4Bridge_l41>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_bmbToAxiBridge/system_ddr_ddrLogic_bmbToAxiBridge_writeCmdInfo_fifo_io_pop_rValid>, number of controlling flip flops: 6
+CE signal <soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_bmbToAxiBridge/when_BmbToAxi4Bridge_l41_1>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_bmbToAxiBridge/system_ddr_ddrLogic_bmbToAxiBridge_readCmdInfo_fifo_io_pop_rValid>, number of controlling flip flops: 6
+CE signal <soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_bmbToAxiBridge/rspSelLock>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_bmbToAxiBridge/readCmdInfo_fifo/when_Stream_l1123>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_cc_fifo/io_input_cmd_queue/io_push_fire>, number of controlling flip flops: 13
+CE signal <soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_cc_fifo/io_input_cmd_queue/io_pop_fire>, number of controlling flip flops: 13
+CE signal <soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_cc_fifo/io_output_rsp_queue/io_push_fire>, number of controlling flip flops: 13
+CE signal <soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_cc_fifo/io_output_rsp_queue/io_pop_fire>, number of controlling flip flops: 13
+CE signal <soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_arbiterAxi3Shared/cmdArbiter_io_output_valid>, number of controlling flip flops: 3
+CE signal <soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_arbiterAxi3Shared/cmdRouteFork_fire>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_arbiterAxi3Shared/cmdRouteFork_thrown_translated_fifo_io_pop_ready>, number of controlling flip flops: 2
+CE signal <soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_arbiterAxi3Shared/system_ddr_ddrLogic_arbiterAxi3Shared_cmdRouteFork_thrown_translated_fifo_io_pop_rValid>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_arbiterAxi3Shared/system_ddr_ddrLogic_arbiterAxi3Shared_cmdRouteFork_thrown_translated_fifo_io_pop_m2sPipe_rValid>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_arbiterAxi3Shared/cmdOutputFork_fire>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_arbiterAxi3Shared/cmdRouteFork_thrown_translated_fifo/when_Stream_l1231>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/io_ddrMasters_0_ar_halfPipe_fire>, number of controlling flip flops: 9
+CE signal <soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_userAdapters_0_bridge/io_input_ar_queue/io_pop_fire>, number of controlling flip flops: 9
+CE signal <soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_userAdapters_0_bridge/io_output_r_queue/io_push_fire>, number of controlling flip flops: 9
+CE signal <soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_userAdapters_0_bridge/io_output_r_queue/io_pop_fire>, number of controlling flip flops: 9
+CE signal <soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_userAdapters_0_bridge/io_input_aw_queue/io_push_fire>, number of controlling flip flops: 9
+CE signal <soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_userAdapters_0_bridge/io_input_aw_queue/io_pop_fire>, number of controlling flip flops: 9
+CE signal <soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_userAdapters_0_bridge/io_input_w_queue/io_push_fire>, number of controlling flip flops: 9
+CE signal <soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_userAdapters_0_bridge/io_input_w_queue/io_pop_fire>, number of controlling flip flops: 10
+CE signal <soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_userAdapters_0_pipelineAxi3_b_halfPipe_fire>, number of controlling flip flops: 9
+CE signal <soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_userAdapters_0_bridge/io_output_b_queue/io_pop_fire>, number of controlling flip flops: 9
+CE signal <ceg_net2041>, number of controlling flip flops: 4
+CE signal <soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_userAdapters_0_upsizer_logic/readOnly/cmdLogic_dataFork_fire>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_userAdapters_0_upsizer_logic/readOnly/readOnly_dataLogic_cmdPush_fifo_io_pop_fire>, number of controlling flip flops: 12
+CE signal <soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_userAdapters_0_upsizer_logic/readOnly/cmdLogic_outputFork_fire>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_userAdapters_0_upsizer_logic/readOnly/dataLogic_cmdPush_fifo/when_Stream_l1123>, number of controlling flip flops: 1
+CE signal <ceg_net2055>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_userAdapters_0_upsizer_logic/writeOnly/cmdLogic_dataFork_fire>, number of controlling flip flops: 6
+CE signal <ceg_net2060>, number of controlling flip flops: 1
+CE signal <ceg_net2065>, number of controlling flip flops: 1
+CE signal <ceg_net2068>, number of controlling flip flops: 4
+CE signal <soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_userAdapters_0_upsizer_logic/writeOnly/n1436>, number of controlling flip flops: 8
+CE signal <soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_userAdapters_0_upsizer_logic/writeOnly/cmdLogic_outputFork_fire>, number of controlling flip flops: 1
+CE signal <ceg_net2073>, number of controlling flip flops: 1
+CE signal <ceg_net2078>, number of controlling flip flops: 1
+CE signal <ceg_net2083>, number of controlling flip flops: 1
+CE signal <ceg_net2088>, number of controlling flip flops: 1
+CE signal <ceg_net2093>, number of controlling flip flops: 1
+CE signal <ceg_net2098>, number of controlling flip flops: 1
+CE signal <ceg_net2103>, number of controlling flip flops: 1
+CE signal <ceg_net2108>, number of controlling flip flops: 1
+CE signal <ceg_net2113>, number of controlling flip flops: 1
+CE signal <ceg_net2118>, number of controlling flip flops: 1
+CE signal <ceg_net2123>, number of controlling flip flops: 1
+CE signal <ceg_net2128>, number of controlling flip flops: 1
+CE signal <ceg_net2133>, number of controlling flip flops: 1
+CE signal <ceg_net2138>, number of controlling flip flops: 1
+CE signal <ceg_net2143>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_userAdapters_0_upsizer_logic/writeOnly/n1285>, number of controlling flip flops: 8
+CE signal <soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_userAdapters_0_upsizer_logic/writeOnly/n1286>, number of controlling flip flops: 8
+CE signal <soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_userAdapters_0_upsizer_logic/writeOnly/n1287>, number of controlling flip flops: 8
+CE signal <soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_userAdapters_0_upsizer_logic/writeOnly/n1288>, number of controlling flip flops: 8
+CE signal <soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_userAdapters_0_upsizer_logic/writeOnly/n1289>, number of controlling flip flops: 8
+CE signal <soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_userAdapters_0_upsizer_logic/writeOnly/n1290>, number of controlling flip flops: 8
+CE signal <soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_userAdapters_0_upsizer_logic/writeOnly/n1291>, number of controlling flip flops: 8
+CE signal <soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_userAdapters_0_upsizer_logic/writeOnly/n1292>, number of controlling flip flops: 8
+CE signal <soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_userAdapters_0_upsizer_logic/writeOnly/n1293>, number of controlling flip flops: 8
+CE signal <soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_userAdapters_0_upsizer_logic/writeOnly/n1294>, number of controlling flip flops: 8
+CE signal <soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_userAdapters_0_upsizer_logic/writeOnly/n1295>, number of controlling flip flops: 8
+CE signal <soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_userAdapters_0_upsizer_logic/writeOnly/n1296>, number of controlling flip flops: 8
+CE signal <soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_userAdapters_0_upsizer_logic/writeOnly/n1297>, number of controlling flip flops: 8
+CE signal <soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_userAdapters_0_upsizer_logic/writeOnly/n1298>, number of controlling flip flops: 8
+CE signal <soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_userAdapters_0_upsizer_logic/writeOnly/n1299>, number of controlling flip flops: 8
+CE signal <soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_ddrAToAxi3_patchArw_translated_thrown_fifo/when_Stream_l1231>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_axiA_logic_bmbToAxiBridge/writeCmdInfo_fifo/when_Stream_l1123>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_axiA_logic_bmbToAxiBridge/cmdFork_fire>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_axiA_logic_bmbToAxiBridge/dataFork_fire>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_axiA_logic_bmbToAxiBridge/io_input_cmd_fire>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_axiA_logic_bmbToAxiBridge/writeCmdInfo_fifo_io_pop_valid>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_axiA_logic_bmbToAxiBridge/readCmdInfo_fifo_io_pop_valid>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_axiA_logic_bmbToAxiBridge/when_BmbToAxi4Bridge_l83>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_axiA_logic_bmbToAxiBridge/when_BmbToAxi4Bridge_l41>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_axiA_logic_bmbToAxiBridge/when_BmbToAxi4Bridge_l41_1>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_axiA_logic_bmbToAxiBridge/system_axiA_logic_bmbToAxiBridge_writeCmdInfo_fifo_io_pop_rValid>, number of controlling flip flops: 2
+CE signal <soc_inst/u_EfxSapphireSoc/system_axiA_logic_bmbToAxiBridge/system_axiA_logic_bmbToAxiBridge_readCmdInfo_fifo_io_pop_rValid>, number of controlling flip flops: 2
+CE signal <soc_inst/u_EfxSapphireSoc/system_axiA_logic_bmbToAxiBridge/rspSelLock>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_axiA_logic_bmbToAxiBridge/readCmdInfo_fifo/when_Stream_l1123>, number of controlling flip flops: 1
+CE signal <ceg_net2157>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_bridge_bmb_decoder/when_BmbDecoder_l56>, number of controlling flip flops: 4
+CE signal <ceg_net2169>, number of controlling flip flops: 4
+CE signal <soc_inst/u_EfxSapphireSoc/system_bridge_bmb_decoder/logic_input_fire>, number of controlling flip flops: 2
+CE signal <soc_inst/u_EfxSapphireSoc/system_bridge_bmb_upSizer/when_BmbUpSizerBridge_l95_1>, number of controlling flip flops: 4
+CE signal <soc_inst/u_EfxSapphireSoc/system_bridge_bmb_upSizer/when_BmbUpSizerBridge_l95_2>, number of controlling flip flops: 4
+CE signal <soc_inst/u_EfxSapphireSoc/system_bridge_bmb_upSizer/io_input_cmd_fire>, number of controlling flip flops: 3
+CE signal <soc_inst/u_EfxSapphireSoc/_zz_system_ddr_bmb_slaveModel_arbiterGen_oneToOne_arbiter_rsp_valid_1>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_bridge_bmb_upSizer/when_BmbUpSizerBridge_l85>, number of controlling flip flops: 32
+CE signal <soc_inst/u_EfxSapphireSoc/system_bridge_bmb_upSizer/when_BmbUpSizerBridge_l85_1>, number of controlling flip flops: 32
+CE signal <soc_inst/u_EfxSapphireSoc/system_bridge_bmb_upSizer/when_BmbUpSizerBridge_l85_2>, number of controlling flip flops: 32
+CE signal <soc_inst/u_EfxSapphireSoc/system_bridge_bmb_upSizer/when_BmbUpSizerBridge_l95>, number of controlling flip flops: 4
+CE signal <ceg_net2188>, number of controlling flip flops: 14
+CE signal <soc_inst/u_EfxSapphireSoc/system_bridge_bmb_unburstify/buffer_valid>, number of controlling flip flops: 14
+CE signal <ceg_net2182>, number of controlling flip flops: 1
+CE signal <ceg_net2240>, number of controlling flip flops: 14
+CE signal <soc_inst/u_EfxSapphireSoc/system_bridge_bmb_unburstify_1/buffer_valid>, number of controlling flip flops: 2
+CE signal <ceg_net2234>, number of controlling flip flops: 1
+CE signal <ceg_net2278>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_bmbPeripheral_bmb_decoder/io_input_cmd_rValid>, number of controlling flip flops: 58
+CE signal <soc_inst/u_EfxSapphireSoc/system_bmbPeripheral_bmb_decoder/logic_input_fire>, number of controlling flip flops: 3
+CE signal <soc_inst/u_EfxSapphireSoc/system_bridge_bmb_unburstify/io_output_cmd_fire>, number of controlling flip flops: 8
+CE signal <soc_inst/u_EfxSapphireSoc/system_bmbPeripheral_bmb_decoder/when_BmbDecoder_l56>, number of controlling flip flops: 7
+CE signal <soc_inst/u_EfxSapphireSoc/system_bridge_bmb_unburstify_io_output_cmd_valid>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_clint_logic/n1140>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_clint_logic_io_bus_cmd_ready>, number of controlling flip flops: 37
+CE signal <soc_inst/u_EfxSapphireSoc/system_clint_logic/n1141>, number of controlling flip flops: 32
+CE signal <soc_inst/u_EfxSapphireSoc/system_clint_logic/n1142>, number of controlling flip flops: 32
+CE signal <ceg_net2281>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_uart_0_io_logic/n749>, number of controlling flip flops: 20
+CE signal <soc_inst/u_EfxSapphireSoc/system_uart_0_io_logic/n910>, number of controlling flip flops: 6
+CE signal <soc_inst/u_EfxSapphireSoc/system_uart_0_io_logic/n747>, number of controlling flip flops: 2
+CE signal <ceg_net2286>, number of controlling flip flops: 1
+CE signal <ceg_net2291>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_uart_0_io_logic/when_UartCtrl_l155>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_uart_0_io_logic/n744>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_uart_0_io_logic_io_bus_cmd_ready>, number of controlling flip flops: 32
+CE signal <soc_inst/u_EfxSapphireSoc/system_uart_0_io_logic/uartCtrl_1/rx/when_UartCtrlRx_l69>, number of controlling flip flops: 7
+CE signal <soc_inst/u_EfxSapphireSoc/system_uart_0_io_logic/uartCtrl_1/clockDivider_tickReg>, number of controlling flip flops: 4
+CE signal <soc_inst/u_EfxSapphireSoc/system_uart_0_io_logic/uartCtrl_1/rx/sampler_tick>, number of controlling flip flops: 3
+CE signal <soc_inst/u_EfxSapphireSoc/system_uart_0_io_logic/uartCtrl_1/rx/n841>, number of controlling flip flops: 1
+CE signal <ceg_net2294>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_uart_0_io_logic/uartCtrl_1/rx/n768>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_uart_0_io_logic/uartCtrl_1/rx/n767>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_uart_0_io_logic/uartCtrl_1/rx/n766>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_uart_0_io_logic/uartCtrl_1/rx/n765>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_uart_0_io_logic/uartCtrl_1/rx/n764>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_uart_0_io_logic/uartCtrl_1/rx/n763>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_uart_0_io_logic/uartCtrl_1/rx/n846>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_uart_0_io_logic/bridge_write_streamUnbuffered_queueWithOccupancy/when_Stream_l1123>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_uart_0_io_logic/system_uart_0_io_logic_uartCtrl_1_io_read_queueWithOccupancy/when_Stream_l1123>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_spi_0_io_logic/mapping_cmdLogic_streamUnbuffered_queueWithAvailability_io_pop_valid>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_spi_0_io_logic/system_spi_0_io_logic_mapping_cmdLogic_streamUnbuffered_queueWithAvailability_io_pop_s2mPipe_ready>, number of controlling flip flops: 12
+CE signal <soc_inst/u_EfxSapphireSoc/system_spi_0_io_logic/n807>, number of controlling flip flops: 2
+CE signal <soc_inst/u_EfxSapphireSoc/system_spi_0_io_logic/n808>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_spi_0_io_logic_io_ctrl_cmd_ready>, number of controlling flip flops: 25
+CE signal <soc_inst/u_EfxSapphireSoc/system_spi_0_io_logic/system_spi_0_io_logic_mapping_cmdLogic_streamUnbuffered_queueWithAvailability_io_pop_rValid>, number of controlling flip flops: 11
+CE signal <soc_inst/u_EfxSapphireSoc/system_spi_0_io_logic/n810>, number of controlling flip flops: 4
+CE signal <soc_inst/u_EfxSapphireSoc/system_spi_0_io_logic/n936>, number of controlling flip flops: 12
+CE signal <soc_inst/u_EfxSapphireSoc/system_spi_0_io_logic/n937>, number of controlling flip flops: 12
+CE signal <soc_inst/u_EfxSapphireSoc/system_spi_0_io_logic/n938>, number of controlling flip flops: 12
+CE signal <soc_inst/u_EfxSapphireSoc/system_spi_0_io_logic/n939>, number of controlling flip flops: 12
+CE signal <ceg_net2440>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_spi_0_io_logic/ctrl/n474>, number of controlling flip flops: 3
+CE signal <ceg_net2305>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_spi_0_io_logic/mapping_cmdLogic_streamUnbuffered_queueWithAvailability/when_Stream_l1123>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_spi_0_io_logic/system_spi_0_io_logic_ctrl_io_rsp_queueWithOccupancy/when_Stream_l1123>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_i2c_0_io_logic/i2cCtrl/ctrl_rspBufferIn_ready>, number of controlling flip flops: 3
+CE signal <soc_inst/u_EfxSapphireSoc/system_i2c_0_io_logic/i2cCtrl/n556>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_i2c_0_io_logic/i2cCtrl/detector_start>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_i2c_0_io_logic/i2cCtrl/n555>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_i2c_0_io_logic/i2cCtrl/n554>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_i2c_0_io_logic/i2cCtrl/equal_6/n19>, number of controlling flip flops: 4
+CE signal <ceg_net2406>, number of controlling flip flops: 6
+CE signal <soc_inst/u_EfxSapphireSoc/system_i2c_0_io_logic/bridge_rxData_event>, number of controlling flip flops: 2
+CE signal <ceg_net2314>, number of controlling flip flops: 1
+CE signal <ceg_net2319>, number of controlling flip flops: 1
+CE signal <ceg_net2324>, number of controlling flip flops: 1
+CE signal <ceg_net2329>, number of controlling flip flops: 1
+CE signal <ceg_net2338>, number of controlling flip flops: 1
+CE signal <ceg_net2343>, number of controlling flip flops: 1
+CE signal <ceg_net2348>, number of controlling flip flops: 1
+CE signal <ceg_net2355>, number of controlling flip flops: 1
+CE signal <ceg_net2360>, number of controlling flip flops: 1
+CE signal <ceg_net2365>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_i2c_0_io_logic/n2665>, number of controlling flip flops: 12
+CE signal <soc_inst/u_EfxSapphireSoc/system_i2c_0_io_logic/n2666>, number of controlling flip flops: 12
+CE signal <soc_inst/u_EfxSapphireSoc/system_i2c_0_io_logic/n2650>, number of controlling flip flops: 3
+CE signal <soc_inst/u_EfxSapphireSoc/system_i2c_0_io_logic/n1986>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_i2c_0_io_logic/n1987>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_i2c_0_io_logic/n1988>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_i2c_0_io_logic/n1989>, number of controlling flip flops: 1
+CE signal <ceg_net2370>, number of controlling flip flops: 1
+CE signal <ceg_net2375>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_i2c_0_io_logic/n2652>, number of controlling flip flops: 10
+CE signal <ceg_net2380>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_i2c_0_io_logic/n2012>, number of controlling flip flops: 2
+CE signal <soc_inst/u_EfxSapphireSoc/system_i2c_0_io_logic/n2035>, number of controlling flip flops: 11
+CE signal <soc_inst/u_EfxSapphireSoc/system_i2c_0_io_logic/equal_116/n5>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_i2c_0_io_logic/equal_117/n5>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_i2c_0_io_logic/equal_118/n5>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_i2c_0_io_logic/when_I2cCtrl_l634_6>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_i2c_0_io_logic/when_I2cCtrl_l310>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_i2c_0_io_logic/when_I2cCtrl_l634_10>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_i2c_0_io_logic/when_I2cCtrl_l634_12>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_i2c_0_io_logic/n2046>, number of controlling flip flops: 2
+CE signal <soc_inst/u_EfxSapphireSoc/system_i2c_0_io_logic_io_ctrl_cmd_ready>, number of controlling flip flops: 19
+CE signal <soc_inst/u_EfxSapphireSoc/system_i2c_0_io_logic/n2653>, number of controlling flip flops: 8
+CE signal <soc_inst/u_EfxSapphireSoc/system_i2c_0_io_logic/n2654>, number of controlling flip flops: 8
+CE signal <soc_inst/u_EfxSapphireSoc/system_i2c_0_io_logic/n2655>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_i2c_0_io_logic/i2cCtrl_io_internals_sclRead>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_i2c_0_io_logic/n2664>, number of controlling flip flops: 8
+CE signal <ceg_net2341>, number of controlling flip flops: 1
+CE signal <ceg_net2358>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_i2c_0_io_logic/n2030>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_i2c_0_io_logic/n2667>, number of controlling flip flops: 12
+CE signal <soc_inst/u_EfxSapphireSoc/system_i2c_0_io_logic/n2668>, number of controlling flip flops: 12
+CE signal <soc_inst/u_EfxSapphireSoc/system_i2c_0_io_logic/n2669>, number of controlling flip flops: 12
+CE signal <soc_inst/u_EfxSapphireSoc/system_i2c_0_io_logic/n2670>, number of controlling flip flops: 20
+CE signal <soc_inst/u_EfxSapphireSoc/system_i2c_0_io_logic/n2671>, number of controlling flip flops: 6
+CE signal <soc_inst/u_EfxSapphireSoc/system_i2c_0_io_logic/n2443>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_i2c_0_io_logic/n2442>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_i2c_0_io_logic/n2441>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_i2c_0_io_logic/n2440>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_i2c_0_io_logic/n2439>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_i2c_0_io_logic/n2438>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_i2c_0_io_logic/n2656>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_gpio_0_io_logic/n462>, number of controlling flip flops: 4
+CE signal <soc_inst/u_EfxSapphireSoc/system_gpio_0_io_logic/n465>, number of controlling flip flops: 2
+CE signal <soc_inst/u_EfxSapphireSoc/system_gpio_0_io_logic/n467>, number of controlling flip flops: 2
+CE signal <soc_inst/u_EfxSapphireSoc/system_gpio_0_io_logic/n469>, number of controlling flip flops: 2
+CE signal <soc_inst/u_EfxSapphireSoc/system_gpio_0_io_logic/n471>, number of controlling flip flops: 2
+CE signal <soc_inst/u_EfxSapphireSoc/system_gpio_0_io_logic_io_bus_cmd_ready>, number of controlling flip flops: 9
+CE signal <soc_inst/u_EfxSapphireSoc/system_gpio_0_io_logic/n474>, number of controlling flip flops: 4
+CE signal <soc_inst/u_EfxSapphireSoc/io_apbSlave_0_logic/bmbBuffer_rsp_ready>, number of controlling flip flops: 37
+CE signal <ceg_net2410>, number of controlling flip flops: 1
+CE signal <soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_ddrAAxi3_b_rValid>, number of controlling flip flops: 1
+CE signal <io_ddrA_b_ready>, number of controlling flip flops: 1
+CE signal <i42/n23>, number of controlling flip flops: 15
+CE signal <i42/n22>, number of controlling flip flops: 15
+CE signal <i42/n21>, number of controlling flip flops: 15
+CE signal <i42/n20>, number of controlling flip flops: 15
+CE signal <i43/n14>, number of controlling flip flops: 2
+CE signal <i43/n13>, number of controlling flip flops: 2
+CE signal <i43/n12>, number of controlling flip flops: 2
+CE signal <i43/n11>, number of controlling flip flops: 2
+CE signal <i43/n10>, number of controlling flip flops: 2
+CE signal <i43/n9>, number of controlling flip flops: 2
+CE signal <i43/n8>, number of controlling flip flops: 2
+CE signal <i43/n7>, number of controlling flip flops: 2
+### ### EFX_FF CE enables (end) ### ### ###
+
+### ### EFX_FF SR set/reset (begin) ### ### ###
+Total number of set/reset signals: 120
+Total number of FFs with set/reset signals: 1655
+SR signal <reset_sequencer/rstn_dly[1]>, number of controlling flip flops: 3
+SR signal <io_memoryReset>, number of controlling flip flops: 2
+SR signal <io_systemReset>, number of controlling flip flops: 376
+SR signal <io_axiMasterReset_0>, number of controlling flip flops: 162
+SR signal <n7_2>, number of controlling flip flops: 2
+SR signal <soc_inst/u_EfxSapphireSoc/debugCd_logic_outputReset>, number of controlling flip flops: 21
+SR signal <soc_inst/u_EfxSapphireSoc/ddrCd_logic_outputReset>, number of controlling flip flops: 160
+SR signal <soc_inst/u_EfxSapphireSoc/system_cores_0_debugReset>, number of controlling flip flops: 2
+SR signal <soc_inst/u_EfxSapphireSoc/ddrCd_logic_inputResetTrigger>, number of controlling flip flops: 6
+SR signal <soc_inst/u_EfxSapphireSoc/bufferCC_30_io_dataOut>, number of controlling flip flops: 6
+SR signal <soc_inst/u_EfxSapphireSoc/systemCd_logic_outputReset>, number of controlling flip flops: 499
+SR signal <soc_inst/u_EfxSapphireSoc/n33985>, number of controlling flip flops: 1
+SR signal <soc_inst/u_EfxSapphireSoc/n33986>, number of controlling flip flops: 1
+SR signal <soc_inst/u_EfxSapphireSoc/n33987>, number of controlling flip flops: 1
+SR signal <soc_inst/u_EfxSapphireSoc/n33988>, number of controlling flip flops: 1
+SR signal <soc_inst/u_EfxSapphireSoc/n33989>, number of controlling flip flops: 1
+SR signal <soc_inst/u_EfxSapphireSoc/n33991>, number of controlling flip flops: 1
+SR signal <soc_inst/u_EfxSapphireSoc/n33992>, number of controlling flip flops: 1
+SR signal <soc_inst/u_EfxSapphireSoc/n33993>, number of controlling flip flops: 1
+SR signal <soc_inst/u_EfxSapphireSoc/n33994>, number of controlling flip flops: 1
+SR signal <soc_inst/u_EfxSapphireSoc/n33995>, number of controlling flip flops: 1
+SR signal <soc_inst/u_EfxSapphireSoc/n33996>, number of controlling flip flops: 1
+SR signal <soc_inst/u_EfxSapphireSoc/n33997>, number of controlling flip flops: 1
+SR signal <soc_inst/u_EfxSapphireSoc/n33998>, number of controlling flip flops: 1
+SR signal <soc_inst/u_EfxSapphireSoc/n33999>, number of controlling flip flops: 1
+SR signal <soc_inst/u_EfxSapphireSoc/n34000>, number of controlling flip flops: 1
+SR signal <soc_inst/u_EfxSapphireSoc/n34001>, number of controlling flip flops: 1
+SR signal <soc_inst/u_EfxSapphireSoc/n34002>, number of controlling flip flops: 1
+SR signal <soc_inst/u_EfxSapphireSoc/n34003>, number of controlling flip flops: 1
+SR signal <soc_inst/u_EfxSapphireSoc/n34004>, number of controlling flip flops: 1
+SR signal <soc_inst/u_EfxSapphireSoc/n34005>, number of controlling flip flops: 1
+SR signal <soc_inst/u_EfxSapphireSoc/n34006>, number of controlling flip flops: 1
+SR signal <soc_inst/u_EfxSapphireSoc/n34007>, number of controlling flip flops: 1
+SR signal <soc_inst/u_EfxSapphireSoc/equal_193/n7>, number of controlling flip flops: 4
+SR signal <ceg_net1910>, number of controlling flip flops: 32
+SR signal <soc_inst/u_EfxSapphireSoc/n34010>, number of controlling flip flops: 1
+SR signal <soc_inst/u_EfxSapphireSoc/n34011>, number of controlling flip flops: 1
+SR signal <soc_inst/u_EfxSapphireSoc/n34012>, number of controlling flip flops: 1
+SR signal <soc_inst/u_EfxSapphireSoc/n34013>, number of controlling flip flops: 1
+SR signal <soc_inst/u_EfxSapphireSoc/n34014>, number of controlling flip flops: 1
+SR signal <soc_inst/u_EfxSapphireSoc/n34015>, number of controlling flip flops: 1
+SR signal <soc_inst/u_EfxSapphireSoc/n34016>, number of controlling flip flops: 1
+SR signal <soc_inst/u_EfxSapphireSoc/n34017>, number of controlling flip flops: 1
+SR signal <soc_inst/u_EfxSapphireSoc/n34018>, number of controlling flip flops: 1
+SR signal <soc_inst/u_EfxSapphireSoc/n34019>, number of controlling flip flops: 1
+SR signal <soc_inst/u_EfxSapphireSoc/n34020>, number of controlling flip flops: 1
+SR signal <soc_inst/u_EfxSapphireSoc/n34021>, number of controlling flip flops: 1
+SR signal <soc_inst/u_EfxSapphireSoc/n34022>, number of controlling flip flops: 1
+SR signal <soc_inst/u_EfxSapphireSoc/n34023>, number of controlling flip flops: 1
+SR signal <soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_ddrAReset_reset>, number of controlling flip flops: 24
+SR signal <soc_inst/u_EfxSapphireSoc/bufferCC_28_io_dataOut>, number of controlling flip flops: 12
+SR signal <soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/n24411>, number of controlling flip flops: 1
+SR signal <soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/n24412>, number of controlling flip flops: 2
+SR signal <soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/n24417>, number of controlling flip flops: 1
+SR signal <soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/n24461>, number of controlling flip flops: 6
+SR signal <soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/n24419>, number of controlling flip flops: 1
+SR signal <soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/n24420>, number of controlling flip flops: 1
+SR signal <soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/n24422>, number of controlling flip flops: 1
+SR signal <soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/n24423>, number of controlling flip flops: 3
+SR signal <soc_inst/u_EfxSapphireSoc/system_bridge_bmb_decoder/logic_rspNoHit_doIt>, number of controlling flip flops: 1
+SR signal <soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/when_MulPlugin_l70>, number of controlling flip flops: 1
+SR signal <soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/memory_arbitration_isStuck>, number of controlling flip flops: 33
+SR signal <soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/n24459>, number of controlling flip flops: 1
+SR signal <soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_cache/n1165>, number of controlling flip flops: 1
+SR signal <soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_cache/when_InstructionCache_l351>, number of controlling flip flops: 7
+SR signal <soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/dataCache_1/n1595>, number of controlling flip flops: 1
+SR signal <soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/dataCache_1/n1596>, number of controlling flip flops: 2
+SR signal <soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/dataCache_1/n1651>, number of controlling flip flops: 1
+SR signal <soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/n31901>, number of controlling flip flops: 1
+SR signal <soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/DBusCachedPlugin_exceptionBus_valid>, number of controlling flip flops: 1
+SR signal <n17525>, number of controlling flip flops: 1
+SR signal <soc_inst/u_EfxSapphireSoc/system_softJtag_debug_logic_debugger/n553>, number of controlling flip flops: 2
+SR signal <soc_inst/u_EfxSapphireSoc/system_bridge_bmb_arbiter/memory_arbiter/n150>, number of controlling flip flops: 1
+SR signal <soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_bmbToAxiBridge/n1720>, number of controlling flip flops: 2
+SR signal <soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_bmbToAxiBridge/n1722>, number of controlling flip flops: 1
+SR signal <soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_bmbToAxiBridge/n1723>, number of controlling flip flops: 1
+SR signal <soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_bmbToAxiBridge/n1724>, number of controlling flip flops: 1
+SR signal <soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_cc_fifo/io_input_cmd_queue/bufferCC_28_io_dataOut>, number of controlling flip flops: 27
+SR signal <soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_cc_fifo/io_output_rsp_queue/bufferCC_28_io_dataOut>, number of controlling flip flops: 27
+SR signal <soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_arbiterAxi3Shared/cmdArbiter/n145>, number of controlling flip flops: 1
+SR signal <soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_arbiterAxi3Shared/n1403>, number of controlling flip flops: 2
+SR signal <soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_arbiterAxi3Shared/n1405>, number of controlling flip flops: 1
+SR signal <soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_userAdapters_0_bridge/io_input_ar_queue_io_input_ar_queue_system_ddr_ddrLogic_userAdapters_0_bridge_toplevel_io_ddrMasters_0_reset_syncronized_1>, number of controlling flip flops: 57
+SR signal <soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_userAdapters_0_bridge/io_output_r_queue_io_output_r_queue_system_ddr_ddrLogic_userAdapters_0_bridge_toplevel_ddrCd_logic_outputReset_syncronized_1>, number of controlling flip flops: 38
+SR signal <soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_userAdapters_0_upsizer_logic/readOnly/n622>, number of controlling flip flops: 2
+SR signal <soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_userAdapters_0_upsizer_logic/readOnly/n624>, number of controlling flip flops: 1
+SR signal <soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_userAdapters_0_upsizer_logic/writeOnly/n1266>, number of controlling flip flops: 2
+SR signal <soc_inst/u_EfxSapphireSoc/streamArbiter_3/n141>, number of controlling flip flops: 1
+SR signal <soc_inst/u_EfxSapphireSoc/system_axiA_logic_bmbToAxiBridge/n805>, number of controlling flip flops: 2
+SR signal <soc_inst/u_EfxSapphireSoc/system_axiA_logic_bmbToAxiBridge/n807>, number of controlling flip flops: 1
+SR signal <soc_inst/u_EfxSapphireSoc/system_axiA_logic_bmbToAxiBridge/n808>, number of controlling flip flops: 1
+SR signal <soc_inst/u_EfxSapphireSoc/system_axiA_logic_bmbToAxiBridge/n809>, number of controlling flip flops: 1
+SR signal <soc_inst/u_EfxSapphireSoc/system_bridge_bmb_upSizer/n918>, number of controlling flip flops: 12
+SR signal <soc_inst/u_EfxSapphireSoc/system_bmbPeripheral_bmb_decoder/n1092>, number of controlling flip flops: 1
+SR signal <soc_inst/u_EfxSapphireSoc/system_uart_0_io_logic/n759>, number of controlling flip flops: 1
+SR signal <soc_inst/u_EfxSapphireSoc/system_uart_0_io_logic/n760>, number of controlling flip flops: 1
+SR signal <soc_inst/u_EfxSapphireSoc/system_uart_0_io_logic/uartCtrl_1/rx/n481>, number of controlling flip flops: 7
+SR signal <soc_inst/u_EfxSapphireSoc/system_uart_0_io_logic/uartCtrl_1/rx/n843>, number of controlling flip flops: 3
+SR signal <soc_inst/u_EfxSapphireSoc/system_spi_0_io_logic/n809>, number of controlling flip flops: 5
+SR signal <soc_inst/u_EfxSapphireSoc/system_spi_0_io_logic/ctrl/n484>, number of controlling flip flops: 1
+SR signal <soc_inst/u_EfxSapphireSoc/system_spi_0_io_logic/ctrl/n483>, number of controlling flip flops: 1
+SR signal <soc_inst/u_EfxSapphireSoc/system_spi_0_io_logic/ctrl/timer_reset>, number of controlling flip flops: 12
+SR signal <soc_inst/u_EfxSapphireSoc/system_i2c_0_io_logic/i2cCtrl/n559>, number of controlling flip flops: 1
+SR signal <soc_inst/u_EfxSapphireSoc/system_i2c_0_io_logic/i2cCtrl/n558>, number of controlling flip flops: 1
+SR signal <soc_inst/u_EfxSapphireSoc/system_i2c_0_io_logic/n2050>, number of controlling flip flops: 7
+SR signal <soc_inst/u_EfxSapphireSoc/system_i2c_0_io_logic/n2049>, number of controlling flip flops: 1
+SR signal <soc_inst/u_EfxSapphireSoc/system_i2c_0_io_logic/n2799>, number of controlling flip flops: 1
+SR signal <soc_inst/u_EfxSapphireSoc/system_i2c_0_io_logic/n2800>, number of controlling flip flops: 2
+SR signal <soc_inst/u_EfxSapphireSoc/system_i2c_0_io_logic/n2051>, number of controlling flip flops: 1
+SR signal <soc_inst/u_EfxSapphireSoc/system_i2c_0_io_logic/n2733>, number of controlling flip flops: 1
+SR signal <soc_inst/u_EfxSapphireSoc/system_i2c_0_io_logic/n2735>, number of controlling flip flops: 1
+SR signal <soc_inst/u_EfxSapphireSoc/system_i2c_0_io_logic/n2737>, number of controlling flip flops: 1
+SR signal <soc_inst/u_EfxSapphireSoc/system_i2c_0_io_logic/n2739>, number of controlling flip flops: 1
+SR signal <soc_inst/u_EfxSapphireSoc/system_i2c_0_io_logic/n2741>, number of controlling flip flops: 1
+SR signal <soc_inst/u_EfxSapphireSoc/system_i2c_0_io_logic/n2743>, number of controlling flip flops: 1
+SR signal <soc_inst/u_EfxSapphireSoc/system_i2c_0_io_logic/n2745>, number of controlling flip flops: 1
+SR signal <soc_inst/u_EfxSapphireSoc/system_i2c_0_io_logic/i2cCtrl_io_internals_inFrame>, number of controlling flip flops: 1
+SR signal <soc_inst/u_EfxSapphireSoc/system_i2c_0_io_logic/equal_751/n15>, number of controlling flip flops: 1
+SR signal <soc_inst/u_EfxSapphireSoc/n34468>, number of controlling flip flops: 1
+SR signal <soc_inst/u_EfxSapphireSoc/_zz_system_cores_0_externalInterrupt_plic_target_bestRequest_priority_6>, number of controlling flip flops: 1
+### ### EFX_FF SR set/reset (end) ### ### ###
+
+### ### Sequential Elements Trimming Report (begin) ### ### ### 
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (20466)" removed instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/dff_2304/i2
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (20466)" representative instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/dff_2269/i13
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (25599)" removed instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/dataCache_1/dff_370/i2
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (20466)" representative instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/dff_2270/i14
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (25599)" removed instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/dataCache_1/dff_376/i2
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (20466)" representative instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/dff_2271/i14
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (25599)" removed instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/dataCache_1/dff_370/i1
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (20466)" representative instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/dff_2270/i13
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (25599)" removed instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/dataCache_1/dff_376/i1
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (20466)" representative instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/dff_2271/i13
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6735)" removed instance : soc_inst/u_EfxSapphireSoc/dff_1966/i4
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6735)" representative instance : soc_inst/u_EfxSapphireSoc/dff_1966/i3
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6735)" removed instance : soc_inst/u_EfxSapphireSoc/dff_1966/i5
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6735)" representative instance : soc_inst/u_EfxSapphireSoc/dff_1966/i3
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6735)" removed instance : soc_inst/u_EfxSapphireSoc/dff_1966/i6
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6735)" representative instance : soc_inst/u_EfxSapphireSoc/dff_1966/i3
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\design_modules.v (569)" removed instance : axi_slave_0/dff_109/i2
+@ "E:\infinix\T120F324_devkit\design_modules.v (569)" representative instance : axi_slave_0/dff_110/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (24289)" removed instance : soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_cc_fifo/io_output_rsp_queue/dff_73/i7
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (24289)" representative instance : soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_cc_fifo/io_output_rsp_queue/dff_72/i7
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (23841)" removed instance : soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_userAdapters_0_bridge/io_input_ar_queue/dff_74/i5
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (23841)" representative instance : soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_userAdapters_0_bridge/io_input_ar_queue/dff_73/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (23164)" removed instance : soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_userAdapters_0_bridge/io_output_b_queue/dff_63/i5
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (23164)" representative instance : soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_userAdapters_0_bridge/io_output_b_queue/dff_62/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (23150)" removed instance : soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_userAdapters_0_bridge/io_output_b_queue/dff_55/i5
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (23150)" representative instance : soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_userAdapters_0_bridge/io_output_b_queue/dff_54/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (20093)" removed instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/i1880
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6735)" representative instance : soc_inst/u_EfxSapphireSoc/i1953
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (25964)" removed instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_cache/dff_130/i7
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (20466)" representative instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/dff_2217/i7
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (25964)" removed instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_cache/dff_130/i8
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (20466)" representative instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/dff_2217/i8
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (25964)" removed instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_cache/dff_130/i9
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (20466)" representative instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/dff_2217/i9
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (25964)" removed instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_cache/dff_130/i10
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (20466)" representative instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/dff_2217/i10
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (25964)" removed instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_cache/dff_130/i11
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (20466)" representative instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/dff_2217/i11
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (24476)" removed instance : soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_cc_fifo/io_input_cmd_queue/dff_76/i7
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (24476)" representative instance : soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_cc_fifo/io_input_cmd_queue/dff_75/i7
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (25964)" removed instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_cache/dff_130/i23
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (20466)" representative instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/dff_2217/i23
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (25964)" removed instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_cache/dff_130/i18
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (20466)" representative instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/dff_2217/i18
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (25964)" removed instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_cache/dff_130/i17
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (20466)" representative instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/dff_2217/i17
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (25964)" removed instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_cache/dff_130/i28
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (20466)" representative instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/dff_2217/i28
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (25964)" removed instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_cache/dff_130/i27
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (20466)" representative instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/dff_2217/i27
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (25964)" removed instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_cache/dff_130/i26
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (20466)" representative instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/dff_2217/i26
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (25964)" removed instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_cache/dff_130/i25
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (20466)" representative instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/dff_2217/i25
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (25964)" removed instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_cache/dff_130/i14
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (20466)" representative instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/dff_2217/i14
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (25964)" removed instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_cache/dff_130/i13
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (20466)" representative instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/dff_2217/i13
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6735)" removed instance : soc_inst/u_EfxSapphireSoc/i1963
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6735)" representative instance : soc_inst/u_EfxSapphireSoc/i1958
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (25599)" removed instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/dataCache_1/i383
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (25599)" representative instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/dataCache_1/i382
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (25964)" removed instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_cache/dff_130/i15
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (20466)" representative instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/dff_2217/i15
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\design_modules.v (472)" removed instance : axi_slave_0/dff_55/i2
+@ "E:\infinix\T120F324_devkit\design_modules.v (472)" representative instance : axi_slave_0/dff_56/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (9535)" removed instance : soc_inst/u_EfxSapphireSoc/system_i2c_0_io_logic/i783
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (9535)" representative instance : soc_inst/u_EfxSapphireSoc/system_i2c_0_io_logic/i776
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (9535)" removed instance : soc_inst/u_EfxSapphireSoc/system_i2c_0_io_logic/i784
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (9535)" representative instance : soc_inst/u_EfxSapphireSoc/system_i2c_0_io_logic/i785
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (23656)" removed instance : soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_userAdapters_0_bridge/io_output_r_queue/dff_68/i5
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (23656)" representative instance : soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_userAdapters_0_bridge/io_output_r_queue/dff_67/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (23642)" removed instance : soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_userAdapters_0_bridge/io_output_r_queue/dff_60/i5
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (23642)" representative instance : soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_userAdapters_0_bridge/io_output_r_queue/dff_59/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (25964)" removed instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_cache/dff_130/i16
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (20466)" representative instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/dff_2217/i16
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (25964)" removed instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_cache/dff_130/i29
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (20466)" representative instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/dff_2217/i29
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (24462)" removed instance : soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_cc_fifo/io_input_cmd_queue/dff_68/i7
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (24462)" representative instance : soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_cc_fifo/io_input_cmd_queue/dff_67/i7
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (7378)" removed instance : soc_inst/u_EfxSapphireSoc/i2559
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (7378)" representative instance : soc_inst/u_EfxSapphireSoc/i2568
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (23489)" removed instance : soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_userAdapters_0_bridge/io_input_aw_queue/dff_71/i5
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (23489)" representative instance : soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_userAdapters_0_bridge/io_input_aw_queue/dff_70/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (23475)" removed instance : soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_userAdapters_0_bridge/io_input_aw_queue/dff_63/i5
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (23475)" representative instance : soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_userAdapters_0_bridge/io_input_aw_queue/dff_62/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\design_modules.v (1209)" removed instance : memcheck_0/dff_290/i1
+@ "E:\infinix\T120F324_devkit\design_modules.v (1209)" representative instance : memcheck_0/dff_291/i2
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (7301)" removed instance : soc_inst/u_EfxSapphireSoc/dff_2490/i1
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (7301)" representative instance : soc_inst/u_EfxSapphireSoc/dff_2489/i2
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (7301)" removed instance : soc_inst/u_EfxSapphireSoc/dff_2510/i1
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (7301)" representative instance : soc_inst/u_EfxSapphireSoc/dff_2509/i2
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6735)" removed instance : soc_inst/u_EfxSapphireSoc/dff_1966/i1
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6735)" representative instance : soc_inst/u_EfxSapphireSoc/dff_1966/i3
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6735)" removed instance : soc_inst/u_EfxSapphireSoc/dff_1966/i2
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6735)" representative instance : soc_inst/u_EfxSapphireSoc/dff_1966/i3
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6735)" removed instance : soc_inst/u_EfxSapphireSoc/dff_1994/i1
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6735)" representative instance : soc_inst/u_EfxSapphireSoc/dff_1990/i3
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6735)" removed instance : soc_inst/u_EfxSapphireSoc/dff_1994/i2
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6735)" representative instance : soc_inst/u_EfxSapphireSoc/dff_1990/i4
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (25964)" removed instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_cache/dff_130/i19
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (20466)" representative instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/dff_2217/i19
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (20093)" removed instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/dff_1883/i1
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (20093)" representative instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/dff_1883/i2
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (25964)" removed instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_cache/dff_130/i12
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (20466)" representative instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/dff_2217/i12
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (25964)" removed instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_cache/dff_130/i21
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (20466)" representative instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/dff_2217/i21
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (25964)" removed instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_cache/dff_130/i20
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (20466)" representative instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/dff_2217/i20
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (25964)" removed instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_cache/dff_130/i22
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (20466)" representative instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/dff_2217/i22
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (25964)" removed instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_cache/dff_130/i24
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (20466)" representative instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/dff_2217/i24
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (11209)" removed instance : soc_inst/u_EfxSapphireSoc/system_bmbPeripheral_bmb_decoder/i200
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (11209)" representative instance : soc_inst/u_EfxSapphireSoc/system_bmbPeripheral_bmb_decoder/dff_204/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (7301)" removed instance : soc_inst/u_EfxSapphireSoc/dff_2516/i2
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (7301)" representative instance : soc_inst/u_EfxSapphireSoc/dff_2516/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (7301)" removed instance : soc_inst/u_EfxSapphireSoc/dff_2516/i3
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (7301)" representative instance : soc_inst/u_EfxSapphireSoc/dff_2516/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (7301)" removed instance : soc_inst/u_EfxSapphireSoc/dff_2516/i4
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (7301)" representative instance : soc_inst/u_EfxSapphireSoc/dff_2516/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (23302)" removed instance : soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_userAdapters_0_bridge/io_input_w_queue/dff_56/i5
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (23302)" representative instance : soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_userAdapters_0_bridge/io_input_w_queue/dff_55/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (23316)" removed instance : soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_userAdapters_0_bridge/io_input_w_queue/dff_64/i5
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (23316)" representative instance : soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_userAdapters_0_bridge/io_input_w_queue/dff_63/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (23827)" removed instance : soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_userAdapters_0_bridge/io_input_ar_queue/dff_66/i5
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (23827)" representative instance : soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_userAdapters_0_bridge/io_input_ar_queue/dff_65/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (24275)" removed instance : soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_cc_fifo/io_output_rsp_queue/dff_65/i7
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (24275)" representative instance : soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_cc_fifo/io_output_rsp_queue/dff_64/i7
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (25964)" removed instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_cache/dff_130/i30
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (20466)" representative instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/dff_2217/i30
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (20466)" removed instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/dff_2217/i32
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (25964)" representative instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_cache/dff_130/i32
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (25964)" removed instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_cache/dff_130/i31
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (20466)" representative instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/dff_2217/i31
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (20466)" removed instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/i2303
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (20466)" representative instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/i2304
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (20466)" removed instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/dff_2269/i6
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (20466)" representative instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/i2288
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (20466)" removed instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/i2289
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (25599)" representative instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/dataCache_1/i370
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (20466)" removed instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/i2290
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (25599)" representative instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/dataCache_1/i376
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (20466)" removed instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/dff_2249/i2
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (20466)" representative instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/dff_2249/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6735)" removed instance : soc_inst/u_EfxSapphireSoc/i1964
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6735)" representative instance : soc_inst/u_EfxSapphireSoc/dff_1966/i3
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (20466)" removed instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/dff_2250/i1
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (20466)" representative instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/dff_2250/i2
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6735)" removed instance : soc_inst/u_EfxSapphireSoc/dff_1955/i23
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (20466)" representative instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/dff_2240/i23
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6735)" removed instance : soc_inst/u_EfxSapphireSoc/dff_1955/i24
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (20466)" representative instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/dff_2240/i24
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6735)" removed instance : soc_inst/u_EfxSapphireSoc/dff_1955/i25
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (20466)" representative instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/dff_2240/i25
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6735)" removed instance : soc_inst/u_EfxSapphireSoc/dff_1955/i26
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (20466)" representative instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/dff_2240/i26
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6735)" removed instance : soc_inst/u_EfxSapphireSoc/dff_1955/i27
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (20466)" representative instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/dff_2240/i27
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6735)" removed instance : soc_inst/u_EfxSapphireSoc/dff_1955/i9
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (20466)" representative instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/dff_2240/i9
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6735)" removed instance : soc_inst/u_EfxSapphireSoc/dff_1955/i10
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (20466)" representative instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/dff_2240/i10
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6735)" removed instance : soc_inst/u_EfxSapphireSoc/dff_1955/i11
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (20466)" representative instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/dff_2240/i11
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6735)" removed instance : soc_inst/u_EfxSapphireSoc/dff_1955/i12
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (20466)" representative instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/dff_2240/i12
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6735)" removed instance : soc_inst/u_EfxSapphireSoc/dff_1955/i18
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (20466)" representative instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/dff_2240/i18
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6735)" removed instance : soc_inst/u_EfxSapphireSoc/dff_1955/i19
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (20466)" representative instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/dff_2240/i19
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6735)" removed instance : soc_inst/u_EfxSapphireSoc/dff_1955/i20
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (20466)" representative instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/dff_2240/i20
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6735)" removed instance : soc_inst/u_EfxSapphireSoc/dff_1955/i21
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (20466)" representative instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/dff_2240/i21
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6735)" removed instance : soc_inst/u_EfxSapphireSoc/dff_1955/i22
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (20466)" representative instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/dff_2240/i22
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6735)" removed instance : soc_inst/u_EfxSapphireSoc/dff_1955/i28
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (20466)" representative instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/dff_2240/i28
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6735)" removed instance : soc_inst/u_EfxSapphireSoc/dff_1955/i29
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (20466)" representative instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/dff_2240/i29
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6735)" removed instance : soc_inst/u_EfxSapphireSoc/dff_1955/i30
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (20466)" representative instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/dff_2240/i30
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6735)" removed instance : soc_inst/u_EfxSapphireSoc/dff_1955/i31
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (20466)" representative instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/dff_2240/i31
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6735)" removed instance : soc_inst/u_EfxSapphireSoc/dff_1955/i32
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (20466)" representative instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/dff_2240/i32
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6735)" removed instance : soc_inst/u_EfxSapphireSoc/dff_1955/i1
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (20466)" representative instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/dff_2240/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6735)" removed instance : soc_inst/u_EfxSapphireSoc/dff_1955/i2
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (20466)" representative instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/dff_2240/i2
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6735)" removed instance : soc_inst/u_EfxSapphireSoc/dff_1955/i3
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (20466)" representative instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/dff_2240/i3
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6735)" removed instance : soc_inst/u_EfxSapphireSoc/dff_1955/i4
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (20466)" representative instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/dff_2240/i4
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6735)" removed instance : soc_inst/u_EfxSapphireSoc/dff_1955/i13
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (20466)" representative instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/dff_2240/i13
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6735)" removed instance : soc_inst/u_EfxSapphireSoc/dff_1955/i14
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (20466)" representative instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/dff_2240/i14
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6735)" removed instance : soc_inst/u_EfxSapphireSoc/dff_1955/i15
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (20466)" representative instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/dff_2240/i15
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6735)" removed instance : soc_inst/u_EfxSapphireSoc/dff_1955/i16
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (20466)" representative instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/dff_2240/i16
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6735)" removed instance : soc_inst/u_EfxSapphireSoc/dff_1955/i17
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (20466)" representative instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/dff_2240/i17
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6735)" removed instance : soc_inst/u_EfxSapphireSoc/dff_1955/i5
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (20466)" representative instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/dff_2240/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6735)" removed instance : soc_inst/u_EfxSapphireSoc/dff_1955/i6
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (20466)" representative instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/dff_2240/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6735)" removed instance : soc_inst/u_EfxSapphireSoc/dff_1955/i7
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (20466)" representative instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/dff_2240/i7
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6735)" removed instance : soc_inst/u_EfxSapphireSoc/dff_1955/i8
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (20466)" representative instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/dff_2240/i8
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6735)" removed instance : soc_inst/u_EfxSapphireSoc/i1955
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (20466)" representative instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/i2242
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (7048)" removed instance : soc_inst/u_EfxSapphireSoc/i2322
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (15412)" representative instance : soc_inst/u_EfxSapphireSoc/system_softJtag_debug_logic_jtagBridge/i91
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6566)" removed instance : soc_inst/u_EfxSapphireSoc/dff_1732/i2
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6566)" representative instance : soc_inst/u_EfxSapphireSoc/dff_1731/i3
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6566)" removed instance : soc_inst/u_EfxSapphireSoc/dff_1732/i4
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6566)" representative instance : soc_inst/u_EfxSapphireSoc/dff_1731/i3
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6566)" removed instance : soc_inst/u_EfxSapphireSoc/dff_1732/i3
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6566)" representative instance : soc_inst/u_EfxSapphireSoc/dff_1731/i3
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6566)" removed instance : soc_inst/u_EfxSapphireSoc/dff_1732/i1
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6566)" representative instance : soc_inst/u_EfxSapphireSoc/dff_1731/i3
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6566)" removed instance : soc_inst/u_EfxSapphireSoc/dff_1733/i2
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6566)" representative instance : soc_inst/u_EfxSapphireSoc/dff_1731/i3
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6735)" removed instance : soc_inst/u_EfxSapphireSoc/i1979
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6735)" representative instance : soc_inst/u_EfxSapphireSoc/i1974
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6735)" removed instance : soc_inst/u_EfxSapphireSoc/dff_2065/i1
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6735)" representative instance : soc_inst/u_EfxSapphireSoc/i2062
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6735)" removed instance : soc_inst/u_EfxSapphireSoc/dff_2059/i1
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6735)" representative instance : soc_inst/u_EfxSapphireSoc/i2056
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6735)" removed instance : soc_inst/u_EfxSapphireSoc/dff_2049/i1
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6735)" representative instance : soc_inst/u_EfxSapphireSoc/i2046
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (7301)" removed instance : soc_inst/u_EfxSapphireSoc/dff_2500/i1
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (7301)" representative instance : soc_inst/u_EfxSapphireSoc/dff_2499/i2
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6735)" removed instance : soc_inst/u_EfxSapphireSoc/dff_2002/i1
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6735)" representative instance : soc_inst/u_EfxSapphireSoc/dff_1998/i3
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6735)" removed instance : soc_inst/u_EfxSapphireSoc/dff_2002/i2
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6735)" representative instance : soc_inst/u_EfxSapphireSoc/dff_1998/i4
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (7301)" removed instance : soc_inst/u_EfxSapphireSoc/dff_2519/i2
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (7301)" representative instance : soc_inst/u_EfxSapphireSoc/dff_2519/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (7301)" removed instance : soc_inst/u_EfxSapphireSoc/dff_2519/i3
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (7301)" representative instance : soc_inst/u_EfxSapphireSoc/dff_2519/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (7301)" removed instance : soc_inst/u_EfxSapphireSoc/dff_2519/i4
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (7301)" representative instance : soc_inst/u_EfxSapphireSoc/dff_2519/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (20466)" removed instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/dff_2249/i1
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (20466)" representative instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/dff_2250/i2
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6735)" removed instance : soc_inst/u_EfxSapphireSoc/i1987
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6735)" representative instance : soc_inst/u_EfxSapphireSoc/i1982
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6735)" removed instance : soc_inst/u_EfxSapphireSoc/i2016
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6735)" representative instance : soc_inst/u_EfxSapphireSoc/i2011
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (20466)" removed instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/dff_2217/i3
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (25964)" representative instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_cache/dff_130/i3
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (20466)" removed instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/dff_2217/i4
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (25964)" representative instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_cache/dff_130/i4
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (20466)" removed instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/dff_2217/i5
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (25964)" representative instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_cache/dff_130/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (20466)" removed instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/dff_2217/i6
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (25964)" representative instance : soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_cache/dff_130/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (12152)" removed instance : soc_inst/u_EfxSapphireSoc/system_bridge_bmb_decoder/i150
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (12152)" representative instance : soc_inst/u_EfxSapphireSoc/system_bridge_bmb_decoder/i148
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (11441)" removed instance : soc_inst/u_EfxSapphireSoc/system_bridge_bmb_unburstify/i94
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (11441)" representative instance : soc_inst/u_EfxSapphireSoc/system_bridge_bmb_unburstify/i92
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (11441)" removed instance : soc_inst/u_EfxSapphireSoc/system_bridge_bmb_unburstify_1/i94
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (11441)" representative instance : soc_inst/u_EfxSapphireSoc/system_bridge_bmb_unburstify_1/i92
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6566)" removed instance : soc_inst/u_EfxSapphireSoc/dff_1737/i3
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6566)" representative instance : soc_inst/u_EfxSapphireSoc/dff_1738/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6566)" removed instance : soc_inst/u_EfxSapphireSoc/dff_1738/i2
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6566)" representative instance : soc_inst/u_EfxSapphireSoc/dff_1738/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6566)" removed instance : soc_inst/u_EfxSapphireSoc/dff_1738/i3
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6566)" representative instance : soc_inst/u_EfxSapphireSoc/dff_1738/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6566)" removed instance : soc_inst/u_EfxSapphireSoc/dff_1738/i4
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6566)" representative instance : soc_inst/u_EfxSapphireSoc/dff_1738/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6566)" removed instance : soc_inst/u_EfxSapphireSoc/dff_1739/i2
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6566)" representative instance : soc_inst/u_EfxSapphireSoc/dff_1738/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6566)" removed instance : soc_inst/u_EfxSapphireSoc/dff_1743/i3
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6566)" representative instance : soc_inst/u_EfxSapphireSoc/dff_1744/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6566)" removed instance : soc_inst/u_EfxSapphireSoc/dff_1744/i2
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6566)" representative instance : soc_inst/u_EfxSapphireSoc/dff_1744/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6566)" removed instance : soc_inst/u_EfxSapphireSoc/dff_1744/i3
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6566)" representative instance : soc_inst/u_EfxSapphireSoc/dff_1744/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6566)" removed instance : soc_inst/u_EfxSapphireSoc/dff_1744/i4
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6566)" representative instance : soc_inst/u_EfxSapphireSoc/dff_1744/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6566)" removed instance : soc_inst/u_EfxSapphireSoc/dff_1745/i2
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6566)" representative instance : soc_inst/u_EfxSapphireSoc/dff_1744/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6735)" removed instance : soc_inst/u_EfxSapphireSoc/dff_1994/i5
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6735)" representative instance : soc_inst/u_EfxSapphireSoc/i1990
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6735)" removed instance : soc_inst/u_EfxSapphireSoc/system_axiA_bmb_slaveModel_arbiterGen_oneToOne_arbiter_cmd_s2mPipe_rData_fragment_context[0]_2~FF
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6735)" representative instance : soc_inst/u_EfxSapphireSoc/i2019
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (11551)" removed instance : soc_inst/u_EfxSapphireSoc/system_ramA_logic/dff_58/i4
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (11551)" representative instance : soc_inst/u_EfxSapphireSoc/system_ramA_logic_io_bus_rsp_payload_fragment_context[0]_2~FF
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (11209)" removed instance : soc_inst/u_EfxSapphireSoc/system_bmbPeripheral_bmb_decoder/dff_204/i4
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (11209)" representative instance : soc_inst/u_EfxSapphireSoc/system_bmbPeripheral_bmb_decoder_io_outputs_0_cmd_payload_fragment_context[0]_2~FF
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (11209)" removed instance : soc_inst/u_EfxSapphireSoc/system_bmbPeripheral_bmb_decoder/dff_221/i4
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (11209)" representative instance : soc_inst/u_EfxSapphireSoc/system_bmbPeripheral_bmb_decoder/dff_221/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (10712)" removed instance : soc_inst/u_EfxSapphireSoc/system_clint_logic/dff_206/i4
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (10712)" representative instance : soc_inst/u_EfxSapphireSoc/system_clint_logic/dff_206/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (7893)" removed instance : soc_inst/u_EfxSapphireSoc/system_gpio_0_io_logic/dff_177/i4
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (7893)" representative instance : soc_inst/u_EfxSapphireSoc/system_gpio_0_io_logic/dff_177/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (7599)" removed instance : soc_inst/u_EfxSapphireSoc/io_apbSlave_0_logic/dff_60/i4
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (7599)" representative instance : soc_inst/u_EfxSapphireSoc/io_apbSlave_0_logic/dff_60/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6735)" removed instance : soc_inst/u_EfxSapphireSoc/dff_2002/i5
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6735)" representative instance : soc_inst/u_EfxSapphireSoc/i1998
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6735)" removed instance : soc_inst/u_EfxSapphireSoc/dff_2037/i4
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6735)" representative instance : soc_inst/u_EfxSapphireSoc/dff_2037/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6735)" removed instance : soc_inst/u_EfxSapphireSoc/system_uart_0_io_ctrl_slaveModel_arbiterGen_oneToOne_arbiter_cmd_rData_fragment_context[3]_2~FF
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6735)" representative instance : soc_inst/u_EfxSapphireSoc/i2046
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6735)" removed instance : soc_inst/u_EfxSapphireSoc/system_spi_0_io_ctrl_slaveModel_arbiterGen_oneToOne_arbiter_cmd_rData_fragment_context[3]_2~FF
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6735)" representative instance : soc_inst/u_EfxSapphireSoc/i2056
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6735)" removed instance : soc_inst/u_EfxSapphireSoc/system_i2c_0_io_ctrl_slaveModel_arbiterGen_oneToOne_arbiter_cmd_rData_fragment_context[3]_2~FF
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6735)" representative instance : soc_inst/u_EfxSapphireSoc/i2062
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6735)" removed instance : soc_inst/u_EfxSapphireSoc/dff_2069/i4
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6735)" representative instance : soc_inst/u_EfxSapphireSoc/dff_2069/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (10520)" removed instance : soc_inst/u_EfxSapphireSoc/system_uart_0_io_logic/dff_202/i4
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (10520)" representative instance : soc_inst/u_EfxSapphireSoc/system_uart_0_io_logic_io_bus_rsp_payload_fragment_context[0]_2~FF
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (10024)" removed instance : soc_inst/u_EfxSapphireSoc/system_spi_0_io_logic/dff_221/i4
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (10024)" representative instance : soc_inst/u_EfxSapphireSoc/system_spi_0_io_logic/dff_221/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (9535)" removed instance : soc_inst/u_EfxSapphireSoc/system_i2c_0_io_logic/dff_772/i4
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (9535)" representative instance : soc_inst/u_EfxSapphireSoc/system_i2c_0_io_logic/dff_772/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6735)" removed instance : soc_inst/u_EfxSapphireSoc/dff_2053/i4
+@ "E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v (6735)" representative instance : soc_inst/u_EfxSapphireSoc/dff_2053/i1
+FF Output: m_asize_0[0](=0)
+FF Output: m_alock_0[0](=0)
+FF Output: m_aburst_0[1](=0)
+FF Output: m_asize_0[2](=0)
+FF Output: axi_slave_0/awsizeReg[0](=0)
+FF Output: axi_slave_0/arsizeReg[0](=0)
+FF Output: axi_slave_0/awsizeReg[2](=0)
+FF Output: axi_slave_0/awburstReg[1](=0)
+FF Output: axi_slave_0/arsizeReg[2](=0)
+FF Output: axi_slave_0/arburstReg[1](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_fetchPc_pcReg[0](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/toplevel_system_ddr_ddrLogic_bmbToAxiBridge_io_output_arw_rData_size[0](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/toplevel_system_ddr_ddrLogic_bmbToAxiBridge_io_output_arw_rData_prot[0](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/system_fabric_iBus_bmb_cmd_rData_fragment_address[0](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/system_fabric_iBus_bmb_cmd_rData_fragment_opcode[0](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/axiA_r_rData_resp[0](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/_zz_system_ramA_ctrl_slaveModel_arbiterGen_oneToOne_arbiter_rsp_payload_fragment_opcode[0](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/_zz_system_plic_logic_bmb_rsp_payload_fragment_opcode[0](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/_zz_system_axiA_bmb_slaveModel_arbiterGen_oneToOne_arbiter_rsp_payload_last_1(=0)
+FF Output: soc_inst/u_EfxSapphireSoc/io_ddrMasters_0_aw_rData_id[0](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/io_ddrMasters_0_aw_rData_region[0](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/io_ddrMasters_0_aw_rData_size[0](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/io_ddrMasters_0_aw_rData_cache[0](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/io_ddrMasters_0_aw_rData_lock[0](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/io_ddrMasters_0_aw_rData_qos[0](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/io_ddrMasters_0_aw_rData_prot[0](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/io_ddrMasters_0_ar_rData_id[0](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/io_ddrMasters_0_ar_rData_region[0](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/io_ddrMasters_0_ar_rData_size[0](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/io_ddrMasters_0_ar_rData_cache[0](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/io_ddrMasters_0_ar_rData_lock[0](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/io_ddrMasters_0_ar_rData_qos[0](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/io_ddrMasters_0_ar_rData_prot[0](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/io_ddrA_b_rData_resp[0](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/_zz_IBusCachedPlugin_iBusRsp_stages_1_output_m2sPipe_payload[0](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/_zz_IBusCachedPlugin_injector_decodeInput_payload_pc[0](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_s1_tightlyCoupledHit(=0)
+FF Output: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_s2_tightlyCoupledHit(=0)
+FF Output: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/decode_to_execute_PC[0](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/execute_to_memory_PC[0](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/memory_to_writeBack_PC[0](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/execute_to_memory_BRANCH_CALC[0](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_fetchPc_pcReg[1](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_cache_io_cpu_decode_physicalAddress[0](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_cache/decodeStage_mmuRsp_isPaging(=0)
+FF Output: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_cache/decodeStage_mmuRsp_exception(=0)
+FF Output: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_cache_io_cpu_decode_mmuRefilling(=0)
+FF Output: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_cache_io_cpu_decode_physicalAddress[1](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/dataCache_1/stageA_wayInvalidate[0](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/dataCache_1/stageB_mmuRsp_isPaging(=0)
+FF Output: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/dataCache_1/stageB_mmuRsp_exception(=0)
+FF Output: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/dataCache_1/stageB_mmuRsp_refilling(=0)
+FF Output: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/dataCache_1/stageB_wayInvalidate[0](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/dataCache_1/loader_killReg(=0)
+FF Output: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/_zz_IBusCachedPlugin_iBusRsp_stages_1_output_m2sPipe_payload[1](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/_zz_IBusCachedPlugin_injector_decodeInput_payload_pc[1](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/decode_to_execute_PC[1](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/execute_to_memory_PC[1](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/memory_to_writeBack_PC[1](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/system_clint_logic_io_bus_rsp_payload_fragment_opcode[0](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/system_uart_0_io_logic_io_bus_rsp_payload_fragment_opcode[0](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/system_uart_0_io_logic_io_bus_rsp_payload_fragment_data[10](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/system_uart_0_io_logic_io_bus_rsp_payload_fragment_data[11](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/system_uart_0_io_logic_io_bus_rsp_payload_fragment_data[12](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/system_uart_0_io_logic_io_bus_rsp_payload_fragment_data[13](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/system_uart_0_io_logic_io_bus_rsp_payload_fragment_data[14](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/system_spi_0_io_logic_io_ctrl_rsp_payload_fragment_opcode[0](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/system_spi_0_io_logic_io_ctrl_rsp_payload_fragment_data[10](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/system_spi_0_io_logic_io_ctrl_rsp_payload_fragment_data[11](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/system_spi_0_io_logic_io_ctrl_rsp_payload_fragment_data[12](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/system_spi_0_io_logic_io_ctrl_rsp_payload_fragment_data[13](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/system_spi_0_io_logic_io_ctrl_rsp_payload_fragment_data[14](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/system_spi_0_io_logic_io_ctrl_rsp_payload_fragment_data[15](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/system_spi_0_io_logic_io_ctrl_rsp_payload_fragment_data[25](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/system_spi_0_io_logic_io_ctrl_rsp_payload_fragment_data[26](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/system_spi_0_io_logic_io_ctrl_rsp_payload_fragment_data[27](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/system_spi_0_io_logic_io_ctrl_rsp_payload_fragment_data[28](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/system_spi_0_io_logic_io_ctrl_rsp_payload_fragment_data[29](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/system_spi_0_io_logic_io_ctrl_rsp_payload_fragment_data[30](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/system_i2c_0_io_logic/bridge_masterLogic_fsm_dropped_recover(=0)
+FF Output: soc_inst/u_EfxSapphireSoc/system_i2c_0_io_logic_io_ctrl_rsp_payload_fragment_opcode[0](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/system_i2c_0_io_logic_io_ctrl_rsp_payload_fragment_data[11](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/system_i2c_0_io_logic_io_ctrl_rsp_payload_fragment_data[12](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/system_i2c_0_io_logic_io_ctrl_rsp_payload_fragment_data[13](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/system_i2c_0_io_logic_io_ctrl_rsp_payload_fragment_data[14](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/system_i2c_0_io_logic_io_ctrl_rsp_payload_fragment_data[18](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/system_i2c_0_io_logic_io_ctrl_rsp_payload_fragment_data[19](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/system_i2c_0_io_logic_io_ctrl_rsp_payload_fragment_data[20](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/system_i2c_0_io_logic_io_ctrl_rsp_payload_fragment_data[21](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/system_i2c_0_io_logic_io_ctrl_rsp_payload_fragment_data[22](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/system_i2c_0_io_logic_io_ctrl_rsp_payload_fragment_data[23](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/system_i2c_0_io_logic_io_ctrl_rsp_payload_fragment_data[24](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/system_i2c_0_io_logic_io_ctrl_rsp_payload_fragment_data[25](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/system_i2c_0_io_logic_io_ctrl_rsp_payload_fragment_data[26](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/system_i2c_0_io_logic_io_ctrl_rsp_payload_fragment_data[27](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/system_i2c_0_io_logic_io_ctrl_rsp_payload_fragment_data[28](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/system_i2c_0_io_logic_io_ctrl_rsp_payload_fragment_data[29](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/system_i2c_0_io_logic_io_ctrl_rsp_payload_fragment_data[30](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/system_i2c_0_io_logic_io_ctrl_rsp_payload_fragment_data[31](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/system_gpio_0_io_logic_io_bus_rsp_payload_fragment_opcode[0](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/system_gpio_0_io_logic_io_bus_rsp_payload_fragment_data[4](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/system_gpio_0_io_logic_io_bus_rsp_payload_fragment_data[5](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/system_gpio_0_io_logic_io_bus_rsp_payload_fragment_data[6](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/system_gpio_0_io_logic_io_bus_rsp_payload_fragment_data[7](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/system_gpio_0_io_logic_io_bus_rsp_payload_fragment_data[8](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/system_gpio_0_io_logic_io_bus_rsp_payload_fragment_data[9](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/system_gpio_0_io_logic_io_bus_rsp_payload_fragment_data[10](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/system_gpio_0_io_logic_io_bus_rsp_payload_fragment_data[11](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/system_gpio_0_io_logic_io_bus_rsp_payload_fragment_data[12](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/system_gpio_0_io_logic_io_bus_rsp_payload_fragment_data[13](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/system_gpio_0_io_logic_io_bus_rsp_payload_fragment_data[14](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/system_gpio_0_io_logic_io_bus_rsp_payload_fragment_data[15](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/system_gpio_0_io_logic_io_bus_rsp_payload_fragment_data[16](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/system_gpio_0_io_logic_io_bus_rsp_payload_fragment_data[17](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/system_gpio_0_io_logic_io_bus_rsp_payload_fragment_data[18](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/system_gpio_0_io_logic_io_bus_rsp_payload_fragment_data[19](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/system_gpio_0_io_logic_io_bus_rsp_payload_fragment_data[20](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/system_gpio_0_io_logic_io_bus_rsp_payload_fragment_data[21](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/system_gpio_0_io_logic_io_bus_rsp_payload_fragment_data[22](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/system_gpio_0_io_logic_io_bus_rsp_payload_fragment_data[23](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/system_gpio_0_io_logic_io_bus_rsp_payload_fragment_data[24](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/system_gpio_0_io_logic_io_bus_rsp_payload_fragment_data[25](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/system_gpio_0_io_logic_io_bus_rsp_payload_fragment_data[26](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/system_gpio_0_io_logic_io_bus_rsp_payload_fragment_data[27](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/system_gpio_0_io_logic_io_bus_rsp_payload_fragment_data[28](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/system_gpio_0_io_logic_io_bus_rsp_payload_fragment_data[29](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/system_gpio_0_io_logic_io_bus_rsp_payload_fragment_data[30](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/system_gpio_0_io_logic_io_bus_rsp_payload_fragment_data[31](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/io_apbSlave_0_logic_io_input_rsp_payload_fragment_opcode[0](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/toplevel_system_ddr_ddrLogic_bmbToAxiBridge_io_output_arw_rData_len[2](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/toplevel_system_ddr_ddrLogic_bmbToAxiBridge_io_output_arw_rData_len[3](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/toplevel_system_ddr_ddrLogic_bmbToAxiBridge_io_output_arw_rData_len[4](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/toplevel_system_ddr_ddrLogic_bmbToAxiBridge_io_output_arw_rData_len[5](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/toplevel_system_ddr_ddrLogic_bmbToAxiBridge_io_output_arw_rData_len[6](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/toplevel_system_ddr_ddrLogic_bmbToAxiBridge_io_output_arw_rData_len[7](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/toplevel_system_ddr_ddrLogic_bmbToAxiBridge_io_output_arw_rData_size[1](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/toplevel_system_ddr_ddrLogic_bmbToAxiBridge_io_output_arw_rData_prot[2](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/toplevel_system_ddr_ddrLogic_arbiterAxi3Shared_io_output_arw_rData_id[4](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/toplevel_system_ddr_ddrLogic_arbiterAxi3Shared_io_output_arw_rData_id[5](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/toplevel_system_ddr_ddrLogic_arbiterAxi3Shared_io_output_arw_rData_id[6](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/system_fabric_iBus_bmb_cmd_rData_fragment_address[1](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/system_fabric_iBus_bmb_cmd_rData_fragment_address[2](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/system_fabric_iBus_bmb_cmd_rData_fragment_address[3](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/system_fabric_iBus_bmb_cmd_rData_fragment_address[4](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/system_fabric_iBus_bmb_cmd_rData_fragment_address[5](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/axiA_r_rData_resp[1](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/_zz_system_uart_0_io_ctrl_slaveModel_arbiterGen_oneToOne_arbiter_rsp_payload_fragment_data[10](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/_zz_system_uart_0_io_ctrl_slaveModel_arbiterGen_oneToOne_arbiter_rsp_payload_fragment_data[11](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/_zz_system_uart_0_io_ctrl_slaveModel_arbiterGen_oneToOne_arbiter_rsp_payload_fragment_data[12](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/_zz_system_uart_0_io_ctrl_slaveModel_arbiterGen_oneToOne_arbiter_rsp_payload_fragment_data[13](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/_zz_system_uart_0_io_ctrl_slaveModel_arbiterGen_oneToOne_arbiter_rsp_payload_fragment_data[14](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/_zz_system_plic_logic_bmb_rsp_payload_fragment_data[5](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/_zz_system_plic_logic_bmb_rsp_payload_fragment_data[6](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/_zz_system_plic_logic_bmb_rsp_payload_fragment_data[7](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/_zz_system_plic_logic_bmb_rsp_payload_fragment_data[9](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/_zz_system_plic_logic_bmb_rsp_payload_fragment_data[10](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/_zz_system_plic_logic_bmb_rsp_payload_fragment_data[11](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/_zz_system_plic_logic_bmb_rsp_payload_fragment_data[14](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/_zz_system_plic_logic_bmb_rsp_payload_fragment_data[15](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/_zz_system_plic_logic_bmb_rsp_payload_fragment_data[17](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/_zz_system_plic_logic_bmb_rsp_payload_fragment_data[18](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/_zz_system_plic_logic_bmb_rsp_payload_fragment_data[19](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/_zz_system_plic_logic_bmb_rsp_payload_fragment_data[20](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/_zz_system_plic_logic_bmb_rsp_payload_fragment_data[21](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/_zz_system_plic_logic_bmb_rsp_payload_fragment_data[22](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/_zz_system_plic_logic_bmb_rsp_payload_fragment_data[23](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/_zz_system_plic_logic_bmb_rsp_payload_fragment_data[24](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/_zz_system_plic_logic_bmb_rsp_payload_fragment_data[25](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/_zz_system_plic_logic_bmb_rsp_payload_fragment_data[26](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/_zz_system_plic_logic_bmb_rsp_payload_fragment_data[27](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/_zz_system_plic_logic_bmb_rsp_payload_fragment_data[28](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/_zz_system_plic_logic_bmb_rsp_payload_fragment_data[29](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/_zz_system_plic_logic_bmb_rsp_payload_fragment_data[31](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/io_ddrMasters_0_aw_rData_id[1](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/io_ddrMasters_0_aw_rData_id[2](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/io_ddrMasters_0_aw_rData_id[3](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/io_ddrMasters_0_aw_rData_region[1](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/io_ddrMasters_0_aw_rData_region[2](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/io_ddrMasters_0_aw_rData_region[3](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/io_ddrMasters_0_aw_rData_size[2](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/io_ddrMasters_0_aw_rData_burst[1](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/io_ddrMasters_0_aw_rData_cache[1](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/io_ddrMasters_0_aw_rData_cache[2](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/io_ddrMasters_0_aw_rData_cache[3](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/io_ddrMasters_0_aw_rData_qos[1](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/io_ddrMasters_0_aw_rData_qos[2](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/io_ddrMasters_0_aw_rData_qos[3](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/io_ddrMasters_0_aw_rData_prot[1](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/io_ddrMasters_0_aw_rData_prot[2](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/io_ddrMasters_0_ar_rData_id[1](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/io_ddrMasters_0_ar_rData_id[2](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/io_ddrMasters_0_ar_rData_id[3](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/io_ddrMasters_0_ar_rData_region[1](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/io_ddrMasters_0_ar_rData_region[2](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/io_ddrMasters_0_ar_rData_region[3](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/io_ddrMasters_0_ar_rData_size[2](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/io_ddrMasters_0_ar_rData_burst[1](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/io_ddrMasters_0_ar_rData_cache[1](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/io_ddrMasters_0_ar_rData_cache[2](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/io_ddrMasters_0_ar_rData_cache[3](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/io_ddrMasters_0_ar_rData_qos[1](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/io_ddrMasters_0_ar_rData_qos[2](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/io_ddrMasters_0_ar_rData_qos[3](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/io_ddrMasters_0_ar_rData_prot[1](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/io_ddrMasters_0_ar_rData_prot[2](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/io_ddrA_b_rData_resp[1](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/toplevel_system_ddr_ddrLogic_bmbToAxiBridge_io_output_arw_s2mPipe_rData_size[0](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/toplevel_system_ddr_ddrLogic_bmbToAxiBridge_io_output_arw_s2mPipe_rData_prot[0](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/toplevel_system_ddr_ddrLogic_bmbToAxiBridge_io_output_arw_s2mPipe_m2sPipe_rData_size[0](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/toplevel_system_ddr_ddrLogic_bmbToAxiBridge_io_output_arw_s2mPipe_m2sPipe_rData_prot[0](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/_zz_system_uart_0_io_ctrl_slaveModel_arbiterGen_oneToOne_arbiter_rsp_payload_fragment_opcode[0](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/io_ddrMasters_0_aw_s2mPipe_rData_id[0](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/io_ddrMasters_0_aw_s2mPipe_rData_region[0](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/io_ddrMasters_0_aw_s2mPipe_rData_size[0](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/io_ddrMasters_0_aw_s2mPipe_rData_cache[0](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/io_ddrMasters_0_aw_s2mPipe_rData_lock[0](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/io_ddrMasters_0_aw_s2mPipe_rData_qos[0](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/io_ddrMasters_0_aw_s2mPipe_rData_prot[0](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/io_ddrA_b_s2mPipe_rData_resp[0](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/toplevel_system_ddr_ddrLogic_bmbToAxiBridge_io_output_arw_s2mPipe_rData_len[2](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/toplevel_system_ddr_ddrLogic_bmbToAxiBridge_io_output_arw_s2mPipe_rData_len[3](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/toplevel_system_ddr_ddrLogic_bmbToAxiBridge_io_output_arw_s2mPipe_rData_len[4](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/toplevel_system_ddr_ddrLogic_bmbToAxiBridge_io_output_arw_s2mPipe_rData_len[5](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/toplevel_system_ddr_ddrLogic_bmbToAxiBridge_io_output_arw_s2mPipe_rData_len[6](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/toplevel_system_ddr_ddrLogic_bmbToAxiBridge_io_output_arw_s2mPipe_rData_len[7](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/toplevel_system_ddr_ddrLogic_bmbToAxiBridge_io_output_arw_s2mPipe_rData_size[1](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/toplevel_system_ddr_ddrLogic_bmbToAxiBridge_io_output_arw_s2mPipe_rData_prot[2](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/toplevel_system_ddr_ddrLogic_bmbToAxiBridge_io_output_arw_s2mPipe_m2sPipe_rData_len[2](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/toplevel_system_ddr_ddrLogic_bmbToAxiBridge_io_output_arw_s2mPipe_m2sPipe_rData_len[3](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/toplevel_system_ddr_ddrLogic_bmbToAxiBridge_io_output_arw_s2mPipe_m2sPipe_rData_len[4](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/toplevel_system_ddr_ddrLogic_bmbToAxiBridge_io_output_arw_s2mPipe_m2sPipe_rData_len[5](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/toplevel_system_ddr_ddrLogic_bmbToAxiBridge_io_output_arw_s2mPipe_m2sPipe_rData_len[6](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/toplevel_system_ddr_ddrLogic_bmbToAxiBridge_io_output_arw_s2mPipe_m2sPipe_rData_len[7](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/toplevel_system_ddr_ddrLogic_bmbToAxiBridge_io_output_arw_s2mPipe_m2sPipe_rData_size[1](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/toplevel_system_ddr_ddrLogic_bmbToAxiBridge_io_output_arw_s2mPipe_m2sPipe_rData_prot[2](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/toplevel_system_ddr_ddrLogic_arbiterAxi3Shared_io_output_arw_s2mPipe_rData_id[4](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/toplevel_system_ddr_ddrLogic_arbiterAxi3Shared_io_output_arw_s2mPipe_rData_id[5](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/toplevel_system_ddr_ddrLogic_arbiterAxi3Shared_io_output_arw_s2mPipe_rData_id[6](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/io_ddrMasters_0_aw_s2mPipe_rData_id[1](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/io_ddrMasters_0_aw_s2mPipe_rData_id[2](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/io_ddrMasters_0_aw_s2mPipe_rData_id[3](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/io_ddrMasters_0_aw_s2mPipe_rData_region[1](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/io_ddrMasters_0_aw_s2mPipe_rData_region[2](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/io_ddrMasters_0_aw_s2mPipe_rData_region[3](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/io_ddrMasters_0_aw_s2mPipe_rData_size[2](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/io_ddrMasters_0_aw_s2mPipe_rData_burst[1](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/io_ddrMasters_0_aw_s2mPipe_rData_cache[1](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/io_ddrMasters_0_aw_s2mPipe_rData_cache[2](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/io_ddrMasters_0_aw_s2mPipe_rData_cache[3](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/io_ddrMasters_0_aw_s2mPipe_rData_qos[1](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/io_ddrMasters_0_aw_s2mPipe_rData_qos[2](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/io_ddrMasters_0_aw_s2mPipe_rData_qos[3](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/io_ddrMasters_0_aw_s2mPipe_rData_prot[1](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/io_ddrMasters_0_aw_s2mPipe_rData_prot[2](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_ddrAToAxi3_ioArw_rData_id[4](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_ddrAToAxi3_ioArw_rData_id[5](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_ddrAToAxi3_ioArw_rData_id[6](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/io_ddrA_b_s2mPipe_rData_resp[1](=0)
+FF Output: i41/soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_ddrAToAxi3_patchArw_translated_thrown_fifo/ram[3][6](=0)
+FF Output: i41/soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_ddrAToAxi3_patchArw_translated_thrown_fifo/ram[0][6](=0)
+FF Output: i41/soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_ddrAToAxi3_patchArw_translated_thrown_fifo/ram[0][5](=0)
+FF Output: i41/soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_ddrAToAxi3_patchArw_translated_thrown_fifo/ram[0][4](=0)
+FF Output: i41/soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_ddrAToAxi3_patchArw_translated_thrown_fifo/ram[1][6](=0)
+FF Output: i41/soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_ddrAToAxi3_patchArw_translated_thrown_fifo/ram[1][5](=0)
+FF Output: i41/soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_ddrAToAxi3_patchArw_translated_thrown_fifo/ram[1][4](=0)
+FF Output: i41/soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_ddrAToAxi3_patchArw_translated_thrown_fifo/ram[2][6](=0)
+FF Output: i41/soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_ddrAToAxi3_patchArw_translated_thrown_fifo/ram[2][5](=0)
+FF Output: i41/soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_ddrAToAxi3_patchArw_translated_thrown_fifo/ram[2][4](=0)
+FF Output: i41/soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_ddrAToAxi3_patchArw_translated_thrown_fifo/ram[3][5](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_ddrAAxi3_b_rData_resp[0](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/_zz_system_axiA_bmb_slaveModel_arbiterGen_oneToOne_arbiter_rsp_payload_fragment_opcode_1[0](=0)
+FF Output: i41/soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_ddrAToAxi3_patchArw_translated_thrown_fifo/ram[3][4](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_ddrAAxi3_b_rData_resp[1](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_arbiterAxi3Shared_io_sharedInputs_0_b_payload_resp[0](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/_zz_system_axiA_bmb_slaveModel_arbiterGen_oneToOne_arbiter_rsp_payload_fragment_opcode_2[0](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_arbiterAxi3Shared_io_sharedInputs_0_b_payload_resp[1](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/toplevel_system_ddr_ddrLogic_ddrAToAxi3_patchArw_translated_thrown_fifo_io_pop_rData_id[4](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/toplevel_system_ddr_ddrLogic_ddrAToAxi3_patchArw_translated_thrown_fifo_io_pop_rData_id[5](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/toplevel_system_ddr_ddrLogic_ddrAToAxi3_patchArw_translated_thrown_fifo_io_pop_rData_id[6](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_cpuAccess_b_rData_resp[0](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_cpuAccess_b_rData_resp[1](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/toplevel_system_ddr_ddrLogic_ddrAToAxi3_patchArw_translated_thrown_fifo_io_pop_s2mPipe_rData_id[4](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/toplevel_system_ddr_ddrLogic_ddrAToAxi3_patchArw_translated_thrown_fifo_io_pop_s2mPipe_rData_id[5](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/toplevel_system_ddr_ddrLogic_ddrAToAxi3_patchArw_translated_thrown_fifo_io_pop_s2mPipe_rData_id[6](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/_zz_system_ddr_ddrLogic_ddrAToAxi3_ddrA_wStreamPipelied_payload_id_1[4](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/_zz_system_ddr_ddrLogic_ddrAToAxi3_ddrA_wStreamPipelied_payload_id_1[5](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/_zz_system_ddr_ddrLogic_ddrAToAxi3_ddrA_wStreamPipelied_payload_id_1[6](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/_zz_system_ddr_ddrLogic_ddrAToAxi3_ddrA_wStreamPipelied_payload_id_2[4](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/_zz_system_ddr_ddrLogic_ddrAToAxi3_ddrA_wStreamPipelied_payload_id_2[5](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/_zz_system_ddr_ddrLogic_ddrAToAxi3_ddrA_wStreamPipelied_payload_id_2[6](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_cpuAccess_b_s2mPipe_rData_resp[0](=0)
+FF Output: soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_cpuAccess_b_s2mPipe_rData_resp[1](=0)
+FF Output: io_ddrA_w_payload_id[4](=0)
+FF Output: io_ddrA_w_payload_id[5](=0)
+FF Output: io_ddrA_w_payload_id[6](=0)
+FF Output: axi_slave_0/arlenReg[7](=0)
+FF Output: axi_slave_0/arlenReg[6](=0)
+FF Output: axi_slave_0/arlenReg[5](=0)
+FF Output: axi_slave_0/awlenReg[5](=0)
+FF Output: axi_slave_0/awlenReg[6](=0)
+FF Output: axi_slave_0/awlenReg[7](=0)
+FF instance: reset_sequencer/cnt[0]~FF(unreachable)
+FF instance: reset_sequencer/cnt[1]~FF(unreachable)
+FF instance: reset_sequencer/cnt[2]~FF(unreachable)
+FF instance: reset_sequencer/cnt[3]~FF(unreachable)
+FF instance: reset_sequencer/cnt[4]~FF(unreachable)
+FF instance: reset_sequencer/cnt[5]~FF(unreachable)
+FF instance: reset_sequencer/cnt[6]~FF(unreachable)
+FF instance: reset_sequencer/cnt[7]~FF(unreachable)
+FF instance: reset_sequencer/cnt[8]~FF(unreachable)
+FF instance: reset_sequencer/cnt[9]~FF(unreachable)
+FF instance: reset_sequencer/cnt[10]~FF(unreachable)
+FF instance: reset_sequencer/cnt[11]~FF(unreachable)
+FF instance: reset_sequencer/cnt[12]~FF(unreachable)
+FF instance: reset_sequencer/cnt[13]~FF(unreachable)
+FF instance: reset_sequencer/cnt[14]~FF(unreachable)
+FF instance: reset_sequencer/cnt[15]~FF(unreachable)
+FF instance: reset_sequencer/cnt[16]~FF(unreachable)
+FF instance: reset_sequencer/cnt[17]~FF(unreachable)
+FF instance: reset_sequencer/cnt[18]~FF(unreachable)
+FF instance: reset_sequencer/cnt[19]~FF(unreachable)
+FF instance: axi_slave_0/awaddr_base[25]~FF(unreachable)
+FF instance: axi_slave_0/awaddr_base[24]~FF(unreachable)
+FF instance: axi_slave_0/awaddr_base[15]~FF(unreachable)
+FF instance: axi_slave_0/awaddr_base[14]~FF(unreachable)
+FF instance: axi_slave_0/awlenReg[0]~FF(unreachable)
+FF instance: axi_slave_0/araddr_base[0]~FF(unreachable)
+FF instance: axi_slave_0/awaddr_base[13]~FF(unreachable)
+FF instance: axi_slave_0/awaddr_base[12]~FF(unreachable)
+FF instance: axi_slave_0/awaddr_base[11]~FF(unreachable)
+FF instance: axi_slave_0/awaddr_base[10]~FF(unreachable)
+FF instance: axi_slave_0/awaddr_base[9]~FF(unreachable)
+FF instance: axi_slave_0/awaddr_base[8]~FF(unreachable)
+FF instance: axi_slave_0/awaddr_base[7]~FF(unreachable)
+FF instance: axi_slave_0/awaddr_base[16]~FF(unreachable)
+FF instance: axi_slave_0/awaddr_base[6]~FF(unreachable)
+FF instance: axi_slave_0/awaddr_base[5]~FF(unreachable)
+FF instance: axi_slave_0/awaddr_base[20]~FF(unreachable)
+FF instance: axi_slave_0/awaddr_base[31]~FF(unreachable)
+FF instance: axi_slave_0/awaddr_base[23]~FF(unreachable)
+FF instance: axi_slave_0/awaddr_base[4]~FF(unreachable)
+FF instance: axi_slave_0/awaddr_base[3]~FF(unreachable)
+FF instance: axi_slave_0/awaddr_base[30]~FF(unreachable)
+FF instance: axi_slave_0/awaddr_base[19]~FF(unreachable)
+FF instance: axi_slave_0/awaddr_base[29]~FF(unreachable)
+FF instance: axi_slave_0/awaddr_base[22]~FF(unreachable)
+FF instance: axi_slave_0/awaddr_base[2]~FF(unreachable)
+FF instance: axi_slave_0/awaddr_base[28]~FF(unreachable)
+FF instance: axi_slave_0/awaddr_base[18]~FF(unreachable)
+FF instance: axi_slave_0/awaddr_base[27]~FF(unreachable)
+FF instance: axi_slave_0/awaddr_base[21]~FF(unreachable)
+FF instance: axi_slave_0/awaddr_base[1]~FF(unreachable)
+FF instance: axi_slave_0/awaddr_base[26]~FF(unreachable)
+FF instance: axi_slave_0/awaddr_base[17]~FF(unreachable)
+FF instance: axi_slave_0/awaddr_base[0]~FF(unreachable)
+FF instance: axi_slave_0/awlenReg[1]~FF(unreachable)
+FF instance: axi_slave_0/awlenReg[2]~FF(unreachable)
+FF instance: axi_slave_0/awlenReg[3]~FF(unreachable)
+FF instance: axi_slave_0/awlenReg[4]~FF(unreachable)
+FF instance: axi_slave_0/awaddrReg[11]~FF(unreachable)
+FF instance: axi_slave_0/awaddrReg[12]~FF(unreachable)
+FF instance: axi_slave_0/awaddrReg[13]~FF(unreachable)
+FF instance: axi_slave_0/awaddrReg[14]~FF(unreachable)
+FF instance: axi_slave_0/awaddrReg[15]~FF(unreachable)
+FF instance: axi_slave_0/awaddrReg[16]~FF(unreachable)
+FF instance: axi_slave_0/awaddrReg[17]~FF(unreachable)
+FF instance: axi_slave_0/awaddrReg[18]~FF(unreachable)
+FF instance: axi_slave_0/awaddrReg[19]~FF(unreachable)
+FF instance: axi_slave_0/awaddrReg[20]~FF(unreachable)
+FF instance: axi_slave_0/awaddrReg[21]~FF(unreachable)
+FF instance: axi_slave_0/awaddrReg[22]~FF(unreachable)
+FF instance: axi_slave_0/awaddrReg[23]~FF(unreachable)
+FF instance: axi_slave_0/awaddrReg[24]~FF(unreachable)
+FF instance: axi_slave_0/awaddrReg[25]~FF(unreachable)
+FF instance: axi_slave_0/awaddrReg[26]~FF(unreachable)
+FF instance: axi_slave_0/awaddrReg[27]~FF(unreachable)
+FF instance: axi_slave_0/awaddrReg[28]~FF(unreachable)
+FF instance: axi_slave_0/awaddrReg[29]~FF(unreachable)
+FF instance: axi_slave_0/awaddrReg[30]~FF(unreachable)
+FF instance: axi_slave_0/awaddrReg[31]~FF(unreachable)
+FF instance: axi_slave_0/araddr_base[1]~FF(unreachable)
+FF instance: axi_slave_0/araddr_base[2]~FF(unreachable)
+FF instance: axi_slave_0/araddr_base[3]~FF(unreachable)
+FF instance: axi_slave_0/araddr_base[4]~FF(unreachable)
+FF instance: axi_slave_0/araddr_base[5]~FF(unreachable)
+FF instance: axi_slave_0/araddr_base[6]~FF(unreachable)
+FF instance: axi_slave_0/araddr_base[7]~FF(unreachable)
+FF instance: axi_slave_0/araddr_base[8]~FF(unreachable)
+FF instance: axi_slave_0/araddr_base[9]~FF(unreachable)
+FF instance: axi_slave_0/araddr_base[10]~FF(unreachable)
+FF instance: axi_slave_0/araddr_base[11]~FF(unreachable)
+FF instance: axi_slave_0/araddr_base[12]~FF(unreachable)
+FF instance: axi_slave_0/araddr_base[13]~FF(unreachable)
+FF instance: axi_slave_0/araddr_base[14]~FF(unreachable)
+FF instance: axi_slave_0/araddr_base[15]~FF(unreachable)
+FF instance: axi_slave_0/araddr_base[16]~FF(unreachable)
+FF instance: axi_slave_0/araddr_base[17]~FF(unreachable)
+FF instance: axi_slave_0/araddr_base[18]~FF(unreachable)
+FF instance: axi_slave_0/araddr_base[19]~FF(unreachable)
+FF instance: axi_slave_0/araddr_base[20]~FF(unreachable)
+FF instance: axi_slave_0/araddr_base[21]~FF(unreachable)
+FF instance: axi_slave_0/araddr_base[22]~FF(unreachable)
+FF instance: axi_slave_0/araddr_base[23]~FF(unreachable)
+FF instance: axi_slave_0/araddr_base[24]~FF(unreachable)
+FF instance: axi_slave_0/araddr_base[25]~FF(unreachable)
+FF instance: axi_slave_0/araddr_base[26]~FF(unreachable)
+FF instance: axi_slave_0/araddr_base[27]~FF(unreachable)
+FF instance: axi_slave_0/araddr_base[28]~FF(unreachable)
+FF instance: axi_slave_0/araddr_base[29]~FF(unreachable)
+FF instance: axi_slave_0/araddr_base[30]~FF(unreachable)
+FF instance: axi_slave_0/araddr_base[31]~FF(unreachable)
+FF instance: axi_slave_0/araddrReg[11]~FF(unreachable)
+FF instance: axi_slave_0/araddrReg[12]~FF(unreachable)
+FF instance: axi_slave_0/araddrReg[13]~FF(unreachable)
+FF instance: axi_slave_0/araddrReg[14]~FF(unreachable)
+FF instance: axi_slave_0/araddrReg[15]~FF(unreachable)
+FF instance: axi_slave_0/araddrReg[16]~FF(unreachable)
+FF instance: axi_slave_0/araddrReg[17]~FF(unreachable)
+FF instance: axi_slave_0/araddrReg[18]~FF(unreachable)
+FF instance: axi_slave_0/araddrReg[19]~FF(unreachable)
+FF instance: axi_slave_0/araddrReg[20]~FF(unreachable)
+FF instance: axi_slave_0/araddrReg[21]~FF(unreachable)
+FF instance: axi_slave_0/araddrReg[22]~FF(unreachable)
+FF instance: axi_slave_0/araddrReg[23]~FF(unreachable)
+FF instance: axi_slave_0/araddrReg[24]~FF(unreachable)
+FF instance: axi_slave_0/araddrReg[25]~FF(unreachable)
+FF instance: axi_slave_0/araddrReg[26]~FF(unreachable)
+FF instance: axi_slave_0/araddrReg[27]~FF(unreachable)
+FF instance: axi_slave_0/araddrReg[28]~FF(unreachable)
+FF instance: axi_slave_0/araddrReg[29]~FF(unreachable)
+FF instance: axi_slave_0/araddrReg[30]~FF(unreachable)
+FF instance: axi_slave_0/araddrReg[31]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_rspCounter[0]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/DBusCachedPlugin_rspCounter[0]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_mcycle[0]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_minstret[0]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_rspCounter[1]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_rspCounter[2]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_rspCounter[3]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_rspCounter[4]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_rspCounter[5]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_rspCounter[6]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_rspCounter[7]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_rspCounter[8]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_rspCounter[9]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_rspCounter[10]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_rspCounter[11]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_rspCounter[12]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_rspCounter[13]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_rspCounter[14]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_rspCounter[15]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_rspCounter[16]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_rspCounter[17]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_rspCounter[18]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_rspCounter[19]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_rspCounter[20]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_rspCounter[21]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_rspCounter[22]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_rspCounter[23]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_rspCounter[24]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_rspCounter[25]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_rspCounter[26]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_rspCounter[27]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_rspCounter[28]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_rspCounter[29]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_rspCounter[30]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_rspCounter[31]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/DBusCachedPlugin_rspCounter[1]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/DBusCachedPlugin_rspCounter[2]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/DBusCachedPlugin_rspCounter[3]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/DBusCachedPlugin_rspCounter[4]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/DBusCachedPlugin_rspCounter[5]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/DBusCachedPlugin_rspCounter[6]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/DBusCachedPlugin_rspCounter[7]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/DBusCachedPlugin_rspCounter[8]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/DBusCachedPlugin_rspCounter[9]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/DBusCachedPlugin_rspCounter[10]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/DBusCachedPlugin_rspCounter[11]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/DBusCachedPlugin_rspCounter[12]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/DBusCachedPlugin_rspCounter[13]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/DBusCachedPlugin_rspCounter[14]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/DBusCachedPlugin_rspCounter[15]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/DBusCachedPlugin_rspCounter[16]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/DBusCachedPlugin_rspCounter[17]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/DBusCachedPlugin_rspCounter[18]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/DBusCachedPlugin_rspCounter[19]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/DBusCachedPlugin_rspCounter[20]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/DBusCachedPlugin_rspCounter[21]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/DBusCachedPlugin_rspCounter[22]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/DBusCachedPlugin_rspCounter[23]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/DBusCachedPlugin_rspCounter[24]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/DBusCachedPlugin_rspCounter[25]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/DBusCachedPlugin_rspCounter[26]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/DBusCachedPlugin_rspCounter[27]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/DBusCachedPlugin_rspCounter[28]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/DBusCachedPlugin_rspCounter[29]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/DBusCachedPlugin_rspCounter[30]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/DBusCachedPlugin_rspCounter[31]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_mcycle[1]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_mcycle[2]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_mcycle[3]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_mcycle[4]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_mcycle[5]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_mcycle[6]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_mcycle[7]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_mcycle[8]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_mcycle[9]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_mcycle[10]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_mcycle[11]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_mcycle[12]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_mcycle[13]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_mcycle[14]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_mcycle[15]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_mcycle[16]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_mcycle[17]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_mcycle[18]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_mcycle[19]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_mcycle[20]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_mcycle[21]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_mcycle[22]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_mcycle[23]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_mcycle[24]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_mcycle[25]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_mcycle[26]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_mcycle[27]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_mcycle[28]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_mcycle[29]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_mcycle[30]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_mcycle[31]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_mcycle[32]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_mcycle[33]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_mcycle[34]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_mcycle[35]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_mcycle[36]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_mcycle[37]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_mcycle[38]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_mcycle[39]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_mcycle[40]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_mcycle[41]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_mcycle[42]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_mcycle[43]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_mcycle[44]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_mcycle[45]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_mcycle[46]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_mcycle[47]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_mcycle[48]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_mcycle[49]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_mcycle[50]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_mcycle[51]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_mcycle[52]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_mcycle[53]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_mcycle[54]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_mcycle[55]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_mcycle[56]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_mcycle[57]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_mcycle[58]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_mcycle[59]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_mcycle[60]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_mcycle[61]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_mcycle[62]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_mcycle[63]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_minstret[1]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_minstret[2]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_minstret[3]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_minstret[4]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_minstret[5]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_minstret[6]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_minstret[7]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_minstret[8]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_minstret[9]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_minstret[10]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_minstret[11]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_minstret[12]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_minstret[13]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_minstret[14]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_minstret[15]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_minstret[16]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_minstret[17]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_minstret[18]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_minstret[19]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_minstret[20]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_minstret[21]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_minstret[22]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_minstret[23]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_minstret[24]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_minstret[25]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_minstret[26]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_minstret[27]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_minstret[28]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_minstret[29]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_minstret[30]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_minstret[31]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_minstret[32]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_minstret[33]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_minstret[34]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_minstret[35]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_minstret[36]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_minstret[37]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_minstret[38]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_minstret[39]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_minstret[40]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_minstret[41]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_minstret[42]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_minstret[43]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_minstret[44]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_minstret[45]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_minstret[46]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_minstret[47]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_minstret[48]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_minstret[49]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_minstret[50]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_minstret[51]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_minstret[52]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_minstret[53]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_minstret[54]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_minstret[55]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_minstret[56]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_minstret[57]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_minstret[58]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_minstret[59]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_minstret[60]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_minstret[61]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_minstret[62]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/CsrPlugin_minstret[63]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_axiA_bmb_slaveModel_arbiterGen_oneToOne_arbiter_cmd_rData_fragment_address[11]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_axiA_bmb_slaveModel_arbiterGen_oneToOne_arbiter_cmd_rData_fragment_address[12]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_axiA_bmb_slaveModel_arbiterGen_oneToOne_arbiter_cmd_rData_fragment_address[13]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_axiA_bmb_slaveModel_arbiterGen_oneToOne_arbiter_cmd_rData_fragment_address[14]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_axiA_bmb_slaveModel_arbiterGen_oneToOne_arbiter_cmd_rData_fragment_address[15]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_axiA_bmb_slaveModel_arbiterGen_oneToOne_arbiter_cmd_rData_fragment_address[16]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_axiA_bmb_slaveModel_arbiterGen_oneToOne_arbiter_cmd_rData_fragment_address[17]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_axiA_bmb_slaveModel_arbiterGen_oneToOne_arbiter_cmd_rData_fragment_address[18]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_axiA_bmb_slaveModel_arbiterGen_oneToOne_arbiter_cmd_rData_fragment_address[19]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_axiA_bmb_slaveModel_arbiterGen_oneToOne_arbiter_cmd_rData_fragment_address[20]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_axiA_bmb_slaveModel_arbiterGen_oneToOne_arbiter_cmd_rData_fragment_address[21]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_axiA_bmb_slaveModel_arbiterGen_oneToOne_arbiter_cmd_rData_fragment_address[22]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_axiA_bmb_slaveModel_arbiterGen_oneToOne_arbiter_cmd_rData_fragment_address[23]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_axiA_bmb_slaveModel_arbiterGen_oneToOne_arbiter_cmd_rData_fragment_address[24]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_axiA_bmb_slaveModel_arbiterGen_oneToOne_arbiter_cmd_rData_fragment_address[25]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_axiA_bmb_slaveModel_arbiterGen_oneToOne_arbiter_cmd_rData_fragment_address[26]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_axiA_bmb_slaveModel_arbiterGen_oneToOne_arbiter_cmd_rData_fragment_address[27]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_axiA_bmb_slaveModel_arbiterGen_oneToOne_arbiter_cmd_rData_fragment_address[28]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_axiA_bmb_slaveModel_arbiterGen_oneToOne_arbiter_cmd_rData_fragment_address[29]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_axiA_bmb_slaveModel_arbiterGen_oneToOne_arbiter_cmd_rData_fragment_address[30]~FF(unreachable)
+FF instance: soc_inst/u_EfxSapphireSoc/system_axiA_bmb_slaveModel_arbiterGen_oneToOne_arbiter_cmd_rData_fragment_address[31]~FF(unreachable)
+FF instance: axi_awaddr[11]~FF(unreachable)
+FF instance: axi_awaddr[12]~FF(unreachable)
+FF instance: axi_awaddr[13]~FF(unreachable)
+FF instance: axi_awaddr[14]~FF(unreachable)
+FF instance: axi_awaddr[15]~FF(unreachable)
+FF instance: axi_awaddr[16]~FF(unreachable)
+FF instance: axi_awaddr[17]~FF(unreachable)
+FF instance: axi_awaddr[18]~FF(unreachable)
+FF instance: axi_awaddr[19]~FF(unreachable)
+FF instance: axi_awaddr[20]~FF(unreachable)
+FF instance: axi_awaddr[21]~FF(unreachable)
+FF instance: axi_awaddr[22]~FF(unreachable)
+FF instance: axi_awaddr[23]~FF(unreachable)
+FF instance: axi_awaddr[24]~FF(unreachable)
+FF instance: axi_awaddr[25]~FF(unreachable)
+FF instance: axi_awaddr[26]~FF(unreachable)
+FF instance: axi_awaddr[27]~FF(unreachable)
+FF instance: axi_awaddr[28]~FF(unreachable)
+FF instance: axi_awaddr[29]~FF(unreachable)
+FF instance: axi_awaddr[30]~FF(unreachable)
+FF instance: axi_awaddr[31]~FF(unreachable)
+### ### Sequential Elements Trimming Report (end) ### ### ### 
+
+### ### Module Resource Usage Distribution Estimates (begin) ### ###
+
+**Note: some resources maybe grouped under different hierarchy due to optimization and LUT mapping
+
+Module                                                               FFs        ADDs        LUTs      RAMs DSP/MULTs
+------------------------------------------------------------         ---        ----        ----      ---- ---------
+top_soc:top_soc                                                  8739(0)      983(0)     7855(6)     70(0)      4(0)
+ +reset_sequencer:ddr_reset_sequencer                               5(5)        0(0)        4(4)      0(0)      0(0)
+ +apb_slave_0:apb3_slave                                        291(291)        0(0)    235(235)      0(0)      0(0)
+ +memcheck_s0:timer_start(MHZ=100)                                41(41)      35(35)      58(58)      0(0)      0(0)
+ +memcheck_0:memory_checker(ALEN=63,START_ADDR=32'b010000...    226(222)    111(111)    320(319)      0(0)      0(0)
+  +syncStart:pulse_synchronizer                                     4(4)        0(0)        1(1)      0(0)      0(0)
+ +intr_s0:timer_start(MHZ=100,SECOND=10,PULSE=1)                  45(45)      35(35)      60(60)      0(0)      0(0)
+ +axi_slave_0:axi4_slave                                          73(33)      22(22)      65(63)      4(0)      0(0)
+  +genblk1[0].user_ram:ext_mem(DATA_WIDTH=10)                     10(10)        0(0)        2(2)      1(1)      0(0)
+  +genblk1[1].user_ram:ext_mem(DATA_WIDTH=10)                     10(10)        0(0)        0(0)      1(1)      0(0)
+  +genblk1[2].user_ram:ext_mem(DATA_WIDTH=10)                     10(10)        0(0)        0(0)      1(1)      0(0)
+  +genblk1[3].user_ram:ext_mem(DATA_WIDTH=10)                     10(10)        0(0)        0(0)      1(1)      0(0)
+ +soc_inst:generateIP                                            8058(0)      780(0)     7107(0)     66(0)      4(0)
+  +u_EfxSapphireSoc:EfxSapphireSoc_5a2492f191364774984a6d...  8058(4316)     780(31)  7107(2194)     66(0)      4(0)
+   +bufferCC_28:BufferCC_5a2492f191364774984a6d23db7c58cf           2(2)        0(0)        0(0)      0(0)      0(0)
+   +bufferCC_29:BufferCC_1_5a2492f191364774984a6d23db7c58cf         2(2)        0(0)        0(0)      0(0)      0(0)
+   +bufferCC_30:BufferCC_21_5a2492f191364774984a6d23db7c58cf        2(2)        0(0)        0(0)      0(0)      0(0)
+   +system_cores_0_logic_cpu:VexRiscv_5a2492f191364774984...  1666(1479)    347(335)  2452(2281)     23(4)      4(4)
+    +IBusCachedPlugin_cache:InstructionCache_5a2492f19136...      88(88)        6(6)      57(57)      9(9)      0(0)
+    +dataCache_1:DataCache_5a2492f191364774984a6d23db7c58cf       99(99)        6(6)    114(114)    10(10)      0(0)
+   +userInterruptA_buffercc:BufferCC_3_5a2492f19136477498...        2(2)        0(0)        0(0)      0(0)      0(0)
+   +bufferCC_31:BufferCC_4_5a2492f191364774984a6d23db7c58cf         2(2)        0(0)        0(0)      0(0)      0(0)
+   +system_softJtag_debug_logic_jtagBridge:JtagBridgeNoTa...      83(74)        0(0)      46(44)      0(0)      0(0)
+    +flowCCByToggle_1:FlowCCByToggle_5a2492f191364774984a...        9(7)        0(0)        2(2)      0(0)      0(0)
+     +inputArea_target_buffercc:BufferCC_26_5a2492f191364...        2(2)        0(0)        0(0)      0(0)      0(0)
+   +system_softJtag_debug_logic_debugger:SystemDebugger_5...      78(78)        0(0)      24(24)      0(0)      0(0)
+   +bmbDecoder_4:BmbDecoder_5a2492f191364774984a6d23db7c58cf        9(9)      15(15)      13(13)      0(0)      0(0)
+   +system_bridge_bmb_arbiter:BmbArbiter_5a2492f191364774...        3(0)        0(0)       81(1)      0(0)      0(0)
+    +memory_arbiter:StreamArbiter_2_5a2492f191364774984a6...        3(3)        0(0)      80(80)      0(0)      0(0)
+   +system_ddr_ddrLogic_bmbToAxiBridge:BmbToAxi4SharedBri...      68(40)      36(12)      67(44)      2(0)      0(0)
+    +writeCmdInfo_fifo:StreamFifo_6_5a2492f191364774984a6...      14(14)      12(12)      11(11)      1(1)      0(0)
+    +readCmdInfo_fifo:StreamFifo_6_5a2492f191364774984a6d...      14(14)      12(12)      12(12)      1(1)      0(0)
+   +system_ddr_ddrLogic_cc_fifo:BmbCcFifo_5a2492f19136477...      112(0)       24(0)       60(0)     17(0)      0(0)
+    +io_input_cmd_queue:StreamFifoCC_5_5a2492f19136477498...      56(26)      12(12)      30(24)    10(10)      0(0)
+     +popToPushGray_buffercc:BufferCC_23_5a2492f191364774...      14(14)        0(0)        3(3)      0(0)      0(0)
+     +bufferCC_28:BufferCC_24_5a2492f191364774984a6d23db7...        2(2)        0(0)        0(0)      0(0)      0(0)
+     +pushToPopGray_buffercc:BufferCC_25_5a2492f191364774...      14(14)        0(0)        3(3)      0(0)      0(0)
+    +io_output_rsp_queue:StreamFifoCC_6_5a2492f1913647749...      56(26)      12(12)      30(24)      7(7)      0(0)
+     +popToPushGray_buffercc:BufferCC_20_5a2492f191364774...      14(14)        0(0)        3(3)      0(0)      0(0)
+     +bufferCC_28:BufferCC_21_5a2492f191364774984a6d23db7...        2(2)        0(0)        0(0)      0(0)      0(0)
+     +pushToPopGray_buffercc:BufferCC_22_5a2492f191364774...      14(14)        0(0)        3(3)      0(0)      0(0)
+   +system_ddr_ddrLogic_arbiterAxi3Shared:Axi4SharedArbit...       18(6)        0(0)    248(159)      0(0)      0(0)
+    +cmdArbiter:StreamArbiter_1_5a2492f191364774984a6d23d...        3(3)        0(0)      71(71)      0(0)      0(0)
+    +cmdRouteFork_thrown_translated_fifo:StreamFifoLowLat...        9(9)        0(0)      18(18)      0(0)      0(0)
+   +ddrCd_logic_outputReset_buffercc:BufferCC_5_5a2492f19...        2(2)        0(0)        1(1)      0(0)      0(0)
+   +system_ddr_ddrLogic_userAdapters_0_bridge:Axi4CC_5a24...      194(0)        0(0)      197(0)     12(0)      0(0)
+    +io_input_ar_queue:StreamFifoCC_5a2492f191364774984a6...      40(18)        0(0)      55(52)      4(4)      0(0)
+     +popToPushGray_buffercc:BufferCC_17_5a2492f191364774...      10(10)        0(0)        1(1)      0(0)      0(0)
+     +bufferCC_28:BufferCC_18_5a2492f191364774984a6d23db7...        2(2)        0(0)        0(0)      0(0)      0(0)
+     +pushToPopGray_buffercc:BufferCC_19_5a2492f191364774...      10(10)        0(0)        2(2)      0(0)      0(0)
+    +io_output_r_queue:StreamFifoCC_1_5a2492f191364774984...      40(18)        0(0)      28(26)      2(2)      0(0)
+     +popToPushGray_buffercc:BufferCC_14_5a2492f191364774...      10(10)        0(0)        1(1)      0(0)      0(0)
+     +bufferCC_28:BufferCC_15_5a2492f191364774984a6d23db7...        2(2)        0(0)        0(0)      0(0)      0(0)
+     +pushToPopGray_buffercc:BufferCC_16_5a2492f191364774...      10(10)        0(0)        1(1)      0(0)      0(0)
+    +io_input_aw_queue:StreamFifoCC_2_5a2492f191364774984...      38(18)        0(0)      59(56)      4(4)      0(0)
+     +popToPushGray_buffercc:BufferCC_17_5a2492f191364774...      10(10)        0(0)        1(1)      0(0)      0(0)
+     +pushToPopGray_buffercc:BufferCC_19_5a2492f191364774...      10(10)        0(0)        2(2)      0(0)      0(0)
+    +io_input_w_queue:StreamFifoCC_3_5a2492f191364774984a...      38(18)        0(0)      32(29)      2(2)      0(0)
+     +popToPushGray_buffercc:BufferCC_17_5a2492f191364774...      10(10)        0(0)        1(1)      0(0)      0(0)
+     +pushToPopGray_buffercc:BufferCC_19_5a2492f191364774...      10(10)        0(0)        2(2)      0(0)      0(0)
+    +io_output_b_queue:StreamFifoCC_4_5a2492f191364774984...      38(18)        0(0)      23(21)      0(0)      0(0)
+     +popToPushGray_buffercc:BufferCC_14_5a2492f191364774...      10(10)        0(0)        1(1)      0(0)      0(0)
+     +pushToPopGray_buffercc:BufferCC_16_5a2492f191364774...      10(10)        0(0)        1(1)      0(0)      0(0)
+   +system_ddr_ddrLogic_userAdapters_0_upsizer_logic:Axi4...      257(0)       36(0)      144(0)      0(0)      0(0)
+    +readOnly:Axi4ReadOnlyUpsizer_5a2492f191364774984a6d2...      99(18)      20(20)      62(24)      0(0)      0(0)
+     +dataLogic_cmdPush_fifo:StreamFifo_8_5a2492f19136477...      81(81)        0(0)      38(38)      0(0)      0(0)
+    +writeOnly:Axi4WriteOnlyUpsizer_5a2492f191364774984a6...    158(158)      16(16)      82(82)      0(0)      0(0)
+   +streamArbiter_3:StreamArbiter_5a2492f191364774984a6d2...        3(3)        0(0)      73(73)      0(0)      0(0)
+   +system_ddr_ddrLogic_ddrAToAxi3_patchArw_translated_th...      57(57)        2(2)      53(53)      0(0)      0(0)
+   +system_axiA_logic_bmbToAxiBridge:BmbToAxi4SharedBridg...      71(19)        0(0)      99(34)      0(0)      0(0)
+    +writeCmdInfo_fifo:StreamFifo_4_5a2492f191364774984a6...      26(26)        0(0)      32(32)      0(0)      0(0)
+    +readCmdInfo_fifo:StreamFifo_4_5a2492f191364774984a6d...      26(26)        0(0)      33(33)      0(0)      0(0)
+   +system_bridge_bmb_decoder:BmbDecoder_2_5a2492f1913647...      18(18)      15(15)      77(77)      0(0)      0(0)
+   +system_bridge_bmb_upSizer:BmbUpSizerBridge_5a2492f191...    114(114)        0(0)    128(128)      0(0)      0(0)
+   +system_ramA_logic:BmbOnChipRam_5a2492f191364774984a6d...        4(4)        0(0)        0(0)      8(8)      0(0)
+   +system_bridge_bmb_unburstify:BmbUnburstify_5a2492f191...      29(29)        9(9)      52(52)      0(0)      0(0)
+   +system_bridge_bmb_unburstify_1:BmbUnburstify_5a2492f1...      17(17)        9(9)      28(28)      0(0)      0(0)
+   +system_bmbPeripheral_bmb_decoder:BmbDecoder_3_5a2492f...      82(82)        0(0)    153(153)      0(0)      0(0)
+   +system_clint_logic:BmbClint_5a2492f191364774984a6d23d...    167(167)      63(63)    152(152)      0(0)      0(0)
+   +system_uart_0_io_logic:BmbUartCtrl_5a2492f19136477498...     163(65)       80(9)     183(44)      2(0)      0(0)
+    +uartCtrl_1:UartCtrl_5a2492f191364774984a6d23db7c58cf         66(21)      27(21)     110(30)      0(0)      0(0)
+     +tx:UartCtrlTx_5a2492f191364774984a6d23db7c58cf              11(11)        0(0)      31(31)      0(0)      0(0)
+     +rx:UartCtrlRx_5a2492f191364774984a6d23db7c58cf              34(32)        6(6)      49(49)      0(0)      0(0)
+      +io_rxd_buffercc:BufferCC_27_5a2492f191364774984a6d...        2(2)        0(0)        0(0)      0(0)      0(0)
+    +bridge_write_streamUnbuffered_queueWithOccupancy:Str...      16(16)      22(22)      14(14)      1(1)      0(0)
+    +system_uart_0_io_logic_uartCtrl_1_io_read_queueWithO...      16(16)      22(22)      15(15)      1(1)      0(0)
+   +system_spi_0_io_logic:BmbSpiXdrMasterCtrl_5a2492f1913...    172(104)       61(0)     171(70)      2(0)      0(0)
+    +ctrl:TopLevel_5a2492f191364774984a6d23db7c58cf               32(32)      11(11)      72(72)      0(0)      0(0)
+    +mapping_cmdLogic_streamUnbuffered_queueWithAvailabil...      18(18)      25(25)      14(14)      1(1)      0(0)
+    +system_spi_0_io_logic_ctrl_io_rsp_queueWithOccupancy...      18(18)      25(25)      15(15)      1(1)      0(0)
+   +system_i2c_0_io_logic:BmbI2cCtrl_5a2492f191364774984a...    272(218)      52(13)    369(277)      0(0)      0(0)
+    +i2cCtrl:I2cSlave_5a2492f191364774984a6d23db7c58cf            54(50)      39(39)      92(91)      0(0)      0(0)
+     +io_i2c_scl_read_buffercc:BufferCC_6_5a2492f19136477...        2(2)        0(0)        0(0)      0(0)      0(0)
+     +io_i2c_sda_read_buffercc:BufferCC_6_5a2492f19136477...        2(2)        0(0)        1(1)      0(0)      0(0)
+   +system_gpio_0_io_logic:BmbGpio2_5a2492f191364774984a6...      35(35)        0(0)      34(34)      0(0)      0(0)
+   +io_apbSlave_0_logic:BmbToApb3Bridge_5a2492f1913647749...      38(38)        0(0)        8(8)      0(0)      0(0)
+
+### ### Module Resource Usage Distribution Estimates (end) ### ###
+
+
+### ### Clock Load Distribution Report (begin) ### ###
+
+        Clock     Flip-Flops   Memory Ports    Multipliers
+        -----     ----------   ------------    -----------
+ io_memoryClk           3950             45              0
+ io_systemClk           4701             95              4
+  io_jtag_tck             88              0              0
+
+### ### Clock Load Distribution Report (end) ### ###
+
+### ### Memory Mapping Report (begin) ### ### ###
+
+1. soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol1 (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:11480):
+	EFX_RAM_5K: soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol1__D$2
+	EFX_RAM_5K: soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol1__D$1
+
+2. soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol2 (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:11481):
+	EFX_RAM_5K: soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol2__D$2
+	EFX_RAM_5K: soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol2__D$1
+
+3. soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol3 (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:11482):
+	EFX_RAM_5K: soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol3__D$2
+	EFX_RAM_5K: soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol3__D$1
+
+4. soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol0 (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:11479):
+	EFX_RAM_5K: soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol0__D$2
+	EFX_RAM_5K: soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol0__D$1
+
+### ### Memory Mapping Report (end) ### ### ###
+
+### ### EFX Flow Options (begin) ### ### ###
+
+family : Trion
+device : T35F324
+project : soc
+project-xml : E:/infinix/T120F324_devkit/soc.xml
+root : top_soc
+I,include : E:/infinix/T120F324_devkit
+I,include : E:/infinix/T120F324_devkit/ip/generateIP
+I,include : ip/generateIP
+output-dir : E:/infinix/T120F324_devkit/outflow
+work-dir : E:/infinix/T120F324_devkit/work_syn
+write-efx-verilog : E:/infinix/T120F324_devkit/outflow/soc.map.v
+binary-db : E:/infinix/T120F324_devkit/outflow/soc.vdb
+insert-ios : 0
+max-carry-cascade : 480
+max_mult : -1
+max_ram : -1
+seq_opt : 0
+retiming : 0
+mode : speed
+veri_options : verilog_mode=verilog_2k,vhdl_mode=vhdl_2008
+blast_const_operand_adders : 0
+
+### ### EFX Flow Options (end) ### ### ###
+
+### ### Resource Summary (begin) ### ### ### 
+INPUT  PORTS    : 	167
+OUTPUT PORTS    : 	239
+
+EFX_ADD         : 	983
+EFX_LUT4        : 	7855
+   1-2  Inputs  : 	1312
+   3    Inputs  : 	3875
+   4    Inputs  : 	2668
+EFX_MULT        : 	4
+EFX_FF          : 	8739
+EFX_RAM_5K      : 	70
+EFX_GBUFCE      : 	3
+### ### Resource Summary (end) ### ### ###
+
+Plain synthesis (without verilog dump and post-map checks) time : 24s
+Elapsed synthesis time : 26s

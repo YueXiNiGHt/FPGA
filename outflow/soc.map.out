@@ -1,0 +1,616 @@
+[EFX-0000 INFO] Efinix FPGA Synthesis.
+[EFX-0000 INFO] Version: 2023.2.307.5.10
+[EFX-0000 INFO] Compiled: May 19 2024.
+[EFX-0000 INFO] 
+[EFX-0000 INFO] Copyright (C) 2013 - 2023 Efinix, Inc. All rights reserved.
+
+INFO: Read project database "E:/infinix/T120F324_devkit/soc.xml"
+-- Analyzing Verilog file 'C:/Efinity/2023.2/sim_models/maplib/efinix_peri_lib.v' (VERI-1482)
+C:/Efinity/2023.2/sim_models/maplib/efinix_peri_lib.v(8): INFO: compiling module 'EFX_IBUF' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_peri_lib.v(16): INFO: compiling module 'EFX_OBUF' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_peri_lib.v(23): INFO: compiling module 'EFX_IO_BUF' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_peri_lib.v(33): INFO: compiling module 'EFX_CLKOUT' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_peri_lib.v(41): INFO: compiling module 'EFX_IREG' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_peri_lib.v(51): INFO: compiling module 'EFX_OREG' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_peri_lib.v(60): INFO: compiling module 'EFX_IOREG' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_peri_lib.v(75): INFO: compiling module 'EFX_IDDIO' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_peri_lib.v(87): INFO: compiling module 'EFX_ODDIO' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_peri_lib.v(99): INFO: compiling module 'EFX_GPIO_V1' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_peri_lib.v(118): INFO: compiling module 'EFX_PLL_V1' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_peri_lib.v(136): INFO: compiling module 'EFX_OSC_V1' (VERI-1018)
+INFO: Read project database "E:/infinix/T120F324_devkit/soc.xml"
+INFO: ***** Beginning Analysis ... *****
+INFO: default VHDL library search path is now "C:/Efinity/2023.2/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504)
+-- Analyzing Verilog file 'C:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v' (VERI-1482)
+-- Analyzing Verilog file 'C:/Efinity/2023.2/sim_models/maplib/efinix_peri_lib.v' (VERI-1482)
+-- Analyzing Verilog file 'E:\infinix\T120F324_devkit\top_soc.v' (VERI-1482)
+-- Analyzing Verilog file 'E:\infinix\T120F324_devkit\design_modules.v' (VERI-1482)
+-- Analyzing Verilog file 'E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v' (VERI-1482)
+-- Analyzing Verilog file 'E:/infinix/T120F324_devkit/ddr_reset_sequencer.v' (VERI-1482)
+INFO: Analysis took 0.103426 seconds.
+INFO: 	Analysis took 0.015625 seconds (approximately) in total CPU time.
+INFO: Analysis virtual memory usage: begin = 56.084 MB, end = 64.748 MB, delta = 8.664 MB
+INFO: 	Analysis peak virtual memory usage = 64.748 MB
+INFO: Analysis resident set memory usage: begin = 59.088 MB, end = 69.48 MB, delta = 10.392 MB
+INFO: 	Analysis peak resident set memory usage = 69.48 MB
+INFO: ***** Ending Analysis ... *****
+INFO: ***** Beginning Elaboration ... *****
+E:\infinix\T120F324_devkit\top_soc.v(20): INFO: compiling module 'top_soc' (VERI-1018)
+E:/infinix/T120F324_devkit/ddr_reset_sequencer.v(47): INFO: compiling module 'ddr_reset_sequencer' (VERI-1018)
+E:/infinix/T120F324_devkit/ddr_reset_sequencer.v(94): WARNING: expression size 64 truncated to fit in target size 20 (VERI-1209)
+E:\infinix\T120F324_devkit\design_modules.v(22): INFO: compiling module 'apb3_slave' (VERI-1018)
+E:\infinix\T120F324_devkit\design_modules.v(1217): INFO: compiling module 'timer_start(MHZ=100)' (VERI-1018)
+E:\infinix\T120F324_devkit\design_modules.v(670): INFO: compiling module 'memory_checker(ALEN=63,START_ADDR=32'b0100000000000000000000,STOP_ADDR=32'b0111111111100000000000)' (VERI-1018)
+E:\infinix\T120F324_devkit\design_modules.v(1717): INFO: compiling module 'pulse_synchronizer' (VERI-1018)
+E:\infinix\T120F324_devkit\design_modules.v(1217): INFO: compiling module 'timer_start(MHZ=100,SECOND=10,PULSE=1)' (VERI-1018)
+E:\infinix\T120F324_devkit\design_modules.v(219): INFO: compiling module 'axi4_slave' (VERI-1018)
+E:\infinix\T120F324_devkit\design_modules.v(645): WARNING: expression size 10 truncated to fit in target size 8 (VERI-1209)
+E:\infinix\T120F324_devkit\design_modules.v(1286): INFO: compiling module 'ext_mem(DATA_WIDTH=10)' (VERI-1018)
+E:\infinix\T120F324_devkit\design_modules.v(1307): INFO: extracting RAM for identifier 'ram' (VERI-2571)
+E:\infinix\T120F324_devkit\design_modules.v(1324): WARNING: expression size 32 truncated to fit in target size 10 (VERI-1209)
+E:\infinix\T120F324_devkit\design_modules.v(645): WARNING: expression size 10 truncated to fit in target size 8 (VERI-1209)
+E:\infinix\T120F324_devkit\design_modules.v(645): WARNING: expression size 10 truncated to fit in target size 8 (VERI-1209)
+E:\infinix\T120F324_devkit\design_modules.v(645): WARNING: expression size 10 truncated to fit in target size 8 (VERI-1209)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(49): INFO: compiling module 'generateIP' (VERI-1018)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(363): INFO: compiling module 'EfxSapphireSoc_5a2492f191364774984a6d23db7c58cf' (VERI-1018)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(3994): WARNING: system function call 'urandom' is not supported (VERI-1141)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(20579): INFO: compiling module 'BufferCC_5a2492f191364774984a6d23db7c58cf' (VERI-1018)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(20555): INFO: compiling module 'BufferCC_1_5a2492f191364774984a6d23db7c58cf' (VERI-1018)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(26873): INFO: compiling module 'BufferCC_21_5a2492f191364774984a6d23db7c58cf' (VERI-1018)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(15460): INFO: compiling module 'VexRiscv_5a2492f191364774984a6d23db7c58cf' (VERI-1018)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(16764): INFO: extracting RAM for identifier 'RegFilePlugin_regFile' (VERI-2571)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(25671): INFO: compiling module 'InstructionCache_5a2492f191364774984a6d23db7c58cf' (VERI-1018)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(25777): INFO: extracting RAM for identifier 'banks_0' (VERI-2571)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(25778): INFO: extracting RAM for identifier 'ways_0_tags' (VERI-2571)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(24817): INFO: compiling module 'DataCache_5a2492f191364774984a6d23db7c58cf' (VERI-1018)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(25031): INFO: extracting RAM for identifier 'ways_0_tags' (VERI-2571)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(25032): INFO: extracting RAM for identifier 'ways_0_data_symbol0' (VERI-2571)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(25033): INFO: extracting RAM for identifier 'ways_0_data_symbol1' (VERI-2571)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(25034): INFO: extracting RAM for identifier 'ways_0_data_symbol2' (VERI-2571)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(25035): INFO: extracting RAM for identifier 'ways_0_data_symbol3' (VERI-2571)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(25643): WARNING: system task 'display' is ignored for synthesis (VERI-1142)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(27043): INFO: compiling module 'EfxCPUSp1_5a2492f191364774984a6d23db7c58cf' (VERI-1018)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(27114): INFO: compiling module 'EfxCPUSp2_5a2492f191364774984a6d23db7c58cf' (VERI-1018)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(15526): WARNING: net 'IBusCachedPlugin_cache_io_cpu_fetch_isRemoved' does not have a driver (VDB-1002)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(15539): WARNING: net 'dataCache_1_io_cpu_writeBack_fence_SW' does not have a driver (VDB-1002)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(15540): WARNING: net 'dataCache_1_io_cpu_writeBack_fence_SR' does not have a driver (VDB-1002)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(15541): WARNING: net 'dataCache_1_io_cpu_writeBack_fence_SO' does not have a driver (VDB-1002)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(15542): WARNING: net 'dataCache_1_io_cpu_writeBack_fence_SI' does not have a driver (VDB-1002)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(15543): WARNING: net 'dataCache_1_io_cpu_writeBack_fence_PW' does not have a driver (VDB-1002)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(15544): WARNING: net 'dataCache_1_io_cpu_writeBack_fence_PR' does not have a driver (VDB-1002)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(15545): WARNING: net 'dataCache_1_io_cpu_writeBack_fence_PO' does not have a driver (VDB-1002)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(15546): WARNING: net 'dataCache_1_io_cpu_writeBack_fence_PI' does not have a driver (VDB-1002)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(15547): WARNING: net 'dataCache_1_io_cpu_writeBack_fence_FM[3]' does not have a driver (VDB-1002)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(16042): WARNING: net 'IBusCachedPlugin_mmuBus_rsp_bypassTranslation' does not have a driver (VDB-1002)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(16057): WARNING: net 'DBusCachedPlugin_mmuBus_rsp_bypassTranslation' does not have a driver (VDB-1002)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(16165): WARNING: net 'IBusCachedPlugin_iBusRsp_output_payload_rsp_error' does not have a driver (VDB-1002)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(16167): WARNING: net 'IBusCachedPlugin_iBusRsp_output_payload_isRvc' does not have a driver (VDB-1002)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(16331): WARNING: net 'CsrPlugin_mtvec_mode[1]' does not have a driver (VDB-1002)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(15441): INFO: compiling module 'BufferCC_3_5a2492f191364774984a6d23db7c58cf' (VERI-1018)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(15417): INFO: compiling module 'BufferCC_4_5a2492f191364774984a6d23db7c58cf' (VERI-1018)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(15206): INFO: compiling module 'JtagBridgeNoTap_5a2492f191364774984a6d23db7c58cf' (VERI-1018)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(24745): INFO: compiling module 'FlowCCByToggle_5a2492f191364774984a6d23db7c58cf' (VERI-1018)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(24778): WARNING: system function call 'urandom' is not supported (VERI-1141)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(24779): WARNING: system function call 'urandom' is not supported (VERI-1141)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(26993): INFO: compiling module 'BufferCC_26_5a2492f191364774984a6d23db7c58cf' (VERI-1018)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(27005): WARNING: system function call 'urandom' is not supported (VERI-1141)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(27006): WARNING: system function call 'urandom' is not supported (VERI-1141)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(15119): INFO: compiling module 'SystemDebugger_5a2492f191364774984a6d23db7c58cf' (VERI-1018)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(14965): INFO: compiling module 'BmbDecoder_5a2492f191364774984a6d23db7c58cf' (VERI-1018)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(14925): INFO: compiling module 'BmbDecoder_1_5a2492f191364774984a6d23db7c58cf' (VERI-1018)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(14789): INFO: compiling module 'BmbArbiter_5a2492f191364774984a6d23db7c58cf' (VERI-1018)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(24641): INFO: compiling module 'StreamArbiter_2_5a2492f191364774984a6d23db7c58cf' (VERI-1018)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(14209): INFO: compiling module 'BmbToAxi4SharedBridge_5a2492f191364774984a6d23db7c58cf' (VERI-1018)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(24483): INFO: compiling module 'StreamFifo_6_5a2492f191364774984a6d23db7c58cf' (VERI-1018)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(24531): INFO: extracting RAM for identifier 'logic_ram' (VERI-2571)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(14078): INFO: compiling module 'BmbCcFifo_5a2492f191364774984a6d23db7c58cf' (VERI-1018)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(24294): INFO: compiling module 'StreamFifoCC_5_5a2492f191364774984a6d23db7c58cf' (VERI-1018)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(24366): INFO: extracting RAM for identifier 'ram' (VERI-2571)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(26969): INFO: compiling module 'BufferCC_23_5a2492f191364774984a6d23db7c58cf' (VERI-1018)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(26945): INFO: compiling module 'BufferCC_24_5a2492f191364774984a6d23db7c58cf' (VERI-1018)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(26921): INFO: compiling module 'BufferCC_25_5a2492f191364774984a6d23db7c58cf' (VERI-1018)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(24116): INFO: compiling module 'StreamFifoCC_6_5a2492f191364774984a6d23db7c58cf' (VERI-1018)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(24182): INFO: extracting RAM for identifier 'ram' (VERI-2571)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(26897): INFO: compiling module 'BufferCC_20_5a2492f191364774984a6d23db7c58cf' (VERI-1018)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(26849): INFO: compiling module 'BufferCC_22_5a2492f191364774984a6d23db7c58cf' (VERI-1018)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(13559): INFO: compiling module 'Axi4SharedArbiter_5a2492f191364774984a6d23db7c58cf' (VERI-1018)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(24002): INFO: compiling module 'StreamArbiter_1_5a2492f191364774984a6d23db7c58cf' (VERI-1018)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(23846): INFO: compiling module 'StreamFifoLowLatency_1_5a2492f191364774984a6d23db7c58cf' (VERI-1018)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(23888): INFO: extracting RAM for identifier 'ram' (VERI-2571)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(13540): INFO: compiling module 'BufferCC_5_5a2492f191364774984a6d23db7c58cf' (VERI-1018)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(13243): INFO: compiling module 'Axi4CC_5a2492f191364774984a6d23db7c58cf' (VERI-1018)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(23661): INFO: compiling module 'StreamFifoCC_5a2492f191364774984a6d23db7c58cf' (VERI-1018)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(23733): INFO: extracting RAM for identifier 'ram' (VERI-2571)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(26825): INFO: compiling module 'BufferCC_17_5a2492f191364774984a6d23db7c58cf' (VERI-1018)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(26801): INFO: compiling module 'BufferCC_18_5a2492f191364774984a6d23db7c58cf' (VERI-1018)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(26777): INFO: compiling module 'BufferCC_19_5a2492f191364774984a6d23db7c58cf' (VERI-1018)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(23494): INFO: compiling module 'StreamFifoCC_1_5a2492f191364774984a6d23db7c58cf' (VERI-1018)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(23554): INFO: extracting RAM for identifier 'ram' (VERI-2571)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(26753): INFO: compiling module 'BufferCC_14_5a2492f191364774984a6d23db7c58cf' (VERI-1018)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(26729): INFO: compiling module 'BufferCC_15_5a2492f191364774984a6d23db7c58cf' (VERI-1018)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(26705): INFO: compiling module 'BufferCC_16_5a2492f191364774984a6d23db7c58cf' (VERI-1018)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(23321): INFO: compiling module 'StreamFifoCC_2_5a2492f191364774984a6d23db7c58cf' (VERI-1018)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(23390): INFO: extracting RAM for identifier 'ram' (VERI-2571)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(23169): INFO: compiling module 'StreamFifoCC_3_5a2492f191364774984a6d23db7c58cf' (VERI-1018)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(23224): INFO: extracting RAM for identifier 'ram' (VERI-2571)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(23020): INFO: compiling module 'StreamFifoCC_4_5a2492f191364774984a6d23db7c58cf' (VERI-1018)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(23073): INFO: extracting RAM for identifier 'ram' (VERI-2571)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(12992): INFO: compiling module 'Axi4Upsizer_5a2492f191364774984a6d23db7c58cf' (VERI-1018)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(22757): INFO: compiling module 'Axi4ReadOnlyUpsizer_5a2492f191364774984a6d23db7c58cf' (VERI-1018)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(26529): INFO: compiling module 'StreamFifo_8_5a2492f191364774984a6d23db7c58cf' (VERI-1018)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(26581): INFO: extracting RAM for identifier 'logic_ram' (VERI-2571)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(22353): INFO: compiling module 'Axi4WriteOnlyUpsizer_5a2492f191364774984a6d23db7c58cf' (VERI-1018)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(12882): INFO: compiling module 'StreamArbiter_5a2492f191364774984a6d23db7c58cf' (VERI-1018)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(12712): INFO: compiling module 'StreamFifoLowLatency_5a2492f191364774984a6d23db7c58cf' (VERI-1018)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(12758): INFO: extracting RAM for identifier 'ram' (VERI-2571)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(12157): INFO: compiling module 'BmbToAxi4SharedBridge_1_5a2492f191364774984a6d23db7c58cf' (VERI-1018)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(22195): INFO: compiling module 'StreamFifo_4_5a2492f191364774984a6d23db7c58cf' (VERI-1018)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(22243): INFO: extracting RAM for identifier 'logic_ram' (VERI-2571)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(11789): INFO: compiling module 'BmbDecoder_2_5a2492f191364774984a6d23db7c58cf' (VERI-1018)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(11556): INFO: compiling module 'BmbUpSizerBridge_5a2492f191364774984a6d23db7c58cf' (VERI-1018)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(11446): INFO: compiling module 'BmbOnChipRam_5a2492f191364774984a6d23db7c58cf' (VERI-1018)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(11479): INFO: extracting RAM for identifier 'ram_symbol0' (VERI-2571)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(11480): INFO: extracting RAM for identifier 'ram_symbol1' (VERI-2571)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(11481): INFO: extracting RAM for identifier 'ram_symbol2' (VERI-2571)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(11482): INFO: extracting RAM for identifier 'ram_symbol3' (VERI-2571)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(11216): INFO: compiling module 'BmbUnburstify_5a2492f191364774984a6d23db7c58cf' (VERI-1018)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(10717): INFO: compiling module 'BmbDecoder_3_5a2492f191364774984a6d23db7c58cf' (VERI-1018)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(10525): INFO: compiling module 'BmbClint_5a2492f191364774984a6d23db7c58cf' (VERI-1018)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(10029): INFO: compiling module 'BmbUartCtrl_5a2492f191364774984a6d23db7c58cf' (VERI-1018)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(22064): INFO: compiling module 'UartCtrl_5a2492f191364774984a6d23db7c58cf' (VERI-1018)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(26289): INFO: compiling module 'UartCtrlTx_5a2492f191364774984a6d23db7c58cf' (VERI-1018)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(25995): INFO: compiling module 'UartCtrlRx_5a2492f191364774984a6d23db7c58cf' (VERI-1018)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(27019): INFO: compiling module 'BufferCC_27_5a2492f191364774984a6d23db7c58cf' (VERI-1018)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(21913): INFO: compiling module 'StreamFifo_2_5a2492f191364774984a6d23db7c58cf' (VERI-1018)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(21957): INFO: extracting RAM for identifier 'logic_ram' (VERI-2571)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(9548): INFO: compiling module 'BmbSpiXdrMasterCtrl_5a2492f191364774984a6d23db7c58cf' (VERI-1018)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(21264): INFO: compiling module 'TopLevel_5a2492f191364774984a6d23db7c58cf' (VERI-1018)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(21100): INFO: compiling module 'StreamFifo_5a2492f191364774984a6d23db7c58cf' (VERI-1018)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(21152): INFO: extracting RAM for identifier 'logic_ram' (VERI-2571)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(20949): INFO: compiling module 'StreamFifo_1_5a2492f191364774984a6d23db7c58cf' (VERI-1018)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(20993): INFO: extracting RAM for identifier 'logic_ram' (VERI-2571)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(7898): INFO: compiling module 'BmbI2cCtrl_5a2492f191364774984a6d23db7c58cf' (VERI-1018)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(8220): WARNING: system function call 'urandom' is not supported (VERI-1141)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(8221): WARNING: system function call 'urandom' is not supported (VERI-1141)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(20603): INFO: compiling module 'I2cSlave_5a2492f191364774984a6d23db7c58cf' (VERI-1018)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(25971): INFO: compiling module 'BufferCC_6_5a2492f191364774984a6d23db7c58cf' (VERI-1018)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(7604): INFO: compiling module 'BmbGpio2_5a2492f191364774984a6d23db7c58cf' (VERI-1018)
+E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v(7453): INFO: compiling module 'BmbToApb3Bridge_5a2492f191364774984a6d23db7c58cf' (VERI-1018)
+E:\infinix\T120F324_devkit\top_soc.v(164): WARNING: net 'm_bid_0[7]' does not have a driver (VDB-1002)
+E:\infinix\T120F324_devkit\top_soc.v(326): WARNING: input port 'system_spi_0_io_data_2_read' remains unconnected for this instance (VDB-1053)
+INFO: Elaboration took 0.476069 seconds.
+INFO: 	Elaboration took 0.046875 seconds (approximately) in total CPU time.
+INFO: Elaboration virtual memory usage: begin = 64.748 MB, end = 163.616 MB, delta = 98.868 MB
+INFO: 	Elaboration peak virtual memory usage = 163.616 MB
+INFO: Elaboration resident set memory usage: begin = 69.492 MB, end = 165.564 MB, delta = 96.072 MB
+INFO: 	Elaboration peak resident set memory usage = 165.564 MB
+INFO: ***** Ending Elaboration ... *****
+[EFX-0000 INFO] ... Setting Synthesis Option: mode=speed
+INFO: ***** Beginning Reading Mapping Library ... *****
+-- Analyzing Verilog file 'C:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v' (VERI-1482)
+C:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(8): INFO: compiling module 'EFX_ADD' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(21): INFO: compiling module 'EFX_FF' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(38): INFO: compiling module 'EFX_COMB4' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(48): INFO: compiling module 'EFX_GBUFCE' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(57): INFO: compiling module 'EFX_LUT4' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(65): INFO: compiling module 'EFX_MULT' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(100): INFO: compiling module 'EFX_DSP48' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(156): INFO: compiling module 'EFX_DSP24' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(209): INFO: compiling module 'EFX_DSP12' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(262): INFO: compiling module 'EFX_RAM_4K' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(322): INFO: compiling module 'EFX_RAM_5K' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(394): INFO: compiling module 'EFX_DPRAM_5K' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(499): INFO: compiling module 'RAMB5' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(561): INFO: compiling module 'EFX_RAM_10K' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(653): INFO: compiling module 'EFX_RAM10' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(754): INFO: compiling module 'EFX_DPRAM10' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(884): INFO: compiling module 'EFX_SRL8' (VERI-1018)
+INFO: Reading Mapping Library took 0.0126112 seconds.
+INFO: 	Reading Mapping Library took 0 seconds (approximately) in total CPU time.
+INFO: Reading Mapping Library virtual memory usage: begin = 164.972 MB, end = 164.972 MB, delta = 0 MB
+INFO: 	Reading Mapping Library peak virtual memory usage = 169.616 MB
+INFO: Reading Mapping Library resident set memory usage: begin = 167.152 MB, end = 167.156 MB, delta = 0.004 MB
+INFO: 	Reading Mapping Library peak resident set memory usage = 171.696 MB
+INFO: ***** Ending Reading Mapping Library ... *****
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0677 INFO] ... Zero initialization of uninitialized memory block 'ram'. (E:\infinix\T120F324_devkit\design_modules.v:1307)
+[EFX-0677 INFO] ... Zero initialization of uninitialized memory block 'banks_0'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:25777)
+[EFX-0256 WARNING] The primary output port 'io_ddrA_arw_payload_lock[1]' wire 'io_ddrA_arw_payload_lock[1]' is not driven.
+[EFX-0200 WARNING] Removing redundant signal : PADDR[15]. (E:\infinix\T120F324_devkit\design_modules.v:37)
+[EFX-0200 WARNING] Removing redundant signal : PADDR[14]. (E:\infinix\T120F324_devkit\design_modules.v:37)
+[EFX-0200 WARNING] Removing redundant signal : PADDR[13]. (E:\infinix\T120F324_devkit\design_modules.v:37)
+[EFX-0200 WARNING] Removing redundant signal : PADDR[12]. (E:\infinix\T120F324_devkit\design_modules.v:37)
+[EFX-0200 WARNING] Removing redundant signal : PADDR[11]. (E:\infinix\T120F324_devkit\design_modules.v:37)
+[EFX-0200 WARNING] Removing redundant signal : PADDR[10]. (E:\infinix\T120F324_devkit\design_modules.v:37)
+[EFX-0200 WARNING] Removing redundant signal : PADDR[9]. (E:\infinix\T120F324_devkit\design_modules.v:37)
+[EFX-0200 WARNING] Removing redundant signal : PADDR[8]. (E:\infinix\T120F324_devkit\design_modules.v:37)
+[EFX-0200 WARNING] Removing redundant signal : PADDR[7]. (E:\infinix\T120F324_devkit\design_modules.v:37)
+[EFX-0200 WARNING] Removing redundant signal : PADDR[6]. (E:\infinix\T120F324_devkit\design_modules.v:37)
+[EFX-0200 WARNING] Removing redundant signal : byteIndex[31]. (E:\infinix\T120F324_devkit\design_modules.v:55)
+[EFX-0200 WARNING] Removing redundant signal : byteIndex[30]. (E:\infinix\T120F324_devkit\design_modules.v:55)
+[EFX-0200 WARNING] Removing redundant signal : byteIndex[29]. (E:\infinix\T120F324_devkit\design_modules.v:55)
+[EFX-0200 WARNING] Removing redundant signal : byteIndex[28]. (E:\infinix\T120F324_devkit\design_modules.v:55)
+[EFX-0200 WARNING] Removing redundant signal : byteIndex[27]. (E:\infinix\T120F324_devkit\design_modules.v:55)
+[EFX-0200 WARNING] Removing redundant signal : byteIndex[26]. (E:\infinix\T120F324_devkit\design_modules.v:55)
+[EFX-0200 WARNING] Removing redundant signal : byteIndex[25]. (E:\infinix\T120F324_devkit\design_modules.v:55)
+[EFX-0200 WARNING] Removing redundant signal : byteIndex[24]. (E:\infinix\T120F324_devkit\design_modules.v:55)
+[EFX-0200 WARNING] Removing redundant signal : byteIndex[23]. (E:\infinix\T120F324_devkit\design_modules.v:55)
+[EFX-0200 WARNING] Removing redundant signal : byteIndex[22]. (E:\infinix\T120F324_devkit\design_modules.v:55)
+[EFX-0200 WARNING] The above message was generated too many times, subsequent similar messages will be muted.
+[EFX-0677 INFO] ... Zero initialization of uninitialized memory block 'ways_0_tags'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:25778)
+[EFX-0677 INFO] ... Zero initialization of uninitialized memory block 'ways_0_tags'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:25031)
+[EFX-0677 INFO] ... Zero initialization of uninitialized memory block 'ways_0_data_symbol0'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:25032)
+[EFX-0677 INFO] ... Zero initialization of uninitialized memory block 'ways_0_data_symbol1'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:25033)
+[EFX-0677 INFO] ... Zero initialization of uninitialized memory block 'ways_0_data_symbol2'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:25034)
+[EFX-0677 INFO] ... Zero initialization of uninitialized memory block 'ways_0_data_symbol3'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:25035)
+[EFX-0031 INFO] 'select_1134' instance is encountered with don't-care(1'bx) input, rewiring to GND. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:19097)
+[EFX-0031 INFO] 'select_1137' instance is encountered with don't-care(1'bx) input, rewiring to GND. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:19108)
+[EFX-0677 INFO] ... Zero initialization of uninitialized memory block 'RegFilePlugin_regFile'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:16764)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'IBusCachedPlugin_cache_io_cpu_fetch_isRemoved'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15526)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'dataCache_1_io_cpu_writeBack_fence_SW'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15539)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'dataCache_1_io_cpu_writeBack_fence_SR'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15540)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'dataCache_1_io_cpu_writeBack_fence_SO'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15541)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'dataCache_1_io_cpu_writeBack_fence_SI'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15542)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'dataCache_1_io_cpu_writeBack_fence_PW'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15543)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'dataCache_1_io_cpu_writeBack_fence_PR'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15544)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'dataCache_1_io_cpu_writeBack_fence_PO'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15545)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'dataCache_1_io_cpu_writeBack_fence_PI'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15546)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'dataCache_1_io_cpu_writeBack_fence_FM[3]'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:15547)
+[EFX-0201 WARNING] The above message was generated too many times, subsequent similar messages will be muted.
+[EFX-0266 WARNING] Module Instance 'memory_arbiter' input pin tied to constant (io_inputs_0_payload_fragment_source[0]=0).
+[EFX-0266 WARNING] Module Instance 'memory_arbiter' input pin tied to constant (io_inputs_1_payload_fragment_source[0]=0).
+[EFX-0266 WARNING] Module Instance 'memory_arbiter' input pin tied to constant (io_inputs_1_payload_fragment_context[0]=0).
+[EFX-0266 WARNING] Module Instance 'writeCmdInfo_fifo' input pin tied to constant (io_flush=0).
+[EFX-0266 WARNING] Module Instance 'readCmdInfo_fifo' input pin tied to constant (io_flush=0).
+[EFX-0266 WARNING] Module Instance 'cmdRouteFork_thrown_translated_fifo' input pin tied to constant (io_flush=0).
+[EFX-0266 WARNING] Module Instance 'dataLogic_cmdPush_fifo' input pin tied to constant (io_flush=0).
+[EFX-0266 WARNING] Module Instance 'writeCmdInfo_fifo' input pin tied to constant (io_flush=0).
+[EFX-0266 WARNING] Module Instance 'readCmdInfo_fifo' input pin tied to constant (io_flush=0).
+[EFX-0266 WARNING] Module Instance 'tx' input pin tied to constant (io_cts=0).
+[EFX-0266 WARNING] Module Instance 'bridge_write_streamUnbuffered_queueWithOccupancy' input pin tied to constant (io_flush=0).
+[EFX-0266 WARNING] Module Instance 'system_uart_0_io_logic_uartCtrl_1_io_read_queueWithOccupancy' input pin tied to constant (io_flush=0).
+[EFX-0266 WARNING] Module Instance 'mapping_cmdLogic_streamUnbuffered_queueWithAvailability' input pin tied to constant (io_flush=0).
+[EFX-0266 WARNING] Module Instance 'system_spi_0_io_logic_ctrl_io_rsp_queueWithOccupancy' input pin tied to constant (io_flush=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[0]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[1]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[2]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[3]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[4]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[5]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[6]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[7]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[8]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[9]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[10]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[11]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[12]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[13]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[14]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[15]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[16]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[17]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[18]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[19]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[20]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[21]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[22]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[23]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[24]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[25]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[26]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[27]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[28]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[29]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[30]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[31]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_mask[0]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_mask[1]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_mask[2]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_mask[3]=0).
+[EFX-0266 WARNING] Module Instance 'system_ddr_ddrLogic_arbiterAxi3Shared' input pin tied to constant (io_sharedInputs_0_arw_payload_id[0]=0).
+[EFX-0266 WARNING] Module Instance 'system_ddr_ddrLogic_arbiterAxi3Shared' input pin tied to constant (io_sharedInputs_0_arw_payload_id[1]=0).
+[EFX-0266 WARNING] Module Instance 'system_ddr_ddrLogic_arbiterAxi3Shared' input pin tied to constant (io_sharedInputs_0_arw_payload_id[2]=0).
+[EFX-0266 WARNING] Module Instance 'system_ddr_ddrLogic_arbiterAxi3Shared' input pin tied to constant (io_sharedInputs_0_arw_payload_id[3]=0).
+[EFX-0266 WARNING] Module Instance 'system_ddr_ddrLogic_arbiterAxi3Shared' input pin tied to constant (io_sharedInputs_0_arw_payload_id[4]=0).
+[EFX-0266 WARNING] Module Instance 'system_ddr_ddrLogic_arbiterAxi3Shared' input pin tied to constant (io_sharedInputs_0_arw_payload_id[5]=0).
+[EFX-0266 WARNING] Module Instance 'system_ddr_ddrLogic_arbiterAxi3Shared' input pin tied to constant (io_sharedInputs_0_arw_payload_id[6]=0).
+[EFX-0266 WARNING] Module Instance 'system_ddr_ddrLogic_arbiterAxi3Shared' input pin tied to constant (io_sharedInputs_0_arw_payload_burst[0]=1).
+[EFX-0266 WARNING] Module Instance 'system_ddr_ddrLogic_arbiterAxi3Shared' input pin tied to constant (io_sharedInputs_0_arw_payload_burst[1]=0).
+[EFX-0266 WARNING] Module Instance 'system_ddr_ddrLogic_arbiterAxi3Shared' input pin tied to constant (io_sharedInputs_0_arw_payload_lock[0]=0).
+[EFX-0266 WARNING] Module Instance 'system_ddr_ddrLogic_arbiterAxi3Shared' input pin tied to constant (io_sharedInputs_0_arw_payload_qos[0]=0).
+[EFX-0266 WARNING] Module Instance 'system_ddr_ddrLogic_arbiterAxi3Shared' input pin tied to constant (io_sharedInputs_0_arw_payload_qos[1]=0).
+[EFX-0266 WARNING] Module Instance 'system_ddr_ddrLogic_arbiterAxi3Shared' input pin tied to constant (io_sharedInputs_0_arw_payload_qos[2]=0).
+[EFX-0266 WARNING] Module Instance 'system_ddr_ddrLogic_arbiterAxi3Shared' input pin tied to constant (io_sharedInputs_0_arw_payload_qos[3]=0).
+[EFX-0266 WARNING] Module Instance 'system_ddr_ddrLogic_ddrAToAxi3_patchArw_translated_thrown_fifo' input pin tied to constant (io_flush=0).
+[EFX-0266 WARNING] Module Instance 'system_clint_logic' input pin tied to constant (io_stop=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_aw_payload_region[0]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_aw_payload_region[1]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_aw_payload_region[2]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_aw_payload_region[3]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_aw_payload_cache[0]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_aw_payload_cache[1]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_aw_payload_cache[2]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_aw_payload_cache[3]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_aw_payload_qos[0]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_aw_payload_qos[1]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_aw_payload_qos[2]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_aw_payload_qos[3]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_aw_payload_prot[0]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_aw_payload_prot[1]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_aw_payload_prot[2]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_ar_payload_region[0]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_ar_payload_region[1]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_ar_payload_region[2]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_ar_payload_region[3]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_ar_payload_cache[0]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_ar_payload_cache[1]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_ar_payload_cache[2]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_ar_payload_cache[3]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_ar_payload_qos[0]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_ar_payload_qos[1]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_ar_payload_qos[2]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_ar_payload_qos[3]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_ar_payload_prot[0]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_ar_payload_prot[1]=0).
+[EFX-0266 WARNING] Module Instance 'soc_inst' input pin tied to constant (io_ddrMasters_0_ar_payload_prot[2]=0).
+[EFX-0677 INFO] ... Zero initialization of uninitialized memory block 'logic_ram'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:24531)
+[EFX-0677 INFO] ... Zero initialization of uninitialized memory block 'ram'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:24366)
+[EFX-0677 INFO] ... Zero initialization of uninitialized memory block 'ram'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:24182)
+[EFX-0677 INFO] ... Zero initialization of uninitialized memory block 'ram'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:23888)
+[EFX-0677 INFO] ... Zero initialization of uninitialized memory block 'ram'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:23733)
+[EFX-0677 INFO] ... Zero initialization of uninitialized memory block 'ram'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:23554)
+[EFX-0677 INFO] ... Zero initialization of uninitialized memory block 'ram'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:23390)
+[EFX-0677 INFO] ... Zero initialization of uninitialized memory block 'ram'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:23224)
+[EFX-0677 INFO] ... Zero initialization of uninitialized memory block 'ram'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:23073)
+[EFX-0677 INFO] ... Zero initialization of uninitialized memory block 'logic_ram'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:26581)
+[EFX-0677 INFO] ... Zero initialization of uninitialized memory block 'ram'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:12758)
+[EFX-0677 INFO] ... Zero initialization of uninitialized memory block 'logic_ram'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:22243)
+[EFX-0677 INFO] ... Zero initialization of uninitialized memory block 'logic_ram'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:21957)
+[EFX-0031 INFO] 'select_89' instance is encountered with don't-care(1'bx) input, rewiring to GND. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:21645)
+[EFX-0031 INFO] 'select_130' instance is encountered with don't-care(1'bx) input, rewiring to GND. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:21785)
+[EFX-0677 INFO] ... Zero initialization of uninitialized memory block 'logic_ram'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:21152)
+[EFX-0677 INFO] ... Zero initialization of uninitialized memory block 'logic_ram'. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:20993)
+[EFX-0031 INFO] 'system_bridge_bmb_arbiter' instance is encountered with don't-care(1'bx) input, rewiring to GND. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:3014)
+[EFX-0031 INFO] 'select_1506' instance is encountered with don't-care(1'bx) input, rewiring to GND. (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:6260)
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s)
+[EFX-0000 INFO] ... Mapping design "top_soc"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "ddr_reset_sequencer" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "ddr_reset_sequencer" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "apb3_slave" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "apb3_slave" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "timer_start(MHZ=100)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "timer_start(MHZ=100)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "pulse_synchronizer" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "pulse_synchronizer" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "memory_checker(ALEN=63,START_ADDR=32'b0100000000000000000000,STOP_ADDR=32'b0111111111100000000000)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "memory_checker(ALEN=63,START_ADDR=32'b0100000000000000000000,STOP_ADDR=32'b0111111111100000000000)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "timer_start(MHZ=100,SECOND=10,PULSE=1)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "timer_start(MHZ=100,SECOND=10,PULSE=1)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "ext_mem(DATA_WIDTH=10)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "ext_mem(DATA_WIDTH=10)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "axi4_slave" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "axi4_slave" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BufferCC_5a2492f191364774984a6d23db7c58cf" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BufferCC_5a2492f191364774984a6d23db7c58cf" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BufferCC_1_5a2492f191364774984a6d23db7c58cf" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BufferCC_1_5a2492f191364774984a6d23db7c58cf" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BufferCC_21_5a2492f191364774984a6d23db7c58cf" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BufferCC_21_5a2492f191364774984a6d23db7c58cf" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "InstructionCache_5a2492f191364774984a6d23db7c58cf" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "InstructionCache_5a2492f191364774984a6d23db7c58cf" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "DataCache_5a2492f191364774984a6d23db7c58cf" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "DataCache_5a2492f191364774984a6d23db7c58cf" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "EfxCPUSp1_5a2492f191364774984a6d23db7c58cf" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "EfxCPUSp1_5a2492f191364774984a6d23db7c58cf" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "EfxCPUSp2_5a2492f191364774984a6d23db7c58cf" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "EfxCPUSp2_5a2492f191364774984a6d23db7c58cf" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "VexRiscv_5a2492f191364774984a6d23db7c58cf" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "VexRiscv_5a2492f191364774984a6d23db7c58cf" end (Real time : 1s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BufferCC_3_5a2492f191364774984a6d23db7c58cf" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BufferCC_3_5a2492f191364774984a6d23db7c58cf" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BufferCC_4_5a2492f191364774984a6d23db7c58cf" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BufferCC_4_5a2492f191364774984a6d23db7c58cf" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BufferCC_26_5a2492f191364774984a6d23db7c58cf" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BufferCC_26_5a2492f191364774984a6d23db7c58cf" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "FlowCCByToggle_5a2492f191364774984a6d23db7c58cf" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "FlowCCByToggle_5a2492f191364774984a6d23db7c58cf" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "JtagBridgeNoTap_5a2492f191364774984a6d23db7c58cf" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "JtagBridgeNoTap_5a2492f191364774984a6d23db7c58cf" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "SystemDebugger_5a2492f191364774984a6d23db7c58cf" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "SystemDebugger_5a2492f191364774984a6d23db7c58cf" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BmbDecoder_5a2492f191364774984a6d23db7c58cf" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BmbDecoder_5a2492f191364774984a6d23db7c58cf" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BmbDecoder_1_5a2492f191364774984a6d23db7c58cf" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BmbDecoder_1_5a2492f191364774984a6d23db7c58cf" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "StreamArbiter_2_5a2492f191364774984a6d23db7c58cf" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "StreamArbiter_2_5a2492f191364774984a6d23db7c58cf" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BmbArbiter_5a2492f191364774984a6d23db7c58cf" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BmbArbiter_5a2492f191364774984a6d23db7c58cf" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "StreamFifo_6_5a2492f191364774984a6d23db7c58cf" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "StreamFifo_6_5a2492f191364774984a6d23db7c58cf" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BmbToAxi4SharedBridge_5a2492f191364774984a6d23db7c58cf" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BmbToAxi4SharedBridge_5a2492f191364774984a6d23db7c58cf" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BufferCC_23_5a2492f191364774984a6d23db7c58cf" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BufferCC_23_5a2492f191364774984a6d23db7c58cf" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BufferCC_24_5a2492f191364774984a6d23db7c58cf" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BufferCC_24_5a2492f191364774984a6d23db7c58cf" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BufferCC_25_5a2492f191364774984a6d23db7c58cf" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BufferCC_25_5a2492f191364774984a6d23db7c58cf" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "StreamFifoCC_5_5a2492f191364774984a6d23db7c58cf" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "StreamFifoCC_5_5a2492f191364774984a6d23db7c58cf" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BufferCC_20_5a2492f191364774984a6d23db7c58cf" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BufferCC_20_5a2492f191364774984a6d23db7c58cf" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BufferCC_22_5a2492f191364774984a6d23db7c58cf" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BufferCC_22_5a2492f191364774984a6d23db7c58cf" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "StreamFifoCC_6_5a2492f191364774984a6d23db7c58cf" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "StreamFifoCC_6_5a2492f191364774984a6d23db7c58cf" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BmbCcFifo_5a2492f191364774984a6d23db7c58cf" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BmbCcFifo_5a2492f191364774984a6d23db7c58cf" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "StreamArbiter_1_5a2492f191364774984a6d23db7c58cf" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "StreamArbiter_1_5a2492f191364774984a6d23db7c58cf" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "StreamFifoLowLatency_1_5a2492f191364774984a6d23db7c58cf" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "StreamFifoLowLatency_1_5a2492f191364774984a6d23db7c58cf" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "Axi4SharedArbiter_5a2492f191364774984a6d23db7c58cf" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "Axi4SharedArbiter_5a2492f191364774984a6d23db7c58cf" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BufferCC_5_5a2492f191364774984a6d23db7c58cf" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BufferCC_5_5a2492f191364774984a6d23db7c58cf" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BufferCC_17_5a2492f191364774984a6d23db7c58cf" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BufferCC_17_5a2492f191364774984a6d23db7c58cf" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BufferCC_18_5a2492f191364774984a6d23db7c58cf" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BufferCC_18_5a2492f191364774984a6d23db7c58cf" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BufferCC_19_5a2492f191364774984a6d23db7c58cf" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BufferCC_19_5a2492f191364774984a6d23db7c58cf" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "StreamFifoCC_5a2492f191364774984a6d23db7c58cf" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "StreamFifoCC_5a2492f191364774984a6d23db7c58cf" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BufferCC_14_5a2492f191364774984a6d23db7c58cf" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BufferCC_14_5a2492f191364774984a6d23db7c58cf" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BufferCC_15_5a2492f191364774984a6d23db7c58cf" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BufferCC_15_5a2492f191364774984a6d23db7c58cf" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BufferCC_16_5a2492f191364774984a6d23db7c58cf" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BufferCC_16_5a2492f191364774984a6d23db7c58cf" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "StreamFifoCC_1_5a2492f191364774984a6d23db7c58cf" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "StreamFifoCC_1_5a2492f191364774984a6d23db7c58cf" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "StreamFifoCC_2_5a2492f191364774984a6d23db7c58cf" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "StreamFifoCC_2_5a2492f191364774984a6d23db7c58cf" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "StreamFifoCC_3_5a2492f191364774984a6d23db7c58cf" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "StreamFifoCC_3_5a2492f191364774984a6d23db7c58cf" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "StreamFifoCC_4_5a2492f191364774984a6d23db7c58cf" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "StreamFifoCC_4_5a2492f191364774984a6d23db7c58cf" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "Axi4CC_5a2492f191364774984a6d23db7c58cf" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "Axi4CC_5a2492f191364774984a6d23db7c58cf" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "StreamFifo_8_5a2492f191364774984a6d23db7c58cf" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "StreamFifo_8_5a2492f191364774984a6d23db7c58cf" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "Axi4ReadOnlyUpsizer_5a2492f191364774984a6d23db7c58cf" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "Axi4ReadOnlyUpsizer_5a2492f191364774984a6d23db7c58cf" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "Axi4WriteOnlyUpsizer_5a2492f191364774984a6d23db7c58cf" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "Axi4WriteOnlyUpsizer_5a2492f191364774984a6d23db7c58cf" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "Axi4Upsizer_5a2492f191364774984a6d23db7c58cf" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "Axi4Upsizer_5a2492f191364774984a6d23db7c58cf" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "StreamArbiter_5a2492f191364774984a6d23db7c58cf" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "StreamArbiter_5a2492f191364774984a6d23db7c58cf" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "StreamFifoLowLatency_5a2492f191364774984a6d23db7c58cf" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "StreamFifoLowLatency_5a2492f191364774984a6d23db7c58cf" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "StreamFifo_4_5a2492f191364774984a6d23db7c58cf" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "StreamFifo_4_5a2492f191364774984a6d23db7c58cf" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BmbToAxi4SharedBridge_1_5a2492f191364774984a6d23db7c58cf" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BmbToAxi4SharedBridge_1_5a2492f191364774984a6d23db7c58cf" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BmbDecoder_2_5a2492f191364774984a6d23db7c58cf" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BmbDecoder_2_5a2492f191364774984a6d23db7c58cf" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BmbUpSizerBridge_5a2492f191364774984a6d23db7c58cf" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BmbUpSizerBridge_5a2492f191364774984a6d23db7c58cf" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BmbOnChipRam_5a2492f191364774984a6d23db7c58cf" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BmbOnChipRam_5a2492f191364774984a6d23db7c58cf" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BmbUnburstify_5a2492f191364774984a6d23db7c58cf" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BmbUnburstify_5a2492f191364774984a6d23db7c58cf" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BmbDecoder_3_5a2492f191364774984a6d23db7c58cf" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BmbDecoder_3_5a2492f191364774984a6d23db7c58cf" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BmbClint_5a2492f191364774984a6d23db7c58cf" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BmbClint_5a2492f191364774984a6d23db7c58cf" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "UartCtrlTx_5a2492f191364774984a6d23db7c58cf" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "UartCtrlTx_5a2492f191364774984a6d23db7c58cf" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BufferCC_27_5a2492f191364774984a6d23db7c58cf" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BufferCC_27_5a2492f191364774984a6d23db7c58cf" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "UartCtrlRx_5a2492f191364774984a6d23db7c58cf" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "UartCtrlRx_5a2492f191364774984a6d23db7c58cf" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "UartCtrl_5a2492f191364774984a6d23db7c58cf" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "UartCtrl_5a2492f191364774984a6d23db7c58cf" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "StreamFifo_2_5a2492f191364774984a6d23db7c58cf" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "StreamFifo_2_5a2492f191364774984a6d23db7c58cf" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BmbUartCtrl_5a2492f191364774984a6d23db7c58cf" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BmbUartCtrl_5a2492f191364774984a6d23db7c58cf" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "TopLevel_5a2492f191364774984a6d23db7c58cf" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "TopLevel_5a2492f191364774984a6d23db7c58cf" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "StreamFifo_5a2492f191364774984a6d23db7c58cf" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "StreamFifo_5a2492f191364774984a6d23db7c58cf" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "StreamFifo_1_5a2492f191364774984a6d23db7c58cf" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "StreamFifo_1_5a2492f191364774984a6d23db7c58cf" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BmbSpiXdrMasterCtrl_5a2492f191364774984a6d23db7c58cf" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BmbSpiXdrMasterCtrl_5a2492f191364774984a6d23db7c58cf" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BufferCC_6_5a2492f191364774984a6d23db7c58cf" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BufferCC_6_5a2492f191364774984a6d23db7c58cf" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "I2cSlave_5a2492f191364774984a6d23db7c58cf" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "I2cSlave_5a2492f191364774984a6d23db7c58cf" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BmbI2cCtrl_5a2492f191364774984a6d23db7c58cf" begin
+[EFX-0000 INFO] ... Wide MUX mapping to ram-net, output: 'bridge_masterLogic_fsm_stateReg_string' select size : 4 output width: 56
+[EFX-0000 INFO] ... Wide MUX mapping to ram-net, output: 'bridge_masterLogic_fsm_stateNext_string' select size : 4 output width: 56
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BmbI2cCtrl_5a2492f191364774984a6d23db7c58cf" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BmbGpio2_5a2492f191364774984a6d23db7c58cf" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BmbGpio2_5a2492f191364774984a6d23db7c58cf" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BmbToApb3Bridge_5a2492f191364774984a6d23db7c58cf" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BmbToApb3Bridge_5a2492f191364774984a6d23db7c58cf" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "EfxSapphireSoc_5a2492f191364774984a6d23db7c58cf" begin
+[EFX-0000 INFO] ... Wide MUX mapping to ram-net, output: 'system_softJtag_jtagTap_logic_tap_tap_fsm_stateNext_string' select size : 4 output width: 80
+[EFX-0000 INFO] ... Wide MUX mapping to ram-net, output: 'system_softJtag_jtagTap_logic_tap_tap_fsm_state_string' select size : 4 output width: 80
+[EFX-0000 INFO] ... Wide MUX mapping to ram-net, output: '_zz_system_softJtag_jtagTap_logic_tap_tap_fsm_stateNext_string' select size : 4 output width: 80
+[EFX-0000 INFO] ... Wide MUX mapping to ram-net, output: '_zz_system_softJtag_jtagTap_logic_tap_tap_fsm_stateNext_1_string' select size : 4 output width: 80
+[EFX-0000 INFO] ... Wide MUX mapping to ram-net, output: '_zz_system_softJtag_jtagTap_logic_tap_tap_fsm_stateNext_2_string' select size : 4 output width: 80
+[EFX-0000 INFO] ... Wide MUX mapping to ram-net, output: '_zz_system_softJtag_jtagTap_logic_tap_tap_fsm_stateNext_3_string' select size : 4 output width: 80
+[EFX-0000 INFO] ... Wide MUX mapping to ram-net, output: '_zz_system_softJtag_jtagTap_logic_tap_tap_fsm_stateNext_4_string' select size : 4 output width: 80
+[EFX-0000 INFO] ... Wide MUX mapping to ram-net, output: '_zz_system_softJtag_jtagTap_logic_tap_tap_fsm_stateNext_5_string' select size : 4 output width: 80
+[EFX-0000 INFO] ... Wide MUX mapping to ram-net, output: '_zz_system_softJtag_jtagTap_logic_tap_tap_fsm_stateNext_6_string' select size : 4 output width: 80
+[EFX-0000 INFO] ... Wide MUX mapping to ram-net, output: '_zz_system_softJtag_jtagTap_logic_tap_tap_fsm_stateNext_7_string' select size : 4 output width: 80
+[EFX-0000 INFO] ... Wide MUX mapping to ram-net, output: '_zz_system_softJtag_jtagTap_logic_tap_tap_fsm_stateNext_8_string' select size : 4 output width: 80
+[EFX-0000 INFO] ... Wide MUX mapping to ram-net, output: '_zz_system_softJtag_jtagTap_logic_tap_tap_fsm_stateNext_9_string' select size : 4 output width: 80
+[EFX-0000 INFO] ... Wide MUX mapping to ram-net, output: '_zz_system_softJtag_jtagTap_logic_tap_tap_fsm_stateNext_10_string' select size : 4 output width: 80
+[EFX-0000 INFO] ... Wide MUX mapping to ram-net, output: '_zz_system_softJtag_jtagTap_logic_tap_tap_fsm_stateNext_11_string' select size : 4 output width: 80
+[EFX-0000 INFO] ... Wide MUX mapping to ram-net, output: '_zz_system_softJtag_jtagTap_logic_tap_tap_fsm_stateNext_12_string' select size : 4 output width: 80
+[EFX-0000 INFO] ... Wide MUX mapping to ram-net, output: '_zz_system_softJtag_jtagTap_logic_tap_tap_fsm_stateNext_13_string' select size : 4 output width: 80
+[EFX-0000 INFO] ... Wide MUX mapping to ram-net, output: '_zz_system_softJtag_jtagTap_logic_tap_tap_fsm_stateNext_14_string' select size : 4 output width: 80
+[EFX-0000 INFO] ... Wide MUX mapping to ram-net, output: '_zz_system_softJtag_jtagTap_logic_tap_tap_fsm_stateNext_15_string' select size : 4 output width: 80
+[EFX-0000 INFO] ... Wide MUX mapping to ram-net, output: '_zz_system_softJtag_jtagTap_logic_tap_tap_fsm_stateNext_16_string' select size : 4 output width: 80
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "EfxSapphireSoc_5a2492f191364774984a6d23db7c58cf" end (Real time : 1s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "generateIP" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "generateIP" end (Real time : 1s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "top_soc" begin
+[EFX-0657 WARNING] Mapping into logic memory block 'soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_arbiterAxi3Shared/cmdRouteFork_thrown_translated_fifo/ram' (4 bits) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:23888) because size is too small (<=64)
+[EFX-0657 WARNING] Mapping into logic memory block 'soc_inst/u_EfxSapphireSoc/system_axiA_logic_bmbToAxiBridge/writeCmdInfo_fifo/logic_ram' (16 bits) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:22243) because size is too small (<=64)
+[EFX-0657 WARNING] Mapping into logic memory block 'soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_ddrAToAxi3_patchArw_translated_thrown_fifo/ram' (64 bits) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:12758) because size is too small (<=64)
+[EFX-0657 WARNING] Mapping into logic memory block 'soc_inst/u_EfxSapphireSoc/system_ddr_ddrLogic_userAdapters_0_upsizer_logic/readOnly/dataLogic_cmdPush_fifo/logic_ram' (60 bits) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:26581) because size is too small (<=64)
+[EFX-0657 WARNING] Mapping into logic memory block 'soc_inst/u_EfxSapphireSoc/system_axiA_logic_bmbToAxiBridge/readCmdInfo_fifo/logic_ram' (16 bits) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:22243) because size is too small (<=64)
+[EFX-0000 INFO] ... Clock Enable Synthesis Performed on 604 flops.
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "top_soc" end (Real time : 2s)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s)
+[EFX-0000 INFO] ... SOP modeling begin
+[EFX-0000 INFO] ... SOP modeling end (Real time : 0s)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] ... LS, strategy: 3, nd: 8066, ed: 25517, lv: 8, pw: 20621.26
+[EFX-0000 INFO] ... LUT mapping end (Real time : 17s)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing end (Real time : 1s)
+INFO: ***** Beginning VDB Netlist Checker ... *****
+WARNING: Input/Inout Port io_ddrA_b_payload_id[6] is unconnected and will be removed
+WARNING: Input/Inout Port io_ddrA_b_payload_id[5] is unconnected and will be removed
+WARNING: Input/Inout Port io_ddrA_b_payload_id[4] is unconnected and will be removed
+WARNING: Input/Inout Port io_ddrA_b_payload_id[3] is unconnected and will be removed
+WARNING: Input/Inout Port io_ddrA_b_payload_id[2] is unconnected and will be removed
+WARNING: Input/Inout Port io_ddrA_b_payload_id[1] is unconnected and will be removed
+WARNING: Input/Inout Port io_ddrA_b_payload_id[0] is unconnected and will be removed
+INFO: Found 7 warnings in the post-synthesis netlist.
+INFO: VDB Netlist Checker took 0.157241 seconds.
+INFO: 	VDB Netlist Checker took 0.109375 seconds (approximately) in total CPU time.
+INFO: VDB Netlist Checker virtual memory usage: begin = 241.788 MB, end = 241.788 MB, delta = 0 MB
+INFO: 	VDB Netlist Checker peak virtual memory usage = 253.168 MB
+INFO: VDB Netlist Checker resident set memory usage: begin = 243.044 MB, end = 243.092 MB, delta = 0.048 MB
+INFO: 	VDB Netlist Checker peak resident set memory usage = 253.724 MB
+INFO: ***** Ending VDB Netlist Checker ... *****
+-- Writing netlist 'top_soc' to Verilog file 'E:/infinix/T120F324_devkit/outflow/soc.map.v' (VDB-1030)
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_ADD         : 	983
+[EFX-0000 INFO] EFX_LUT4        : 	7855
+[EFX-0000 INFO] EFX_MULT        : 	4
+[EFX-0000 INFO] EFX_FF          : 	8739
+[EFX-0000 INFO] EFX_RAM_5K      : 	70
+[EFX-0000 INFO] EFX_GBUFCE      : 	3
+[EFX-0000 INFO] =============================== 

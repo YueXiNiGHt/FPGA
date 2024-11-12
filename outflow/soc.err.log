@@ -1,0 +1,61 @@
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 09, 2024 21:21:41
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 09, 2024 21:23:55
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 09, 2024 21:25:20
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] overwriting previous definition of module 'generateIP' (VERI-1206) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:356)
+[EFX-0010 VERI-ERROR] module 'EfxSapphireSoc_c3558683de1145cc85b649ba15e62174' is ignored due to previous errors (VERI-1072) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:7451)
+[EFX-0010 VERI-ERROR] module 'BmbToApb3Bridge_c3558683de1145cc85b649ba15e62174' is ignored due to previous errors (VERI-1072) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:7602)
+[EFX-0010 VERI-ERROR] module 'BmbGpio2_c3558683de1145cc85b649ba15e62174' is ignored due to previous errors (VERI-1072) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:7896)
+[EFX-0010 VERI-ERROR] module 'BmbI2cCtrl_c3558683de1145cc85b649ba15e62174' is ignored due to previous errors (VERI-1072) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:9546)
+[EFX-0010 VERI-ERROR] module 'BmbSpiXdrMasterCtrl_c3558683de1145cc85b649ba15e62174' is ignored due to previous errors (VERI-1072) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:10027)
+[EFX-0010 VERI-ERROR] module 'BmbUartCtrl_c3558683de1145cc85b649ba15e62174' is ignored due to previous errors (VERI-1072) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:10523)
+[EFX-0010 VERI-ERROR] module 'BmbClint_c3558683de1145cc85b649ba15e62174' is ignored due to previous errors (VERI-1072) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:10715)
+[EFX-0010 VERI-ERROR] module 'BmbDecoder_3_c3558683de1145cc85b649ba15e62174' is ignored due to previous errors (VERI-1072) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:11212)
+[EFX-0010 VERI-ERROR] module 'BmbUnburstify_c3558683de1145cc85b649ba15e62174' is ignored due to previous errors (VERI-1072) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:11444)
+[EFX-0010 VERI-ERROR] module 'BmbOnChipRam_c3558683de1145cc85b649ba15e62174' is ignored due to previous errors (VERI-1072) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:11554)
+[EFX-0010 VERI-ERROR] module 'BmbUpSizerBridge_c3558683de1145cc85b649ba15e62174' is ignored due to previous errors (VERI-1072) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:11787)
+[EFX-0010 VERI-ERROR] module 'BmbDecoder_2_c3558683de1145cc85b649ba15e62174' is ignored due to previous errors (VERI-1072) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:12155)
+[EFX-0010 VERI-ERROR] module 'BmbToAxi4SharedBridge_1_c3558683de1145cc85b649ba15e62174' is ignored due to previous errors (VERI-1072) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:12710)
+[EFX-0010 VERI-ERROR] module 'StreamFifoLowLatency_c3558683de1145cc85b649ba15e62174' is ignored due to previous errors (VERI-1072) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:12880)
+[EFX-0010 VERI-ERROR] module 'StreamArbiter_c3558683de1145cc85b649ba15e62174' is ignored due to previous errors (VERI-1072) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:12990)
+[EFX-0010 VERI-ERROR] module 'Axi4Upsizer_c3558683de1145cc85b649ba15e62174' is ignored due to previous errors (VERI-1072) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:13241)
+[EFX-0010 VERI-ERROR] module 'Axi4CC_c3558683de1145cc85b649ba15e62174' is ignored due to previous errors (VERI-1072) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:13538)
+[EFX-0010 VERI-ERROR] module 'BufferCC_5_c3558683de1145cc85b649ba15e62174' is ignored due to previous errors (VERI-1072) (E:\infinix\T120F324_devkit\ip\generateIP\generateIP.v:13557)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 09, 2024 21:26:02
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 09, 2024 21:31:04
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 09, 2024 21:36:59
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 09, 2024 22:07:09
+///////////////////////////////////
+

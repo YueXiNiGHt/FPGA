@@ -1,0 +1,141 @@
+
+Efinix FPGA Placement and Routing.
+Version: 2023.2.307.5.10 
+Compiled: May 19 2024.
+
+Copyright (C) 2013 - 2023 Efinix, Inc. All rights reserved.
+
+
+The Tool Is Based on VPR of University of Toronto,
+a free open source code under MIT license.
+
+
+Running Placement and Routing for Family "Trion", Device "T35F324" ...
+
+***** Beginning stage routing graph generation ... *****
+Read ipin pattern from C:/Efinity/2023.2/arch/./ipin_oph.xml
+Finished parsing ipin pattern file 'C:/Efinity/2023.2/arch/./ipin_oph.xdb'.
+Finished parsing switch_block file 'C:/Efinity/2023.2/arch/.\sb_connectivity_subset.xdb'.
+BuildGraph process took 5.11514 seconds.
+	BuildGraph process took 0.6875 seconds (approximately) in total CPU time.
+BuildGraph process virtual memory usage: begin = 380.248 MB, end = 944.944 MB, delta = 564.696 MB
+	BuildGraph process peak virtual memory usage = 1002.29 MB
+BuildGraph process resident set memory usage: begin = 375.84 MB, end = 920.232 MB, delta = 544.392 MB
+	BuildGraph process peak resident set memory usage = 984.948 MB
+check rr_graph process took 0.107527 seconds.
+	check rr_graph process took 0.015625 seconds (approximately) in total CPU time.
+check rr_graph process virtual memory usage: begin = 1008.4 MB, end = 1008.4 MB, delta = 0 MB
+	check rr_graph process peak virtual memory usage = 1025.74 MB
+check rr_graph process resident set memory usage: begin = 983.628 MB, end = 983.692 MB, delta = 0.064 MB
+	check rr_graph process peak resident set memory usage = 1000.97 MB
+Generated 1965205 RR nodes and 7305334 RR edges
+This design has 0 global control net(s). See E:/infinix/T120F324_devkit/outflow\soc.route.rpt for details.
+Routing graph took 5.33967 seconds.
+	Routing graph took 0.734375 seconds (approximately) in total CPU time.
+Routing graph virtual memory usage: begin = 378.944 MB, end = 944 MB, delta = 565.056 MB
+	Routing graph peak virtual memory usage = 1025.74 MB
+Routing graph resident set memory usage: begin = 374.86 MB, end = 918.724 MB, delta = 543.864 MB
+	Routing graph peak resident set memory usage = 1000.97 MB
+***** Ending stage routing graph generation *****
+
+***** Beginning stage routing ... *****
+
+SDC file 'E:/infinix/T120F324_devkit/constraints.sdc' parsed successfully.
+3 clocks (including virtual clocks), 146 inputs and 219 outputs were constrained.
+
+
+ ---------      -------     --------------      -------------
+ Iteration      Overuse     Crit Path (ns)      Calc Time (s)
+ ---------      -------     --------------      -------------
+         1        63394              8.604               7.11
+         2        10650              8.608               10.2
+         3         6576              8.608               8.76
+         4         3424              8.604               8.72
+         5         1744              8.724               6.91
+         6          919              8.724               6.34
+         7          510              8.763               5.38
+         8          284              8.724               4.98
+         9          159              8.763               3.84
+        10           80              8.861               1.48
+        11           42              8.861               1.13
+        12           23              8.861               1.42
+        13           13              8.861               1.57
+        14            7              8.861               1.54
+        15            5              8.861               1.92
+        16            5              8.861                1.3
+        17            4              8.861               1.54
+        18            0              8.861              0.728
+
+Successfully routed netlist after 18 routing iterations and 334834108 heapops
+Completed net delay value cross check successfully.
+
+***** Beginning stage routing check ... *****
+***** Ending stage routing check *****
+
+
+Serial number (magic cookie) for the routing is: 188343523
+Netlist fully routed.
+
+Successfully created FPGA route file 'E:/infinix/T120F324_devkit/outflow/soc.route'
+Routing took 76.9353 seconds.
+	Routing took 25.3438 seconds (approximately) in total CPU time.
+Routing virtual memory usage: begin = 944 MB, end = 1224.81 MB, delta = 280.812 MB
+	Routing peak virtual memory usage = 1457.42 MB
+Routing resident set memory usage: begin = 918.732 MB, end = 1195.32 MB, delta = 276.592 MB
+	Routing peak resident set memory usage = 1379.93 MB
+***** Ending stage routing *****
+
+***** Beginning stage final timing analysis ... *****
+
+SDC file 'E:/infinix/T120F324_devkit/constraints.sdc' parsed successfully.
+3 clocks (including virtual clocks), 146 inputs and 219 outputs were constrained.
+
+Maximum possible analyzed clocks frequency
+ Clock Name  Period (ns)  Frequency (MHz)     Edge
+io_systemClk     8.981       111.346         (R-R)
+io_memoryClk     8.791       113.753         (R-R)
+io_jtag_tck     11.291        88.566         (R-R)
+
+Geomean max period: 9.624
+
+Setup (Max) Clock Relationship
+  Launch Clock    Capture Clock   Constraint (ns)     Slack (ns)          Edge
+  io_systemClk     io_systemClk        10.000            1.019           (R-R)
+  io_memoryClk     io_memoryClk        10.000            1.209           (R-R)
+  io_jtag_tck      io_jtag_tck        100.000           88.709           (R-R)
+  io_jtag_tck      io_jtag_tck         50.000           45.072           (R-F)
+
+Hold (Min) Clock Relationship
+  Launch Clock    Capture Clock   Constraint (ns)     Slack (ns)          Edge
+  io_systemClk     io_systemClk         0.000            0.119           (R-R)
+  io_memoryClk     io_memoryClk         0.000            0.119           (R-R)
+  io_jtag_tck      io_jtag_tck          0.000            0.306           (R-R)
+  io_jtag_tck      io_jtag_tck        -50.000           50.876           (R-F)
+
+Write Timing Report to "E:/infinix/T120F324_devkit/outflow\soc.timing.rpt" ...
+final timing analysis took 1.16281 seconds.
+	final timing analysis took 0.234375 seconds (approximately) in total CPU time.
+final timing analysis virtual memory usage: begin = 1221.32 MB, end = 1262.34 MB, delta = 41.02 MB
+	final timing analysis peak virtual memory usage = 1457.42 MB
+final timing analysis resident set memory usage: begin = 1191.86 MB, end = 1225.98 MB, delta = 34.128 MB
+	final timing analysis peak resident set memory usage = 1379.93 MB
+***** Ending stage final timing analysis *****
+
+***** Beginning stage bitstream generation ... *****
+Reading core interface constraints from 'E:/infinix/T120F324_devkit/outflow/soc.interface.csv'.
+Successfully processed interface constraints file "E:/infinix/T120F324_devkit/outflow/soc.interface.csv".
+Finished writing bitstream file E:/infinix/T120F324_devkit/work_pnr\soc.lbf.
+Bitstream generation took 0.704947 seconds.
+	Bitstream generation took 0.078125 seconds (approximately) in total CPU time.
+Bitstream generation virtual memory usage: begin = 1262.34 MB, end = 1274.93 MB, delta = 12.596 MB
+	Bitstream generation peak virtual memory usage = 1457.42 MB
+Bitstream generation resident set memory usage: begin = 1226.01 MB, end = 1238.55 MB, delta = 12.536 MB
+	Bitstream generation peak resident set memory usage = 1379.93 MB
+***** Ending stage bitstream generation *****
+
+The entire flow of EFX_PNR took 145.058 seconds.
+	The entire flow of EFX_PNR took 71.9531 seconds (approximately) in total CPU time.
+The entire flow of EFX_PNR virtual memory usage: begin = 5.628 MB, end = 125.62 MB, delta = 119.992 MB
+	The entire flow of EFX_PNR peak virtual memory usage = 1457.42 MB
+The entire flow of EFX_PNR resident set memory usage: begin = 13.052 MB, end = 127.632 MB, delta = 114.58 MB
+	The entire flow of EFX_PNR peak resident set memory usage = 1379.93 MB
